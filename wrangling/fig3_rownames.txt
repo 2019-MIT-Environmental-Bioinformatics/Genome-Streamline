@@ -1,0 +1,41 @@
+Gulf of Maine	Roseo	AAA076-C03
+Gulf of Maine	SAR116	AAA160-J14
+Gulf of Maine	SAR86	AAA076-P09
+Gulf of Maine	SAR86	AAA076-P13
+Gulf of Maine	SAR86	AAA168-I18
+Gulf of Maine	SAR86	AAA168-P09
+Gulf of Maine	SAR92	AAA160-D02
+Gulf of Maine	ARCTIC	AAA076-D02
+Gulf of Maine	ARCTIC	AAA076-D13
+Gulf of Maine	ARCTIC	AAA076-E13
+Gulf of Maine	ARCTIC	AAA076-F14
+Gulf of Maine	Bacteroid	AAA160-P02
+Gulf of Maine	Bacteroid	MS024-2A
+Gulf of Maine	Bacteroid	MS024-3C
+Gulf of Maine	Bacteroid	AAA190-1F
+Gulf of Maine	MGA	AAA160-B08
+Gulf of Maine	MGA	AAA160-C11
+Gulf of Maine	MGA	AAA160-I06
+Gulf of Maine	Verruco	AAA164-N20
+Gulf of Maine	Verruco	AAA164-E04
+Gulf of Maine	Verruco	AAA164-L15
+Gulf of Maine	Verruco	AAA164-M04
+Gulf of Maine	Verruco	AAA164-O14
+Gulf of Maine	Verruco	AAA168-E21
+Gulf of Maine	Verruco	AAA168-F10
+Med. Sea	SAR116	AAA536-B06
+Med. Sea	SAR116	AAA536-G10
+Med. Sea	SAR116	AAA536-K22
+Med. Sea	Bacteroid	AAA536-G18
+NP	Roseo	AAA298-K06
+NP	SAR116	AAA300-J16
+NP	SAR86	AAA298-N10
+NP	SAR92	AAA300-D14
+NP	MGA	AAA298-D23
+NP	Verruco	AAA300-K03
+NP	Verruco	AAA300-N18
+NP	Verruco	AAA300-O17
+SA	Roseo	AAA015-O19
+SA	SAR116	AAA015-N04
+SA	Actino	AAA015-D07
+SA	Actino	AAA015-M09

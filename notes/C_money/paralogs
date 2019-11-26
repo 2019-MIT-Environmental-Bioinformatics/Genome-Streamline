@@ -1,0 +1,8 @@
+I realized I had to download cultures as well. Of the 101 marine cultures the authors used, I was able to download 38 from NCBI and use for downstream analysis.
+
+Gotta run BLASTCLUST on proteins not CDS haha. Output is one line per cluster, just count lines and divide by CDS headers
+
+I know I'm only using 38/101 cultures, but not convinced. For one, these aren't actually paralogs, just gene families defined by a low similarity threshold (%30 identical over %50 of length)
+Looks from plot like trend is entirely explicable by genome size.
+
+I downloaded an additional 20 marine cultures in order to see what's up. Of note these are not necessarily pelagic but pathogenic, sediments, etc. Got some cyanos and an annamox. 

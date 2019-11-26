@@ -16,7 +16,7 @@ for file in $(find /vortexfs1/omics/env-bio/collaboration/genome-streamlining/da
 do
 
 filename=$(basename ${file} .fna.gz)
-zcat $file | prodigal -o ${filename}_coords.gbk -a ${filename}_proteins.faa
+zcat $file | prodigal -o ${filename}_coords.gbk -a ${filename}_proteins.faa -d ${filename}_cds.fna
 
 done
 
