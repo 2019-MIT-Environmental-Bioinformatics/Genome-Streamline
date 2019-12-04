@@ -1,0 +1,8 @@
+name: seqkit
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - seqkit=0.11.0=0
+prefix: /vortexfs1/home/ztobias/.conda/envs/seqkit
+

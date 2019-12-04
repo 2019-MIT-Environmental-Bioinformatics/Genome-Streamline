@@ -1,0 +1,12 @@
+name: prinseq
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - libgcc-ng=9.1.0=hdf63c60_0
+  - perl=5.26.2=h14c3975_0
+  - perl-threaded=5.26.0=0
+  - prinseq=0.20.4=2
+prefix: /vortexfs1/home/ztobias/.conda/envs/prinseq
+

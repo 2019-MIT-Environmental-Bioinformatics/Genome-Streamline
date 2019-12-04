@@ -1,0 +1,17 @@
+name: rRNA_prediction
+channels:
+  - bioconda
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - barrnap=0.9=2
+  - bedtools=2.29.0=h6ed99ea_1
+  - bzip2=1.0.8=h7b6447c_0
+  - hmmer=3.2.1=hf484d3e_1
+  - libgcc-ng=9.1.0=hdf63c60_0
+  - libstdcxx-ng=9.1.0=hdf63c60_0
+  - perl=5.26.2=h14c3975_0
+  - xz=5.2.4=h14c3975_4
+  - zlib=1.2.11=h7b6447c_3
+prefix: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction
+

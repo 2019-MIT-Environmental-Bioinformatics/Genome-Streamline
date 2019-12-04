@@ -10,7 +10,7 @@ Cory: Paralogs. Also, downloading the data.
 
 We performed computational tasks using WHOI's Poseidon HPC---all shell scripts contained in the `scripts/` directory call resources specific to the structure of this cluster, and present a fundamental barrier to anyone else repeating our analysis. 
 
-Additionally, while there are scripts (`scripts/SRA_download.sh` and `scripts/HF10_download`) for downloading the metagenomic data, these rely on a conda environment ("downloading") that resides in the `/envs` directory. The SAG downloading was done manually, and because all raw data for this project takes up substantial storage space, it does not reside in the repo. Scripts to run analyses often point to the `../data` superdirectory outside this one. 
+Additionally, while there are scripts (`scripts/SRA_download.sh` and `scripts/HF10_download`) for downloading the metagenomic data, these rely on a conda environment ("downloading") that resides in the `/envs` directory. The `envs/` folder also contains a folder labelled `busco/`; this is not a conda environment, but a program that we downloaded and ran manually. The SAG downloading was done manually, and because all raw data for this project takes up substantial storage space, it does not reside in the repo. Scripts to run analyses often point to the `../data` superdirectory outside this one. 
 
 ## Part 1: Notes on Protein Annotation and Functional Mapping
 For the 56 SAGs analyzed by Swan et al., we used Prodigal to identify protein-coding genes as the authors did, the script for doing so is `scripts/Prodigal-1.sh`. 
@@ -19,34 +19,26 @@ The authors utilized several utilities for mapping functional genes: the NCBI no
 
 ## Part 2: Cory
 
-## GC Content
-# scripts: get_GC.sh, GC_plot.R
+### 2.1 GC Content
+Scripts: get_GC.sh, GC_plot.R
 
-The 'get_GC.sh' bash script calculates GC content by dividing the grepped count of G+C nucleotides divided by the count of all ATGC nucleotides. The script does this count
-for five groups of input files: genomic SAG's, SAG coding regions (CDS), genomic cultures, culture coding regions, and the filtered metagenomes; the GC contents are printed
-in five corresponding files in the /output/genome_stats folder. 
+The 'get_GC.sh' bash script calculates GC content by dividing the grepped count of G+C nucleotides divided by the count of all ATGC nucleotides. The script does this count for five groups of input files: genomic SAG's, SAG coding regions (CDS), genomic cultures, culture coding regions, and the filtered metagenomes; the GC contents are printed in five corresponding files in the /output/genome_stats folder. 
 
 The R script 'GC_plot.R' then plots these GC contents as five boxplots. 'GC_plot.R' also performs t-tests between these lists to check for significant differences in GC content between groups.
 
 
-## Genome Size estimation and paralogs
-# Scripts: get_genome_size.sh, busco_script.sh, parse_busco.sh, BlastClust.sh, get_paralogs.sh, para_plot.R
+### 2.2 Genome Size estimation and paralogs
+Scripts: get_genome_size.sh, busco_script.sh, parse_busco.sh, BlastClust.sh, get_paralogs.sh, para_plot.R
 
 The bash script 'get_genome_size.sh' simply counts the number of nucleotides in all SAG and cultured genome fasta files.
 
-Genome assembly completeness was assessed using the Benchmarking set of Unviersal Single-Copy Orthologs (BUSCO). The BUSCO databases for bacteria, actinobacteria, bacteroidetes,
-proteobacteria, and gammaproteobacteria were downloaded and stored in our (unpushed) data folder, although only the bacteria database is needed to reproduce my figures. BUSCO was downloaded and installed in the envs/ folder, although it's not a conda environment.
-In order to set up the program, I modified the config.ini file with the paths to the HPC modules of tblastn, hmmer, and ausgustus. 
+Genome assembly completeness was assessed using the Benchmarking set of Unviersal Single-Copy Orthologs (BUSCO). The BUSCO databases for bacteria, actinobacteria, bacteroidetes, proteobacteria, and gammaproteobacteria were downloaded and stored in our (unpushed) data folder, although only the bacteria database is needed to reproduce my figures. BUSCO was downloaded and installed in the envs/ folder, although it's not a conda environment. In order to set up the program, I modified the config.ini file with the paths to the HPC modules of tblastn, hmmer, and ausgustus. 
 
-The 'busco_script.sh' bash script first performs BUSCO analysis on all SAG genomes against the bacteria BUSCO database in nucleotide mode. Then, if a SAG belongs to a group for which a more specific database is available (ie. actinobacteria),
-it performs the analysis for that SAG using that database. Then it repeats this for the predicted proteins using BUSCO in protein mode. 
-The bash script 'parse_busco.sh' parses the BUSCO output and prints the ID, database, and percent of complete orthologs of each SAG and cul
+The 'busco_script.sh' bash script first performs BUSCO analysis on all SAG genomes against the bacteria BUSCO database in nucleotide mode. Then, if a SAG belongs to a group for which a more specific database is available (ie. actinobacteria), it performs the analysis for that SAG using that database. Then it repeats this for the predicted proteins using BUSCO in protein mode. The bash script 'parse_busco.sh' parses the BUSCO output and prints the ID, database, and percent of complete orthologs of each SAG and cul
 
-Following the procedures of Swan et al. (2013), the script 'BlastClust.sh' writes clusters of 'paralogs' based on sequence similarity (in output/blastclust/).
-It does this for SAG's and cultures. The bash script 'get_paralogs.sh' then reports the number of proteins that are in a cluster with at least one other protein, divided by the total number of predicted proteins.
+Following the procedures of Swan et al. (2013), the script 'BlastClust.sh' writes clusters of 'paralogs' based on sequence similarity (in output/blastclust/). It does this for SAG's and cultures. The bash script 'get_paralogs.sh' then reports the number of proteins that are in a cluster with at least one other protein, divided by the total number of predicted proteins.
 
-Finally, the R script 'para_plot.R' uses the BUSCO results and SAG assembly sizes to estimate the size of the organism's actual genome. It plots these estimated genome sizes (as well as the actual cultured genome sizes) against the estimated number of 'paralogs' for each genome. 
-It also uses an ANOVA test to test whether the regression lines for SAG's and cultures have different slopes (they do). 
+Finally, the R script 'para_plot.R' uses the BUSCO results and SAG assembly sizes to estimate the size of the organism's actual genome. It plots these estimated genome sizes (as well as the actual cultured genome sizes) against the estimated number of 'paralogs' for each genome. It also uses an ANOVA test to test whether the regression lines for SAG's and cultures have different slopes (they do). 
 
 ## Part 3: Metagenome Fragment Recruitment (Zac)
 
