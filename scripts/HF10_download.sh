@@ -12,8 +12,8 @@
 module load anaconda
 source activate downloading
 
-input="HF10_acc.txt"
-while IFS='\n' read -r line
+input="/vortexfs1/omics/env-bio/collaboration/genome-streamlining/Genome-Streamline/wrangling/HF10_acc.txt" #input is HF10 acc
+while IFS='\n' read -r line #read lines
 do
-	efetch -db nucleotide -format fasta -id $line >> /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/metagenomes/HOT/fosmid/HF10.fa
+	efetch -db nucleotide -format fasta -id $line >> /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/metagenomes/HOT/fosmid/HF10.fa #download and append fasta files from GenBank
 done < "$input"

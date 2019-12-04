@@ -1,0 +1,19 @@
+Query name: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/AAA076-D02_proteins.faa
+ Outfile: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/eggNOGged/AAA076-D02_proteins_maNOG.txt
+
+/vortexfs1/home/ngermolus/.conda/pkgs/diamond-0.8.22-hdbcaa40_4/bin/diamond: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.20' not found (required by /vortexfs1/home/ngermolus/.conda/pkgs/diamond-0.8.22-hdbcaa40_4/bin/diamond)
+/vortexfs1/home/ngermolus/.conda/pkgs/diamond-0.8.22-hdbcaa40_4/bin/diamond: /lib64/libstdc++.so.6: version `CXXABI_1.3.8' not found (required by /vortexfs1/home/ngermolus/.conda/pkgs/diamond-0.8.22-hdbcaa40_4/bin/diamond)
+/vortexfs1/home/ngermolus/.conda/pkgs/diamond-0.8.22-hdbcaa40_4/bin/diamond: /lib64/libstdc++.so.6: version `CXXABI_1.3.9' not found (required by /vortexfs1/home/ngermolus/.conda/pkgs/diamond-0.8.22-hdbcaa40_4/bin/diamond)
+/vortexfs1/home/ngermolus/.conda/pkgs/diamond-0.8.22-hdbcaa40_4/bin/diamond: /lib64/libstdc++.so.6: version `GLIBCXX_3.4.21' not found (required by /vortexfs1/home/ngermolus/.conda/pkgs/diamond-0.8.22-hdbcaa40_4/bin/diamond)
+/vortexfs1/home/ngermolus/.conda/pkgs/diamond-0.8.22-hdbcaa40_4/bin/diamond /vortexfs1/home/ngermolus/.conda/envs/eggNOG/lib/python2.7/site-packages
+#  emapper-8cf5a30
+# ./emapper.py  -i /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/AAA076-D02_proteins.faa --output /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/eggNOGged/AAA076-D02_proteins_maNOG.txt -m diamond
+[1;33m  /vortexfs1/home/ngermolus/.conda/pkgs/diamond-0.8.22-hdbcaa40_4/bin/diamond blastp -d /vortexfs1/home/ngermolus/.conda/envs/eggNOG/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/AAA076-D02_proteins.faa --more-sensitive --threads 2 -e 0.001000 -o /vortexfs1/omics/env-bio/collaboration/genome-streamlining/Genome-Streamline/scripts/emappertmp_dmdn_SH9NbA/b34e7e80c8e04df9b5ec26ddf840e524 --top 3 --query-cover 0 --subject-cover 0[0m
+Traceback (most recent call last):
+  File "/vortexfs1/home/ngermolus/.conda/envs/eggNOG/bin/emapper.py", line 1213, in <module>
+    main(args)
+  File "/vortexfs1/home/ngermolus/.conda/envs/eggNOG/bin/emapper.py", line 226, in main
+    dump_diamond_matches(args.input, seed_orthologs_file, args)
+  File "/vortexfs1/home/ngermolus/.conda/envs/eggNOG/bin/emapper.py", line 380, in dump_diamond_matches
+    raise e
+subprocess.CalledProcessError: Command '/vortexfs1/home/ngermolus/.conda/pkgs/diamond-0.8.22-hdbcaa40_4/bin/diamond blastp -d /vortexfs1/home/ngermolus/.conda/envs/eggNOG/lib/python2.7/site-packages/data/eggnog_proteins.dmnd -q /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/AAA076-D02_proteins.faa --more-sensitive --threads 2 -e 0.001000 -o /vortexfs1/omics/env-bio/collaboration/genome-streamlining/Genome-Streamline/scripts/emappertmp_dmdn_SH9NbA/b34e7e80c8e04df9b5ec26ddf840e524 --top 3 --query-cover 0 --subject-cover 0' returned non-zero exit status 1

@@ -1,0 +1,1385 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/S9Od_LPlBD
+[barrnap] Scanning /tmp/S9Od_LPlBD for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/S9Od_LPlBD'
+[barrnap] Found: 16S_rRNA ARQZ01000002.1 L=1536/1585 137023..138558 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ARQZ01000002.1 L=2887/3232 139135..142021 + 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ARQZ01000002.1 L=110/119 142177..142286 + 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA076-F14_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA076-F14_rrna.fna' -fi '/tmp/S9Od_LPlBD' -bed '/tmp/Q2RuhmmM4G'
+index file /tmp/S9Od_LPlBD.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/LRyTqK4RPb
+[barrnap] Scanning /tmp/LRyTqK4RPb for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/LRyTqK4RPb'
+[barrnap] Found: 16S_rRNA ARQY01000002.1 L=1536/1585 29917..31452 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ARQY01000002.1 L=2887/3232 32029..34915 + 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ARQY01000002.1 L=110/119 35071..35180 + 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA076-E13_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA076-E13_rrna.fna' -fi '/tmp/LRyTqK4RPb' -bed '/tmp/53BCHUqWUZ'
+index file /tmp/LRyTqK4RPb.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/26JSW6q5rD
+[barrnap] Scanning /tmp/26JSW6q5rD for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/26JSW6q5rD'
+[barrnap] Found: 16S_rRNA ARQX01000002.1 L=1536/1585 9834..11369 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ARQX01000002.1 L=2887/3232 11946..14832 + 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ARQX01000002.1 L=110/119 14988..15097 + 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA076-D13_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA076-D13_rrna.fna' -fi '/tmp/26JSW6q5rD' -bed '/tmp/P9maNt1gBH'
+index file /tmp/26JSW6q5rD.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/zLuoGE1u4j
+[barrnap] Scanning /tmp/zLuoGE1u4j for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/zLuoGE1u4j'
+[barrnap] Found: 16S_rRNA ARQW01000002.1 L=1536/1585 43116..44651 - 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ARQW01000002.1 L=2887/3232 39653..42539 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ARQW01000002.1 L=110/119 39388..39497 - 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA076-D02_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA076-D02_rrna.fna' -fi '/tmp/zLuoGE1u4j' -bed '/tmp/y5rnKhyInJ'
+index file /tmp/zLuoGE1u4j.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/LTygKtz1yD
+[barrnap] Scanning /tmp/LTygKtz1yD for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/LTygKtz1yD'
+[barrnap] Found: 16S_rRNA KB911224.1 L=1531/1585 142965..144495 - 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA KB911224.1 L=2880/3232 139824..142703 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA KB911224.1 L=109/119 139633..139741 - 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA076-P09_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA076-P09_rrna.fna' -fi '/tmp/LTygKtz1yD' -bed '/tmp/0_ge0MM9tC'
+index file /tmp/LTygKtz1yD.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/36HE6CFas9
+[barrnap] Scanning /tmp/36HE6CFas9 for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/36HE6CFas9'
+[barrnap] Found: 16S_rRNA ARRF01000004.1 L=1530/1585 25814..27343 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ARRF01000004.1 L=2871/3232 27540..30410 + 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ARRF01000004.1 L=109/119 30483..30591 + 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA298-N10_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA298-N10_rrna.fna' -fi '/tmp/36HE6CFas9' -bed '/tmp/IonAVSaZ2Y'
+index file /tmp/36HE6CFas9.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/9dxnCkJSE3
+[barrnap] Scanning /tmp/9dxnCkJSE3 for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/9dxnCkJSE3'
+[barrnap] Found: 16S_rRNA ARRE01000004.1 L=953/1585 38497..39449 - 16S ribosomal RNA
+[barrnap] Found: 16S_rRNA ARRE01000001.1 L=583/1585 5142..5724 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ARRE01000004.1 L=2880/3232 35407..38286 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ARRE01000004.1 L=109/119 35217..35325 - 5S ribosomal RNA
+[barrnap] Found 4 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA536-N21_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA536-N21_rrna.fna' -fi '/tmp/9dxnCkJSE3' -bed '/tmp/XEBLaYvZoh'
+index file /tmp/9dxnCkJSE3.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/ertRBLkcwG
+[barrnap] Scanning /tmp/ertRBLkcwG for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/ertRBLkcwG'
+[barrnap] Found: 16S_rRNA ARRD01000003.1 L=1531/1585 7427..8957 - 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ARRD01000003.1 L=2880/3232 4331..7210 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ARRD01000003.1 L=109/119 4144..4252 - 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA536-J20_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA536-J20_rrna.fna' -fi '/tmp/ertRBLkcwG' -bed '/tmp/vdzWA2Vkrl'
+index file /tmp/ertRBLkcwG.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/3wOJSqrf6i
+[barrnap] Scanning /tmp/3wOJSqrf6i for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/3wOJSqrf6i'
+[barrnap] Found: 16S_rRNA ARRA01000003.1 L=1531/1585 93729..95259 - 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ARRA01000003.1 L=2880/3232 90589..93468 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ARRA01000003.1 L=109/119 90398..90506 - 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA076-P13_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA076-P13_rrna.fna' -fi '/tmp/3wOJSqrf6i' -bed '/tmp/uLwVwUGKgu'
+index file /tmp/3wOJSqrf6i.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/06eGlU6AIA
+[barrnap] Scanning /tmp/06eGlU6AIA for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/06eGlU6AIA'
+[barrnap] Found: 16S_rRNA ARRL01000003.1 L=1531/1585 181296..182826 - 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ARRL01000003.1 L=2880/3232 178156..181035 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ARRL01000003.1 L=109/119 177966..178074 - 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA168-P09_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA168-P09_rrna.fna' -fi '/tmp/06eGlU6AIA' -bed '/tmp/MFoIhE2HHa'
+index file /tmp/06eGlU6AIA.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/5hvW8_2YLO
+[barrnap] Scanning /tmp/5hvW8_2YLO for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/5hvW8_2YLO'
+[barrnap] Found: 16S_rRNA ARRB01000001.1 L=1531/1585 208954..210484 - 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ARRB01000001.1 L=2880/3232 205814..208693 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ARRB01000001.1 L=109/119 205624..205732 - 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA168-I18_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA168-I18_rrna.fna' -fi '/tmp/5hvW8_2YLO' -bed '/tmp/LoOqvIpHZc'
+index file /tmp/5hvW8_2YLO.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/kgmhWe9_ja
+[barrnap] Scanning /tmp/kgmhWe9_ja for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/kgmhWe9_ja'
+[barrnap] Found 0 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA160-D02_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA160-D02_rrna.fna' -fi '/tmp/kgmhWe9_ja' -bed '/tmp/Rm9MRho9uW'
+index file /tmp/kgmhWe9_ja.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/_47e5n10X1
+[barrnap] Scanning /tmp/_47e5n10X1 for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/_47e5n10X1'
+[barrnap] Found: 16S_rRNA ARRC01000005.1 L=1529/1585 65916..67444 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ARRC01000005.1 L=2897/3232 67915..70811 + 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ARRC01000005.1 L=111/119 70923..71033 + 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA300-D14_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA300-D14_rrna.fna' -fi '/tmp/_47e5n10X1' -bed '/tmp/uiXlQMGlKU'
+index file /tmp/_47e5n10X1.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/PUWvhOIK7R
+[barrnap] Scanning /tmp/PUWvhOIK7R for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/PUWvhOIK7R'
+[barrnap] Found: 16S_rRNA ARRJ01000012.1 L=1562/1585 8119..9680 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ARRJ01000012.1 L=2836/3232 10139..12974 + 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ARRJ01000012.1 L=111/119 13076..13186 + 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-N20_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-N20_rrna.fna' -fi '/tmp/PUWvhOIK7R' -bed '/tmp/wbHgRyYVp_'
+index file /tmp/PUWvhOIK7R.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/fpORUnA2iv
+[barrnap] Scanning /tmp/fpORUnA2iv for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/fpORUnA2iv'
+[barrnap] Found 0 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-A08_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-A08_rrna.fna' -fi '/tmp/fpORUnA2iv' -bed '/tmp/ld5WMLS2qr'
+index file /tmp/fpORUnA2iv.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/IJbCtKARkp
+[barrnap] Scanning /tmp/IJbCtKARkp for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/IJbCtKARkp'
+[barrnap] Found: 16S_rRNA ARRI01000087.1 L=1178/1585 1585..2762 - 16S ribosomal RNA
+[barrnap] Found: 16S_rRNA ARRI01000169.1 L=365/1585 918..1282 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ARRI01000114.1 L=1804/3232 103..1906 - 23S ribosomal RNA
+[barrnap] Found: 23S_rRNA ARRI01000087.1 L=1124/3232 3..1126 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ARRI01000035.1 L=111/119 7..117 + 5S ribosomal RNA
+[barrnap] Found 5 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-I21_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-I21_rrna.fna' -fi '/tmp/IJbCtKARkp' -bed '/tmp/8td9omRz7u'
+index file /tmp/IJbCtKARkp.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/XDyNhW8zTB
+[barrnap] Scanning /tmp/XDyNhW8zTB for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/XDyNhW8zTB'
+[barrnap] Found: 16S_rRNA KB911917.1 L=1562/1585 4027..5588 - 16S ribosomal RNA
+[barrnap] Found: 16S_rRNA KB911993.1 L=1562/1585 4027..5588 - 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA KB911917.1 L=2836/3232 733..3568 - 23S ribosomal RNA
+[barrnap] Found: 23S_rRNA KB911993.1 L=2836/3232 733..3568 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA KB911917.1 L=111/119 521..631 - 5S ribosomal RNA
+[barrnap] Found: 5S_rRNA KB911993.1 L=111/119 521..631 - 5S ribosomal RNA
+[barrnap] Found 6 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-E04_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-E04_rrna.fna' -fi '/tmp/XDyNhW8zTB' -bed '/tmp/3FkZnNYvfn'
+index file /tmp/XDyNhW8zTB.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/dkANO5XkJT
+[barrnap] Scanning /tmp/dkANO5XkJT for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/dkANO5XkJT'
+[barrnap] Found 0 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-M04_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-M04_rrna.fna' -fi '/tmp/dkANO5XkJT' -bed '/tmp/RVWE0ac6AF'
+index file /tmp/dkANO5XkJT.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/UDhZAmj0U3
+[barrnap] Scanning /tmp/UDhZAmj0U3 for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/UDhZAmj0U3'
+[barrnap] Found 0 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-B23_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-B23_rrna.fna' -fi '/tmp/UDhZAmj0U3' -bed '/tmp/0OfKtMS7Sy'
+index file /tmp/UDhZAmj0U3.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/O2aAVAPIHR
+[barrnap] Scanning /tmp/O2aAVAPIHR for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/O2aAVAPIHR'
+[barrnap] Found: 16S_rRNA ARRK01000005.1 L=1069/1585 27798..28866 - 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ARRK01000005.1 L=2818/3232 24288..27105 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ARRK01000005.1 L=111/119 24028..24138 - 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-P11_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-P11_rrna.fna' -fi '/tmp/O2aAVAPIHR' -bed '/tmp/nSKI8hEUp7'
+index file /tmp/O2aAVAPIHR.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/N6uvigYTb7
+[barrnap] Scanning /tmp/N6uvigYTb7 for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/N6uvigYTb7'
+[barrnap] Found 0 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-A21_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-A21_rrna.fna' -fi '/tmp/N6uvigYTb7' -bed '/tmp/5_8_Y7ZOJR'
+index file /tmp/N6uvigYTb7.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/2Fmgn9PPjo
+[barrnap] Scanning /tmp/2Fmgn9PPjo for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/2Fmgn9PPjo'
+[barrnap] Found: 16S_rRNA HF540955.1 L=1539/1585 11542..13080 - 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA HF540955.1 L=2816/3232 7907..10722 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA HF540955.1 L=111/119 7538..7648 - 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA168-F10_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA168-F10_rrna.fna' -fi '/tmp/2Fmgn9PPjo' -bed '/tmp/UqClJwnvmq'
+index file /tmp/2Fmgn9PPjo.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/FwquPWP6ZF
+[barrnap] Scanning /tmp/FwquPWP6ZF for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/FwquPWP6ZF'
+[barrnap] Found: 16S_rRNA HF539225.1 L=1539/1585 1511..3049 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA HF539225.1 L=2816/3232 3869..6684 + 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA HF539225.1 L=111/119 6943..7053 + 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-L15_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-L15_rrna.fna' -fi '/tmp/FwquPWP6ZF' -bed '/tmp/1psxlsr8su'
+index file /tmp/FwquPWP6ZF.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/Ing__ljnlo
+[barrnap] Scanning /tmp/Ing__ljnlo for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/Ing__ljnlo'
+[barrnap] Found: 16S_rRNA HF540463.1 L=1539/1585 6476..8014 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA HF540463.1 L=2913/3232 8834..11746 + 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA HF540463.1 L=111/119 12005..12115 + 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-O14_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA164-O14_rrna.fna' -fi '/tmp/Ing__ljnlo' -bed '/tmp/16inF7_w2e'
+index file /tmp/Ing__ljnlo.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/dXbcYiaMP3
+[barrnap] Scanning /tmp/dXbcYiaMP3 for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/dXbcYiaMP3'
+[barrnap] Found: 16S_rRNA HF537651.1 L=1539/1585 4051..5589 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA HF537651.1 L=2816/3232 6409..9224 + 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA HF537651.1 L=111/119 9483..9593 + 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA168-E21_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA168-E21_rrna.fna' -fi '/tmp/dXbcYiaMP3' -bed '/tmp/yWHHdCEh1z'
+index file /tmp/dXbcYiaMP3.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/AQcd89LcmU
+[barrnap] Scanning /tmp/AQcd89LcmU for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/AQcd89LcmU'
+[barrnap] Found: 16S_rRNA ARPC01000001.1 L=1539/1585 82338..83876 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ARPC01000001.1 L=2839/3232 84323..87161 + 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ARPC01000001.1 L=112/119 87282..87393 + 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA300-K03_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA300-K03_rrna.fna' -fi '/tmp/AQcd89LcmU' -bed '/tmp/NEXftXF5CH'
+index file /tmp/AQcd89LcmU.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/HQX4URy4d7
+[barrnap] Scanning /tmp/HQX4URy4d7 for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/HQX4URy4d7'
+[barrnap] Found 0 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA300-O17_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA300-O17_rrna.fna' -fi '/tmp/HQX4URy4d7' -bed '/tmp/bn07UmdToG'
+index file /tmp/HQX4URy4d7.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/l_R48D_lj1
+[barrnap] Scanning /tmp/l_R48D_lj1 for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/l_R48D_lj1'
+[barrnap] Found: 16S_rRNA KB912460.1 L=1539/1585 13262..14800 - 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA KB912460.1 L=2834/3232 9983..12816 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA KB912460.1 L=112/119 9747..9858 - 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA300-N18_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA300-N18_rrna.fna' -fi '/tmp/l_R48D_lj1' -bed '/tmp/1FUOw2FkG0'
+index file /tmp/l_R48D_lj1.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/GpGp6joS_b
+[barrnap] Scanning /tmp/GpGp6joS_b for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/GpGp6joS_b'
+[barrnap] Found 0 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA160-C11_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA160-C11_rrna.fna' -fi '/tmp/GpGp6joS_b' -bed '/tmp/KSud1Uend9'
+index file /tmp/GpGp6joS_b.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/_Z28H3IlYs
+[barrnap] Scanning /tmp/_Z28H3IlYs for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/_Z28H3IlYs'
+[barrnap] Found 0 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA076-M08_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA076-M08_rrna.fna' -fi '/tmp/_Z28H3IlYs' -bed '/tmp/9kYpgxXddW'
+index file /tmp/_Z28H3IlYs.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/rcVTteBaii
+[barrnap] Scanning /tmp/rcVTteBaii for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/rcVTteBaii'
+[barrnap] Found: 23S_rRNA AQSD01000003.1 L=1512/3232 100187..101698 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA AQSD01000003.1 L=112/119 100003..100114 - 5S ribosomal RNA
+[barrnap] Found 2 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA160-B08_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA160-B08_rrna.fna' -fi '/tmp/rcVTteBaii' -bed '/tmp/nGudwAQfPq'
+index file /tmp/rcVTteBaii.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/Tm1CnEIbN4
+[barrnap] Scanning /tmp/Tm1CnEIbN4 for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/Tm1CnEIbN4'
+[barrnap] Found: 16S_rRNA AQSA01000023.1 L=1556/1585 8449..10004 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA AQSA01000023.1 L=2993/3232 10572..13564 + 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA AQSA01000023.1 L=112/119 13636..13747 + 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA160-I06_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA160-I06_rrna.fna' -fi '/tmp/Tm1CnEIbN4' -bed '/tmp/dj4KgnkHdm'
+index file /tmp/Tm1CnEIbN4.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/oO1LX6wQIX
+[barrnap] Scanning /tmp/oO1LX6wQIX for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/oO1LX6wQIX'
+[barrnap] Found: 16S_rRNA AQSI01000003.1 L=1558/1585 54237..55794 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA AQSI01000003.1 L=2964/3232 56199..59162 + 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA AQSI01000003.1 L=112/119 59235..59346 + 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA298-D23_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA298-D23_rrna.fna' -fi '/tmp/oO1LX6wQIX' -bed '/tmp/ZH9vcRrrLe'
+index file /tmp/oO1LX6wQIX.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/vjxf4mNZPY
+[barrnap] Scanning /tmp/vjxf4mNZPY for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/vjxf4mNZPY'
+[barrnap] Found 0 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA076-E06_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA076-E06_rrna.fna' -fi '/tmp/vjxf4mNZPY' -bed '/tmp/ILBH3BIC8R'
+index file /tmp/vjxf4mNZPY.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/O1XEmxZbQc
+[barrnap] Scanning /tmp/O1XEmxZbQc for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/O1XEmxZbQc'
+[barrnap] Found 0 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA300-J04_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA300-J04_rrna.fna' -fi '/tmp/O1XEmxZbQc' -bed '/tmp/o0UTDReXJJ'
+index file /tmp/O1XEmxZbQc.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/bCCHpeII5H
+[barrnap] Scanning /tmp/bCCHpeII5H for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/bCCHpeII5H'
+[barrnap] Found 0 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA298-K06_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA298-K06_rrna.fna' -fi '/tmp/bCCHpeII5H' -bed '/tmp/1J6eK4z1VV'
+index file /tmp/bCCHpeII5H.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/JMCB8_yoFC
+[barrnap] Scanning /tmp/JMCB8_yoFC for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/JMCB8_yoFC'
+[barrnap] Found: 16S_rRNA KB910751.1 L=1454/1585 43963..45416 - 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA KB910751.1 L=2814/3232 40465..43278 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA KB910751.1 L=109/119 40244..40352 - 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA015-O19_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA015-O19_rrna.fna' -fi '/tmp/JMCB8_yoFC' -bed '/tmp/kZGbU2dPiX'
+index file /tmp/JMCB8_yoFC.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/e4lpmeFEWK
+[barrnap] Scanning /tmp/e4lpmeFEWK for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/e4lpmeFEWK'
+[barrnap] Found: 16S_rRNA KB910756.1 L=1462/1585 25374..26835 + 16S ribosomal RNA
+[barrnap] Found: 16S_rRNA KB910794.1 L=1462/1585 58335..59796 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA KB910794.1 L=2820/3232 60725..63544 + 23S ribosomal RNA
+[barrnap] Found: 23S_rRNA KB910756.1 L=2707/3232 27763..30469 + 23S ribosomal RNA
+[barrnap] Rejecting short 307 nt predicted 23S_rRNA. Adjust via --reject option.
+[barrnap] Found: 5S_rRNA KB910794.1 L=110/119 406..515 + 5S ribosomal RNA
+[barrnap] Found: 5S_rRNA KB910794.1 L=110/119 63643..63752 + 5S ribosomal RNA
+[barrnap] Found 6 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA076-C03_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA076-C03_rrna.fna' -fi '/tmp/e4lpmeFEWK' -bed '/tmp/8Br6AsoZB_'
+index file /tmp/e4lpmeFEWK.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/AUlKSI96I6
+[barrnap] Scanning /tmp/AUlKSI96I6 for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/AUlKSI96I6'
+[barrnap] Found: 16S_rRNA A536B6DRAFT_NODE-unique_2_len_140983.2 L=1482/1585 113051..114532 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA A536B6DRAFT_NODE-unique_2_len_140983.2 L=2716/3232 114944..117659 + 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA A536B6DRAFT_NODE-unique_2_len_140983.2 L=110/119 117809..117918 + 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA536-B06_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA536-B06_rrna.fna' -fi '/tmp/AUlKSI96I6' -bed '/tmp/OOKmy0Qfqc'
+index file /tmp/AUlKSI96I6.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/cMfcum4Ajd
+[barrnap] Scanning /tmp/cMfcum4Ajd for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/cMfcum4Ajd'
+[barrnap] Found: 16S_rRNA ARQT01000007.1 L=1483/1585 14907..16389 - 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ARQT01000007.1 L=2713/3232 11805..14517 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ARQT01000007.1 L=111/119 11590..11700 - 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA160-J14_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA160-J14_rrna.fna' -fi '/tmp/cMfcum4Ajd' -bed '/tmp/j5NkxvEp3I'
+index file /tmp/cMfcum4Ajd.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/nvrlZtCljN
+[barrnap] Scanning /tmp/nvrlZtCljN for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/nvrlZtCljN'
+[barrnap] Found: 16S_rRNA KB910832.1 L=1482/1585 15133..16614 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA KB910832.1 L=2716/3232 17027..19742 + 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA KB910832.1 L=110/119 19891..20000 + 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA158-B04_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA158-B04_rrna.fna' -fi '/tmp/nvrlZtCljN' -bed '/tmp/549VNI5jeT'
+index file /tmp/nvrlZtCljN.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/q_jOYjpRpp
+[barrnap] Scanning /tmp/q_jOYjpRpp for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/q_jOYjpRpp'
+[barrnap] Found: 16S_rRNA ARQQ01000003.1 L=1482/1585 731..2212 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ARQQ01000003.1 L=2713/3232 2664..5376 + 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ARQQ01000003.1 L=110/119 5536..5645 + 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA300-B11_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA300-B11_rrna.fna' -fi '/tmp/q_jOYjpRpp' -bed '/tmp/3Tx5MmKjia'
+index file /tmp/q_jOYjpRpp.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/VTIFjUTcsT
+[barrnap] Scanning /tmp/VTIFjUTcsT for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/VTIFjUTcsT'
+[barrnap] Found 0 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA158-M15_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA158-M15_rrna.fna' -fi '/tmp/VTIFjUTcsT' -bed '/tmp/3EVWvl2VeO'
+index file /tmp/VTIFjUTcsT.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/oGxL3X9vur
+[barrnap] Scanning /tmp/oGxL3X9vur for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/oGxL3X9vur'
+[barrnap] Found: 16S_rRNA ATWQ01000004.1 L=1483/1585 5879..7361 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ATWQ01000004.1 L=2713/3232 7754..10466 + 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ATWQ01000004.1 L=110/119 10568..10677 + 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA536-K22_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA536-K22_rrna.fna' -fi '/tmp/oGxL3X9vur' -bed '/tmp/S8n2WYPSxJ'
+index file /tmp/oGxL3X9vur.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/YCcQgz_k6v
+[barrnap] Scanning /tmp/YCcQgz_k6v for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/YCcQgz_k6v'
+[barrnap] Found: 16S_rRNA KB910521.1 L=1483/1585 161967..163449 - 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA KB910521.1 L=2713/3232 158888..161600 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA KB910521.1 L=111/119 158684..158794 - 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA015-N04_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA015-N04_rrna.fna' -fi '/tmp/YCcQgz_k6v' -bed '/tmp/QTMrEQ84RC'
+index file /tmp/YCcQgz_k6v.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/1HkdPQlG9G
+[barrnap] Scanning /tmp/1HkdPQlG9G for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/1HkdPQlG9G'
+[barrnap] Found 0 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA536-G10_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA536-G10_rrna.fna' -fi '/tmp/1HkdPQlG9G' -bed '/tmp/dRvnUMxr49'
+index file /tmp/1HkdPQlG9G.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/oeKF4ushLM
+[barrnap] Scanning /tmp/oeKF4ushLM for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/oeKF4ushLM'
+[barrnap] Found: 23S_rRNA A300J16DRAFT_NODE-unique_11_len_27852.11 L=1295/3232 24524..25818 + 23S ribosomal RNA
+[barrnap] Found: 23S_rRNA A300J16DRAFT_NODE-unique_94_len_1182.94 L=1172/3232 10..1181 + 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA A300J16DRAFT_NODE-unique_11_len_27852.11 L=110/119 25978..26087 + 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA300-J16_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA300-J16_rrna.fna' -fi '/tmp/oeKF4ushLM' -bed '/tmp/cLJGrzbA5Q'
+index file /tmp/oeKF4ushLM.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/sUx1x0v54l
+[barrnap] Scanning /tmp/sUx1x0v54l for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/sUx1x0v54l'
+[barrnap] Found: 16S_rRNA ARQS01000006.1 L=1524/1585 32204..33727 - 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ARQS01000006.1 L=3054/3232 28997..32050 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ARQS01000006.1 L=109/119 28833..28941 - 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA015-M09_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA015-M09_rrna.fna' -fi '/tmp/sUx1x0v54l' -bed '/tmp/dISYwRYNm7'
+index file /tmp/sUx1x0v54l.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/DuibzW2jQg
+[barrnap] Scanning /tmp/DuibzW2jQg for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/DuibzW2jQg'
+[barrnap] Found: 23S_rRNA ARQR01000005.1 L=3044/3232 41185..44228 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ARQR01000005.1 L=109/119 41022..41130 - 5S ribosomal RNA
+[barrnap] Found 2 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA015-D07_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA015-D07_rrna.fna' -fi '/tmp/DuibzW2jQg' -bed '/tmp/gFL_FYKzIP'
+index file /tmp/DuibzW2jQg.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/ZicavFnhp2
+[barrnap] Scanning /tmp/ZicavFnhp2 for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/ZicavFnhp2'
+[barrnap] Found: 16S_rRNA ABVW01000001.1 L=1523/1585 40583..42105 - 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ABVW01000001.1 L=2817/3232 37014..39830 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ABVW01000001.1 L=107/119 36737..36843 - 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/MS024-3C_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/MS024-3C_rrna.fna' -fi '/tmp/ZicavFnhp2' -bed '/tmp/eEeqvLR9OZ'
+index file /tmp/ZicavFnhp2.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/C9od3zfMoy
+[barrnap] Scanning /tmp/C9od3zfMoy for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/C9od3zfMoy'
+[barrnap] Found: 16S_rRNA KB911092.1 L=1512/1585 20746..22257 - 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA KB911092.1 L=2868/3232 17340..20207 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA KB911092.1 L=105/119 17118..17222 - 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA160-P02_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA160-P02_rrna.fna' -fi '/tmp/C9od3zfMoy' -bed '/tmp/OotbpVZWCb'
+index file /tmp/C9od3zfMoy.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/XxN2Gm8aHU
+[barrnap] Scanning /tmp/XxN2Gm8aHU for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/XxN2Gm8aHU'
+[barrnap] Found: 23S_rRNA Flav1FDRAFT_FMD.11 L=1838/3232 2..1839 + 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA Flav1FDRAFT_FMD.11 L=78/119 1980..2057 + 5S ribosomal RNA
+[barrnap] Found: 5S_rRNA Flav1FDRAFT_FMD.35 L=101/119 17223..17323 + 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA190-1F_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA190-1F_rrna.fna' -fi '/tmp/XxN2Gm8aHU' -bed '/tmp/1JCrdnz0D6'
+index file /tmp/XxN2Gm8aHU.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/VOihT9FzL9
+[barrnap] Scanning /tmp/VOihT9FzL9 for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/VOihT9FzL9'
+[barrnap] Found 0 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA536-P05_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA536-P05_rrna.fna' -fi '/tmp/VOihT9FzL9' -bed '/tmp/mBkpkVRfgD'
+index file /tmp/VOihT9FzL9.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/tzumTjWySH
+[barrnap] Scanning /tmp/tzumTjWySH for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/tzumTjWySH'
+[barrnap] Found 0 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/MS220-5C_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/MS220-5C_rrna.fna' -fi '/tmp/tzumTjWySH' -bed '/tmp/gE8H6TGa2K'
+index file /tmp/tzumTjWySH.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/f6r2OO5Asg
+[barrnap] Scanning /tmp/f6r2OO5Asg for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/f6r2OO5Asg'
+[barrnap] Found: 16S_rRNA A536G18DRAFT_NODE-unique_4_len_49882.4 L=1518/1585 12775..14292 - 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA A536G18DRAFT_NODE-unique_4_len_49882.4 L=2804/3232 9507..12310 - 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA A536G18DRAFT_NODE-unique_4_len_49882.4 L=102/119 9345..9446 - 5S ribosomal RNA
+[barrnap] Found 3 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA536-G18_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/AAA536-G18_rrna.fna' -fi '/tmp/f6r2OO5Asg' -bed '/tmp/ATrwu_xYVa'
+index file /tmp/f6r2OO5Asg.fai not found, generating...
+[barrnap] Done.
+[barrnap] This is barrnap 0.9
+[barrnap] Written by Torsten Seemann
+[barrnap] Obtained from https://github.com/tseemann/barrnap
+[barrnap] Detected operating system: linux
+[barrnap] Adding /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../binaries/linux to end of PATH
+[barrnap] Checking for dependencies:
+[barrnap] Found nhmmer - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/nhmmer
+[barrnap] Found bedtools - /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/bin/bedtools
+[barrnap] Will use 1 threads
+[barrnap] Setting evalue cutoff to 1e-03
+[barrnap] Will tag genes < 0.2 of expected length.
+[barrnap] Will reject genes < 0.1 of expected length.
+[barrnap] Using database: /vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm
+[barrnap] Copying STDIN to a temporary file: /tmp/NhTsIWgLIP
+[barrnap] Scanning /tmp/NhTsIWgLIP for bac rRNA genes... please wait
+[barrnap] Command: nhmmer --cpu 1 -E 1e-03 --w_length 3878 -o /dev/null --tblout /dev/stdout '/vortexfs1/home/ztobias/.conda/envs/rRNA_prediction/lib/barrnap/bin/../db/bac.hmm' '/tmp/NhTsIWgLIP'
+[barrnap] Found: 16S_rRNA ABVV01000001.1 L=1525/1585 60647..62171 + 16S ribosomal RNA
+[barrnap] Found: 16S_rRNA ABVV01000001.1 L=1525/1585 487963..489487 + 16S ribosomal RNA
+[barrnap] Found: 23S_rRNA ABVV01000001.1 L=2814/3232 62796..65609 + 23S ribosomal RNA
+[barrnap] Found: 23S_rRNA ABVV01000001.1 L=2814/3232 490112..492925 + 23S ribosomal RNA
+[barrnap] Found: 5S_rRNA ABVV01000001.1 L=105/119 65740..65844 + 5S ribosomal RNA
+[barrnap] Found: 5S_rRNA ABVV01000001.1 L=105/119 493056..493160 + 5S ribosomal RNA
+[barrnap] Found 6 ribosomal RNA features.
+[barrnap] Sorting features and outputting GFF3...
+[barrnap] Writing hit sequences to: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/MS024-2A_rrna.fna
+[barrnap] Running: bedtools getfasta -s -name+ -fo '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs/MS024-2A_rrna.fna' -fi '/tmp/NhTsIWgLIP' -bed '/tmp/O5HIIAVZ86'
+index file /tmp/NhTsIWgLIP.fai not found, generating...
+[barrnap] Done.

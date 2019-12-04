@@ -12,15 +12,15 @@
 module load anaconda
 conda activate rRNA_prediction
 
-export INPUT_DIR=/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/SAGs
-export OUTPUT_DIR=/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs
-
-for file in `find ${INPUT_DIR} -name *.fna.gz`
+export INPUT_DIR=/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/SAGs #save input directory path to variable
+export OUTPUT_DIR=/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs #save output directory path to variable
+ 
+for file in `find ${INPUT_DIR} -name *.fna.gz` #loop through all of the files that end with fna.gz throughout SAG directory tree
 do
-	filename=`basename ${file} .fna.gz`
-	zcat ${file} > ${INPUT_DIR}/${filename}.fna
-	barrnap -k bac --lencutoff 0.2 --reject 0.1 --evalue 1e-03 -o ${OUTPUT_DIR}/${filename}_rrna.fna < ${INPUT_DIR}/${filename}.fna > ${OUTPUT_DIR}/${filename}_rrna.gff
-	rm ${INPUT_DIR}/${filename}.fna
+	filename=`basename ${file} .fna.gz` #get last element of path and remove extension
+	zcat ${file} > ${INPUT_DIR}/${filename}.fna #unzip SAG genome sequence and save to file
+	barrnap -k bac --lencutoff 0.2 --reject 0.1 --evalue 1e-03 -o ${OUTPUT_DIR}/${filename}_rrna.fna < ${INPUT_DIR}/${filename}.fna > ${OUTPUT_DIR}/${filename}_rrna.gff #predict rDNA sequences using bacterial models and liberal thresholds and save sequences and coordinates to file
+	rm ${INPUT_DIR}/${filename}.fna #delete unzipped SAG sequence
 done 
 	 
 

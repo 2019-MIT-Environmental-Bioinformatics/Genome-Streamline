@@ -1,0 +1,21 @@
+USAGE
+  makeblastdb [-h] [-help] [-in input_file] [-input_type type]
+    -dbtype molecule_type [-title database_title] [-parse_seqids]
+    [-hash_index] [-mask_data mask_data_files] [-mask_id mask_algo_ids]
+    [-mask_desc mask_algo_descriptions] [-gi_mask]
+    [-gi_mask_name gi_based_mask_names] [-out database_name]
+    [-max_file_sz number_of_bytes] [-logfile File_Name] [-taxid TaxID]
+    [-taxid_map TaxIDMapFile] [-version]
+
+DESCRIPTION
+   Application to create BLAST databases, version 2.7.1+
+
+Use '-help' to print detailed descriptions of command line arguments
+========================================================================
+
+Error: Too many positional arguments (1), the offending value: /vortexfs1/apps/bio/blast-2.7.1/blastdb/nr.00.phi
+Error:  (CArgException::eSynopsis) Too many positional arguments (1), the offending value: /vortexfs1/apps/bio/blast-2.7.1/blastdb/nr.00.phi
+dbase finished
+Command:
+blastp -query /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/AAA015-N04_proteins.faa -db nr -evalue 1e-10 -num_threads 35 -outfmt 6 qseqid salltitles pident length mismatch gapopen qstart qend sstart send evalue bitscore -out /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/SAG_Blastp/AAA015-N04_proteins_blastp.txt
+BLAST Database error: No alias or index file found for protein database [DBASE] in search path [/vortexfs1/omics/env-bio/collaboration/genome-streamlining/Genome-Streamline/scripts:/vortexfs1/omics/data/blastdb:]

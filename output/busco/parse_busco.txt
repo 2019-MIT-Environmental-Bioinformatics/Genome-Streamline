@@ -1,0 +1,9 @@
+for file in results/short_summary*
+do
+	data=$(grep -o "C:.*\%\[" $file | sed 's/C://g' | sed 's/\%\[//g')
+	db=$(grep -o "\w*.odb9" $file | uniq)
+	name=$(basename $file | sed 's/short_summary_//g' | sed 's/_busco.*//g')
+	
+	echo "${name},${db},${data}" >> busco_out.csv
+done
+

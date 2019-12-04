@@ -1,0 +1,16 @@
+Query name: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/AAA015-O19_proteins.faa
+ Outfile: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/eggNOGged/AAA015-O19_proteins_maNOG.txt
+
+/bin/sh: /vortexfs1/home/ngermolus/.conda/envs/eggNOG/lib/python2.7/site-packages/bin/diamond: No such file or directory
+/vortexfs1/home/ngermolus/.conda/envs/eggNOG/lib/python2.7/site-packages/bin/diamond /vortexfs1/home/ngermolus/.conda/envs/eggNOG/lib/python2.7/site-packages
+#  emapper-8cf5a30
+# ./emapper.py  -i /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/AAA015-O19_proteins.faa --output /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/eggNOGged/AAA015-O19_proteins_maNOG.txt -m diamond --dmnd_db /vortexfs1/home/ngermolus/.conda/envs/eggNOG/lib/python2.7/site-packages/data
+[1;33m  /vortexfs1/home/ngermolus/.conda/envs/eggNOG/lib/python2.7/site-packages/bin/diamond blastp -d /vortexfs1/home/ngermolus/.conda/envs/eggNOG/lib/python2.7/site-packages/data -q /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/AAA015-O19_proteins.faa --more-sensitive --threads 2 -e 0.001000 -o /vortexfs1/omics/env-bio/collaboration/genome-streamlining/Genome-Streamline/scripts/emappertmp_dmdn__TkVcd/cac089a25ac94ba5926ba8f5836a5407 --top 3 --query-cover 0 --subject-cover 0[0m
+Traceback (most recent call last):
+  File "/vortexfs1/home/ngermolus/.conda/pkgs/eggnog-mapper-2.0.0-py_0/python-scripts/emapper.py", line 1213, in <module>
+    main(args)
+  File "/vortexfs1/home/ngermolus/.conda/pkgs/eggnog-mapper-2.0.0-py_0/python-scripts/emapper.py", line 226, in main
+    dump_diamond_matches(args.input, seed_orthologs_file, args)
+  File "/vortexfs1/home/ngermolus/.conda/pkgs/eggnog-mapper-2.0.0-py_0/python-scripts/emapper.py", line 380, in dump_diamond_matches
+    raise e
+subprocess.CalledProcessError: Command '/vortexfs1/home/ngermolus/.conda/envs/eggNOG/lib/python2.7/site-packages/bin/diamond blastp -d /vortexfs1/home/ngermolus/.conda/envs/eggNOG/lib/python2.7/site-packages/data -q /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/AAA015-O19_proteins.faa --more-sensitive --threads 2 -e 0.001000 -o /vortexfs1/omics/env-bio/collaboration/genome-streamlining/Genome-Streamline/scripts/emappertmp_dmdn__TkVcd/cac089a25ac94ba5926ba8f5836a5407 --top 3 --query-cover 0 --subject-cover 0' returned non-zero exit status 127

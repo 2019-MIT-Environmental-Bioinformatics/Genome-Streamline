@@ -1,0 +1,15 @@
+Wed Nov 13 16:52:51 EST 2019
+
+
+Building a new DB, current time: 11/13/2019 16:52:51
+New DB name:   /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit/AAA168-P09
+New DB title:  AAA168-P09
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Mask file: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit/AAA168-P09_maskinfo.asnb
+Adding sequences from FASTA; added 12 sequences in 0.013576 seconds.
+rm: cannot remove ‘/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit/AAA168-P09.asnb’: No such file or directory
+rm: cannot remove ‘/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit//vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit/AAA168-P09_filtered.fna’: No such file or directory
+Wed Nov 13 18:10:14 EST 2019

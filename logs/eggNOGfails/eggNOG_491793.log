@@ -1,0 +1,7 @@
+Query name: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/AAA076-D02_proteins.faa
+ Outfile: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/eggNOGged/AAA076-D02_proteins_maNOG.txt
+
+  File "/vortexfs1/home/ngermolus/eggnog-mapper/emapper.py", line 64
+    print dbpath
+               ^
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(dbpath)?

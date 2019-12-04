@@ -1,0 +1,142 @@
+400 Bad Request
+No do_post output returned from 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&id=DU747688.1&rettype=fasta&retmode=text&edirect_os=linux&edirect=11.0&tool=edirect&email=ztobias@pn010.cm.cluster'
+Result of do_post http request is
+$VAR1 = bless( {
+                 '_headers' => bless( {
+                                        'client-ssl-cipher' => 'ECDHE-RSA-AES256-GCM-SHA384',
+                                        'client-ssl-socket-class' => 'IO::Socket::SSL',
+                                        'x-ratelimit-limit' => '3',
+                                        'content-security-policy' => 'upgrade-insecure-requests',
+                                        'ncbi-phid' => '939B3C006469D295000039D7B5E3E5FD.1.1.m_5',
+                                        'client-date' => 'Tue, 15 Oct 2019 14:57:25 GMT',
+                                        'date' => 'Tue, 15 Oct 2019 14:57:24 GMT',
+                                        'set-cookie' => 'ncbi_sid=A806F9A344B9CF2F_11ADSID; domain=.nih.gov; path=/; expires=Thu, 15 Oct 2020 14:57:23 GMT',
+                                        '::std_case' => {
+                                                          'client-peer' => 'Client-Peer',
+                                                          'strict-transport-security' => 'Strict-Transport-Security',
+                                                          'ncbi-sid' => 'NCBI-SID',
+                                                          'client-response-num' => 'Client-Response-Num',
+                                                          'client-ssl-cert-subject' => 'Client-SSL-Cert-Subject',
+                                                          'client-ssl-cert-issuer' => 'Client-SSL-Cert-Issuer',
+                                                          'x-xss-protection' => 'X-XSS-Protection',
+                                                          'x-ua-compatible' => 'X-UA-Compatible',
+                                                          'access-control-allow-origin' => 'Access-Control-Allow-Origin',
+                                                          'x-ratelimit-remaining' => 'X-RateLimit-Remaining',
+                                                          'content-security-policy' => 'Content-Security-Policy',
+                                                          'ncbi-phid' => 'NCBI-PHID',
+                                                          'client-ssl-socket-class' => 'Client-SSL-Socket-Class',
+                                                          'client-ssl-cipher' => 'Client-SSL-Cipher',
+                                                          'x-ratelimit-limit' => 'X-RateLimit-Limit',
+                                                          'set-cookie' => 'Set-Cookie',
+                                                          'client-date' => 'Client-Date'
+                                                        },
+                                        'access-control-allow-origin' => '*',
+                                        'cache-control' => 'private',
+                                        'x-ratelimit-remaining' => '1',
+                                        'client-ssl-cert-issuer' => '/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA',
+                                        'server' => 'Finatra',
+                                        'client-ssl-cert-subject' => '/C=US/ST=Maryland/L=Bethesda/O=National Library of Medicine/OU=National Center for Biotechnology Information/CN=*.ncbi.nlm.nih.gov',
+                                        'client-response-num' => 1,
+                                        'x-ua-compatible' => 'IE=Edge',
+                                        'x-xss-protection' => '1; mode=block',
+                                        'strict-transport-security' => 'max-age=31536000; includeSubDomains; preload',
+                                        'content-type' => 'text/plain; charset=UTF-8',
+                                        'client-peer' => '130.14.29.110:443',
+                                        'connection' => 'close',
+                                        'content-length' => '46',
+                                        'ncbi-sid' => 'A806F9A344B9CF2F_11ADSID'
+                                      }, 'HTTP::Headers' ),
+                 '_content' => ' Error: CEFetchPApplication::proxy_stream(): 
+',
+                 '_rc' => 400,
+                 '_request' => bless( {
+                                        '_content' => 'db=nucleotide&id=DU747688.1&rettype=fasta&retmode=text&edirect_os=linux&edirect=11.0&tool=edirect&email=ztobias@pn010.cm.cluster',
+                                        '_uri_canonical' => bless( do{\(my $o = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi')}, 'URI::https' ),
+                                        '_headers' => bless( {
+                                                               'user-agent' => 'libwww-perl/6.39',
+                                                               '::std_case' => {
+                                                                                 'if-ssl-cert-subject' => 'If-SSL-Cert-Subject'
+                                                                               },
+                                                               'content-type' => 'application/x-www-form-urlencoded'
+                                                             }, 'HTTP::Headers' ),
+                                        '_uri' => $VAR1->{'_request'}{'_uri_canonical'},
+                                        '_method' => 'POST'
+                                      }, 'HTTP::Request' ),
+                 '_msg' => 'Bad Request',
+                 '_protocol' => 'HTTP/1.1'
+               }, 'HTTP::Response' );
+
+400 Bad Request
+No do_post output returned from 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nucleotide&id=DU746065.1&rettype=fasta&retmode=text&edirect_os=linux&edirect=11.0&tool=edirect&email=ztobias@pn010.cm.cluster'
+Result of do_post http request is
+$VAR1 = bless( {
+                 '_msg' => 'Bad Request',
+                 '_protocol' => 'HTTP/1.1',
+                 '_content' => ' Error: CEFetchPApplication::proxy_stream(): NCBI C++ Exception:
+    Error: ID2(CLoaderException::eConnectionFailed) "/netopt/ncbi_tools64/c++.by-date/20191007/GCC730-Release64MTInt8GI/../src/objtools/data_loaders/genbank/id2/reader_id2.cpp", line 255: ncbi::objects::CId2Reader::x_ConnectAtSlot() --- cannot open connection: id2_snp2
+    Error: GENBANK(CLoaderException::eConnectionFailed) "/netopt/ncbi_tools64/c++.by-date/20191007/GCC730-Release64MTInt8GI/../src/objtools/data_loaders/genbank/reader_id2_base.cpp", line 1830: ncbi::objects::CId2ReaderBase::x_SendID2Packet() --- failed to send request: NULL
+
+',
+                 '_rc' => 400,
+                 '_headers' => bless( {
+                                        'client-ssl-cert-issuer' => '/C=US/O=DigiCert Inc/OU=www.digicert.com/CN=DigiCert SHA2 High Assurance Server CA',
+                                        'client-date' => 'Tue, 15 Oct 2019 15:15:27 GMT',
+                                        'ncbi-phid' => '939B3C006469D295000037DE1B1F2BD1.1.1.m_5',
+                                        'content-security-policy' => 'upgrade-insecure-requests',
+                                        'set-cookie' => 'ncbi_sid=F9F3A458330F4595_1273SID; domain=.nih.gov; path=/; expires=Thu, 15 Oct 2020 15:15:18 GMT',
+                                        'vary' => 'Accept-Encoding',
+                                        'strict-transport-security' => 'max-age=31536000; includeSubDomains; preload',
+                                        'x-ratelimit-limit' => '3',
+                                        'client-ssl-cert-subject' => '/C=US/ST=Maryland/L=Bethesda/O=National Library of Medicine/OU=National Center for Biotechnology Information/CN=*.ncbi.nlm.nih.gov',
+                                        'client-peer' => '130.14.29.110:443',
+                                        'date' => 'Tue, 15 Oct 2019 15:15:26 GMT',
+                                        'client-ssl-socket-class' => 'IO::Socket::SSL',
+                                        'client-ssl-cipher' => 'ECDHE-RSA-AES256-GCM-SHA384',
+                                        'x-ratelimit-remaining' => '1',
+                                        'cache-control' => 'private',
+                                        'ncbi-sid' => 'F9F3A458330F4595_1273SID',
+                                        'connection' => 'close',
+                                        'client-response-num' => 1,
+                                        'content-length' => '612',
+                                        'content-type' => 'text/plain; charset=UTF-8',
+                                        'access-control-allow-origin' => '*',
+                                        'x-xss-protection' => '1; mode=block',
+                                        'content-disposition' => 'attachment; filename="sequence.fasta"',
+                                        '::std_case' => {
+                                                          'client-ssl-cipher' => 'Client-SSL-Cipher',
+                                                          'x-ratelimit-remaining' => 'X-RateLimit-Remaining',
+                                                          'client-ssl-socket-class' => 'Client-SSL-Socket-Class',
+                                                          'client-ssl-cert-subject' => 'Client-SSL-Cert-Subject',
+                                                          'x-ratelimit-limit' => 'X-RateLimit-Limit',
+                                                          'client-peer' => 'Client-Peer',
+                                                          'strict-transport-security' => 'Strict-Transport-Security',
+                                                          'content-security-policy' => 'Content-Security-Policy',
+                                                          'set-cookie' => 'Set-Cookie',
+                                                          'client-date' => 'Client-Date',
+                                                          'client-ssl-cert-issuer' => 'Client-SSL-Cert-Issuer',
+                                                          'ncbi-phid' => 'NCBI-PHID',
+                                                          'x-ua-compatible' => 'X-UA-Compatible',
+                                                          'content-disposition' => 'Content-Disposition',
+                                                          'access-control-allow-origin' => 'Access-Control-Allow-Origin',
+                                                          'x-xss-protection' => 'X-XSS-Protection',
+                                                          'client-response-num' => 'Client-Response-Num',
+                                                          'ncbi-sid' => 'NCBI-SID'
+                                                        },
+                                        'x-ua-compatible' => 'IE=Edge',
+                                        'server' => 'Finatra'
+                                      }, 'HTTP::Headers' ),
+                 '_request' => bless( {
+                                        '_content' => 'db=nucleotide&id=DU746065.1&rettype=fasta&retmode=text&edirect_os=linux&edirect=11.0&tool=edirect&email=ztobias@pn010.cm.cluster',
+                                        '_method' => 'POST',
+                                        '_headers' => bless( {
+                                                               'content-type' => 'application/x-www-form-urlencoded',
+                                                               '::std_case' => {
+                                                                                 'if-ssl-cert-subject' => 'If-SSL-Cert-Subject'
+                                                                               },
+                                                               'user-agent' => 'libwww-perl/6.39'
+                                                             }, 'HTTP::Headers' ),
+                                        '_uri_canonical' => bless( do{\(my $o = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi')}, 'URI::https' ),
+                                        '_uri' => $VAR1->{'_request'}{'_uri_canonical'}
+                                      }, 'HTTP::Request' )
+               }, 'HTTP::Response' );
+

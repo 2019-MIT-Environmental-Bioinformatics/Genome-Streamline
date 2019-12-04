@@ -10,6 +10,6 @@
  
 pwd; hostname; date
  
-curl ftp://ftp.imicrobe.us/projects/26/CAM_PROJ_GOS.read.fa.gz --output GOS_reads.fa.gz 
+curl ftp://ftp.imicrobe.us/projects/26/CAM_PROJ_GOS.read.fa.gz --output GOS_reads.fa.gz #fetch reads from iMicrobe
  
 date

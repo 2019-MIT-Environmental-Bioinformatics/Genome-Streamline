@@ -1,0 +1,6064 @@
+Currently filtering ERR833487_2 and appending to GS148_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 5,450
+	Input bases: 4,183,153
+	Input mean length: 767.55
+	Good sequences: 5,421 (99.47%)
+	Good bases: 4,180,801
+	Good mean length: 771.22
+	Bad sequences: 29 (0.53%)
+	Bad bases: 2,352
+	Bad mean length: 81.10
+	Sequences filtered by specified parameters:
+	min_len: 29
+Currently filtering ERR833487_1 and appending to GS148_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 5,450
+	Input bases: 4,375,035
+	Input mean length: 802.76
+	Good sequences: 5,425 (99.54%)
+	Good bases: 4,373,074
+	Good mean length: 806.10
+	Bad sequences: 25 (0.46%)
+	Bad bases: 1,961
+	Bad mean length: 78.44
+	Sequences filtered by specified parameters:
+	min_len: 25
+Currently filtering ERR833488_2 and appending to GS148_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 45,464
+	Input bases: 36,292,271
+	Input mean length: 798.26
+	Good sequences: 45,204 (99.43%)
+	Good bases: 36,269,243
+	Good mean length: 802.35
+	Bad sequences: 260 (0.57%)
+	Bad bases: 23,028
+	Bad mean length: 88.57
+	Sequences filtered by specified parameters:
+	min_len: 257
+	derep: 3
+Currently filtering ERR833488_1 and appending to GS148_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 45,464
+	Input bases: 36,818,985
+	Input mean length: 809.85
+	Good sequences: 45,232 (99.49%)
+	Good bases: 36,796,840
+	Good mean length: 813.51
+	Bad sequences: 232 (0.51%)
+	Bad bases: 22,145
+	Bad mean length: 95.45
+	Sequences filtered by specified parameters:
+	min_len: 227
+	derep: 5
+Currently filtering ERR833279_2 and appending to GS009_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 36,932
+	Input bases: 30,501,585
+	Input mean length: 825.89
+	Good sequences: 36,922 (99.97%)
+	Good bases: 30,494,748
+	Good mean length: 825.92
+	Bad sequences: 10 (0.03%)
+	Bad bases: 6,837
+	Bad mean length: 683.70
+	Sequences filtered by specified parameters:
+	derep: 10
+Currently filtering ERR833279_1 and appending to GS009_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 36,932
+	Input bases: 30,972,889
+	Input mean length: 838.65
+	Good sequences: 36,917 (99.96%)
+	Good bases: 30,960,757
+	Good mean length: 838.66
+	Bad sequences: 15 (0.04%)
+	Bad bases: 12,132
+	Bad mean length: 808.80
+	Sequences filtered by specified parameters:
+	derep: 15
+Currently filtering ERR833301_2 and appending to GS027_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 107,636
+	Input bases: 88,160,659
+	Input mean length: 819.06
+	Good sequences: 107,625 (99.99%)
+	Good bases: 88,151,726
+	Good mean length: 819.06
+	Bad sequences: 11 (0.01%)
+	Bad bases: 8,933
+	Bad mean length: 812.09
+	Sequences filtered by specified parameters:
+	derep: 11
+Currently filtering ERR833301_1 and appending to GS027_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 107,636
+	Input bases: 89,148,397
+	Input mean length: 828.24
+	Good sequences: 107,626 (99.99%)
+	Good bases: 89,140,179
+	Good mean length: 828.24
+	Bad sequences: 10 (0.01%)
+	Bad bases: 8,218
+	Bad mean length: 821.80
+	Sequences filtered by specified parameters:
+	derep: 10
+Currently filtering ERR833448_2 and appending to GS120_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 22,088
+	Input bases: 16,541,105
+	Input mean length: 748.87
+	Good sequences: 21,951 (99.38%)
+	Good bases: 16,529,386
+	Good mean length: 753.01
+	Bad sequences: 137 (0.62%)
+	Bad bases: 11,719
+	Bad mean length: 85.54
+	Sequences filtered by specified parameters:
+	min_len: 136
+	derep: 1
+Currently filtering ERR833448_1 and appending to GS120_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 22,088
+	Input bases: 17,361,430
+	Input mean length: 786.01
+	Good sequences: 21,937 (99.32%)
+	Good bases: 17,349,200
+	Good mean length: 790.86
+	Bad sequences: 151 (0.68%)
+	Bad bases: 12,230
+	Bad mean length: 80.99
+	Sequences filtered by specified parameters:
+	min_len: 151
+Currently filtering SRR062207_2 and appending to GS349_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 290,759
+	Input bases: 140,924,943
+	Input mean length: 484.68
+	Good sequences: 109,454 (37.64%)
+	Good bases: 56,623,589
+	Good mean length: 517.33
+	Bad sequences: 181,305 (62.36%)
+	Bad bases: 84,301,354
+	Bad mean length: 464.97
+	Sequences filtered by specified parameters:
+	min_len: 615
+	ns_max_n: 169947
+	lc_method: 9914
+	derep: 829
+Currently filtering SRR062142_2 and appending to GS349_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 579,107
+	Input bases: 320,925,857
+	Input mean length: 554.17
+	Good sequences: 158,145 (27.31%)
+	Good bases: 90,108,436
+	Good mean length: 569.78
+	Bad sequences: 420,962 (72.69%)
+	Bad bases: 230,817,421
+	Bad mean length: 548.31
+	Sequences filtered by specified parameters:
+	min_len: 279
+	ns_max_n: 419853
+	lc_method: 817
+	derep: 13
+Currently filtering SRR062142_1 and appending to GS349_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 579,107
+	Input bases: 2,316,428
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 579,107 (100.00%)
+	Bad bases: 2,316,428
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 579107
+Currently filtering SRR062207_1 and appending to GS349_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 290,759
+	Input bases: 1,163,036
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 290,759 (100.00%)
+	Bad bases: 1,163,036
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 290759
+Currently filtering SRR062208_1 and appending to GS349_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 257,370
+	Input bases: 1,029,480
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 257,370 (100.00%)
+	Bad bases: 1,029,480
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 257370
+Currently filtering SRR062208_2 and appending to GS349_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 257,370
+	Input bases: 130,137,130
+	Input mean length: 505.64
+	Good sequences: 113,923 (44.26%)
+	Good bases: 59,598,697
+	Good mean length: 523.15
+	Bad sequences: 143,447 (55.74%)
+	Bad bases: 70,538,433
+	Bad mean length: 491.74
+	Sequences filtered by specified parameters:
+	min_len: 199
+	ns_max_n: 141237
+	lc_method: 1283
+	derep: 728
+Currently filtering SRR062141_2 and appending to GS348_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 315,251
+	Input bases: 158,838,085
+	Input mean length: 503.85
+	Good sequences: 141,140 (44.77%)
+	Good bases: 74,381,986
+	Good mean length: 527.01
+	Bad sequences: 174,111 (55.23%)
+	Bad bases: 84,456,099
+	Bad mean length: 485.07
+	Sequences filtered by specified parameters:
+	min_len: 326
+	ns_max_n: 170004
+	lc_method: 3425
+	derep: 356
+Currently filtering SRR062206_1 and appending to GS348_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 471,696
+	Input bases: 1,886,784
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 471,696 (100.00%)
+	Bad bases: 1,886,784
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 471696
+Currently filtering SRR062141_1 and appending to GS348_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 315,251
+	Input bases: 1,261,004
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 315,251 (100.00%)
+	Bad bases: 1,261,004
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 315251
+Currently filtering SRR062206_2 and appending to GS348_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 471,696
+	Input bases: 260,314,609
+	Input mean length: 551.87
+	Good sequences: 253,167 (53.67%)
+	Good bases: 139,912,802
+	Good mean length: 552.65
+	Bad sequences: 218,529 (46.33%)
+	Bad bases: 120,401,807
+	Bad mean length: 550.96
+	Sequences filtered by specified parameters:
+	min_len: 611
+	ns_max_n: 212678
+	lc_method: 4277
+	derep: 963
+Currently filtering SRR062140_1 and appending to GS348_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 247,204
+	Input bases: 988,816
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 247,204 (100.00%)
+	Bad bases: 988,816
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 247204
+Currently filtering SRR062140_2 and appending to GS348_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 247,204
+	Input bases: 118,640,629
+	Input mean length: 479.93
+	Good sequences: 89,159 (36.07%)
+	Good bases: 46,205,217
+	Good mean length: 518.23
+	Bad sequences: 158,045 (63.93%)
+	Bad bases: 72,435,412
+	Bad mean length: 458.32
+	Sequences filtered by specified parameters:
+	min_len: 290
+	ns_max_n: 151363
+	lc_method: 6115
+	derep: 277
+Currently filtering ERR833456_1 and appending to GS123_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 52,690
+	Input bases: 43,770,662
+	Input mean length: 830.72
+	Good sequences: 52,486 (99.61%)
+	Good bases: 43,747,543
+	Good mean length: 833.51
+	Bad sequences: 204 (0.39%)
+	Bad bases: 23,119
+	Bad mean length: 113.33
+	Sequences filtered by specified parameters:
+	min_len: 195
+	derep: 9
+Currently filtering ERR833456_2 and appending to GS123_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 52,690
+	Input bases: 43,458,779
+	Input mean length: 824.80
+	Good sequences: 52,408 (99.46%)
+	Good bases: 43,428,110
+	Good mean length: 828.65
+	Bad sequences: 282 (0.54%)
+	Bad bases: 30,669
+	Bad mean length: 108.76
+	Sequences filtered by specified parameters:
+	min_len: 271
+	derep: 11
+Currently filtering SRR062223_1 and appending to GS358_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 236,094
+	Input bases: 944,376
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 236,094 (100.00%)
+	Bad bases: 944,376
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 236094
+Currently filtering SRR062155_2 and appending to GS358_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 556,007
+	Input bases: 308,679,021
+	Input mean length: 555.17
+	Good sequences: 181,471 (32.64%)
+	Good bases: 101,674,877
+	Good mean length: 560.28
+	Bad sequences: 374,536 (67.36%)
+	Bad bases: 207,004,144
+	Bad mean length: 552.69
+	Sequences filtered by specified parameters:
+	min_len: 175
+	ns_max_n: 373320
+	lc_method: 914
+	derep: 127
+Currently filtering SRR062222_2 and appending to GS358_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 224,187
+	Input bases: 118,808,081
+	Input mean length: 529.95
+	Good sequences: 84,282 (37.59%)
+	Good bases: 45,349,793
+	Good mean length: 538.07
+	Bad sequences: 139,905 (62.41%)
+	Bad bases: 73,458,288
+	Bad mean length: 525.06
+	Sequences filtered by specified parameters:
+	min_len: 408
+	ns_max_n: 133637
+	lc_method: 5790
+	derep: 70
+Currently filtering SRR062223_2 and appending to GS358_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 236,094
+	Input bases: 125,250,726
+	Input mean length: 530.51
+	Good sequences: 81,861 (34.67%)
+	Good bases: 44,560,436
+	Good mean length: 544.34
+	Bad sequences: 154,233 (65.33%)
+	Bad bases: 80,690,290
+	Bad mean length: 523.17
+	Sequences filtered by specified parameters:
+	min_len: 235
+	ns_max_n: 153263
+	lc_method: 664
+	derep: 71
+Currently filtering SRR062222_1 and appending to GS358_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 224,187
+	Input bases: 896,748
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 224,187 (100.00%)
+	Bad bases: 896,748
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 224187
+Currently filtering SRR062155_1 and appending to GS358_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 556,007
+	Input bases: 2,224,028
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 556,007 (100.00%)
+	Bad bases: 2,224,028
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 556007
+Currently filtering ERR833276_1 and appending to GS006_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 21,615
+	Input bases: 18,318,074
+	Input mean length: 847.47
+	Good sequences: 21,585 (99.86%)
+	Good bases: 18,294,331
+	Good mean length: 847.55
+	Bad sequences: 30 (0.14%)
+	Bad bases: 23,743
+	Bad mean length: 791.43
+	Sequences filtered by specified parameters:
+	min_len: 1
+	derep: 29
+Currently filtering ERR833276_2 and appending to GS006_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 21,615
+	Input bases: 18,283,945
+	Input mean length: 845.89
+	Good sequences: 21,592 (99.89%)
+	Good bases: 18,269,072
+	Good mean length: 846.10
+	Bad sequences: 23 (0.11%)
+	Bad bases: 14,873
+	Bad mean length: 646.65
+	Sequences filtered by specified parameters:
+	min_len: 5
+	derep: 18
+Currently filtering P4_j and appending to NESAP_P4_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 13,374
+	Input bases: 8,397,806
+	Input mean length: 627.92
+	Good sequences: 13,362 (99.91%)
+	Good bases: 8,392,189
+	Good mean length: 628.06
+	Bad sequences: 12 (0.09%)
+	Bad bases: 5,617
+	Bad mean length: 468.08
+	Sequences filtered by specified parameters:
+	ns_max_n: 7
+	derep: 5
+Currently filtering P4_f and appending to NESAP_P4_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 14,275
+	Input bases: 9,538,689
+	Input mean length: 668.21
+	Good sequences: 13,971 (97.87%)
+	Good bases: 9,328,673
+	Good mean length: 667.72
+	Bad sequences: 304 (2.13%)
+	Bad bases: 210,016
+	Bad mean length: 690.84
+	Sequences filtered by specified parameters:
+	ns_max_n: 3
+	derep: 301
+Currently filtering P4_a and appending to NESAP_P4_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 12,158
+	Input bases: 7,285,006
+	Input mean length: 599.19
+	Good sequences: 12,151 (99.94%)
+	Good bases: 7,281,286
+	Good mean length: 599.23
+	Bad sequences: 7 (0.06%)
+	Bad bases: 3,720
+	Bad mean length: 531.43
+	Sequences filtered by specified parameters:
+	ns_max_n: 2
+	derep: 5
+Currently filtering ERR833285_2 and appending to GS013_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 66,634
+	Input bases: 51,667,504
+	Input mean length: 775.39
+	Good sequences: 66,621 (99.98%)
+	Good bases: 51,658,419
+	Good mean length: 775.41
+	Bad sequences: 13 (0.02%)
+	Bad bases: 9,085
+	Bad mean length: 698.85
+	Sequences filtered by specified parameters:
+	derep: 13
+Currently filtering ERR833285_1 and appending to GS013_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 66,634
+	Input bases: 53,309,462
+	Input mean length: 800.03
+	Good sequences: 66,610 (99.96%)
+	Good bases: 53,290,797
+	Good mean length: 800.04
+	Bad sequences: 24 (0.04%)
+	Bad bases: 18,665
+	Bad mean length: 777.71
+	Sequences filtered by specified parameters:
+	derep: 24
+Currently filtering ERR833449_2 and appending to GS121_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 54,538
+	Input bases: 46,515,628
+	Input mean length: 852.90
+	Good sequences: 54,380 (99.71%)
+	Good bases: 46,501,562
+	Good mean length: 855.12
+	Bad sequences: 158 (0.29%)
+	Bad bases: 14,066
+	Bad mean length: 89.03
+	Sequences filtered by specified parameters:
+	min_len: 156
+	derep: 2
+Currently filtering ERR833449_1 and appending to GS121_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 54,538
+	Input bases: 47,207,652
+	Input mean length: 865.59
+	Good sequences: 54,394 (99.74%)
+	Good bases: 47,195,350
+	Good mean length: 867.66
+	Bad sequences: 144 (0.26%)
+	Bad bases: 12,302
+	Bad mean length: 85.43
+	Sequences filtered by specified parameters:
+	min_len: 143
+	derep: 1
+Currently filtering ERR833287_1 and appending to GS015_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 53,578
+	Input bases: 45,252,604
+	Input mean length: 844.61
+	Good sequences: 53,573 (99.99%)
+	Good bases: 45,248,805
+	Good mean length: 844.62
+	Bad sequences: 5 (0.01%)
+	Bad bases: 3,799
+	Bad mean length: 759.80
+	Sequences filtered by specified parameters:
+	derep: 5
+Currently filtering ERR833287_2 and appending to GS015_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 53,578
+	Input bases: 44,386,046
+	Input mean length: 828.44
+	Good sequences: 53,573 (99.99%)
+	Good bases: 44,381,900
+	Good mean length: 828.44
+	Bad sequences: 5 (0.01%)
+	Bad bases: 4,146
+	Bad mean length: 829.20
+	Sequences filtered by specified parameters:
+	derep: 5
+Currently filtering SRR062264_2 and appending to GS394_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 310,548
+	Input bases: 161,317,735
+	Input mean length: 519.46
+	Good sequences: 148,156 (47.71%)
+	Good bases: 78,762,688
+	Good mean length: 531.62
+	Bad sequences: 162,392 (52.29%)
+	Bad bases: 82,555,047
+	Bad mean length: 508.37
+	Sequences filtered by specified parameters:
+	min_len: 433
+	ns_max_n: 151927
+	lc_method: 9461
+	derep: 571
+Currently filtering SRR062198_2 and appending to GS394_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 485,801
+	Input bases: 304,069,767
+	Input mean length: 625.91
+	Good sequences: 48,206 (9.92%)
+	Good bases: 30,400,996
+	Good mean length: 630.65
+	Bad sequences: 437,595 (90.08%)
+	Bad bases: 273,668,771
+	Bad mean length: 625.39
+	Sequences filtered by specified parameters:
+	min_len: 803
+	ns_max_n: 434518
+	lc_method: 2274
+Currently filtering SRR062129_1 and appending to GS394_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 196,343
+	Input bases: 785,372
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 196,343 (100.00%)
+	Bad bases: 785,372
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 196343
+Currently filtering SRR062198_1 and appending to GS394_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 485,801
+	Input bases: 1,943,204
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 485,801 (100.00%)
+	Bad bases: 1,943,204
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 485801
+Currently filtering SRR062129_2 and appending to GS394_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 196,343
+	Input bases: 104,217,729
+	Input mean length: 530.79
+	Good sequences: 114,549 (58.34%)
+	Good bases: 61,078,599
+	Good mean length: 533.21
+	Bad sequences: 81,794 (41.66%)
+	Bad bases: 43,139,130
+	Bad mean length: 527.41
+	Sequences filtered by specified parameters:
+	min_len: 116
+	ns_max_n: 80495
+	lc_method: 794
+	derep: 389
+Currently filtering SRR062264_1 and appending to GS394_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 310,548
+	Input bases: 1,242,192
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 310,548 (100.00%)
+	Bad bases: 1,242,192
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 310548
+Currently filtering SRR062163_2 and appending to GS364_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 600,563
+	Input bases: 328,917,817
+	Input mean length: 547.68
+	Good sequences: 164,077 (27.32%)
+	Good bases: 92,522,455
+	Good mean length: 563.90
+	Bad sequences: 436,486 (72.68%)
+	Bad bases: 236,395,362
+	Bad mean length: 541.59
+	Sequences filtered by specified parameters:
+	min_len: 199
+	ns_max_n: 435202
+	lc_method: 1038
+	derep: 47
+Currently filtering SRR062234_1 and appending to GS364_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 283,188
+	Input bases: 1,132,752
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 283,188 (100.00%)
+	Bad bases: 1,132,752
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 283188
+Currently filtering SRR062235_2 and appending to GS364_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 208,948
+	Input bases: 106,909,789
+	Input mean length: 511.66
+	Good sequences: 110,808 (53.03%)
+	Good bases: 57,488,003
+	Good mean length: 518.81
+	Bad sequences: 98,140 (46.97%)
+	Bad bases: 49,421,786
+	Bad mean length: 503.58
+	Sequences filtered by specified parameters:
+	min_len: 246
+	ns_max_n: 96509
+	lc_method: 1040
+	derep: 345
+Currently filtering SRR062235_1 and appending to GS364_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 208,948
+	Input bases: 835,792
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 208,948 (100.00%)
+	Bad bases: 835,792
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 208948
+Currently filtering SRR062163_1 and appending to GS364_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 600,563
+	Input bases: 2,402,252
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 600,563 (100.00%)
+	Bad bases: 2,402,252
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 600563
+Currently filtering SRR062234_2 and appending to GS364_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 283,188
+	Input bases: 143,695,718
+	Input mean length: 507.42
+	Good sequences: 136,245 (48.11%)
+	Good bases: 71,090,486
+	Good mean length: 521.78
+	Bad sequences: 146,943 (51.89%)
+	Bad bases: 72,605,232
+	Bad mean length: 494.10
+	Sequences filtered by specified parameters:
+	min_len: 489
+	ns_max_n: 139913
+	lc_method: 6186
+	derep: 355
+Currently filtering ERR833415_2 and appending to GS111_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 28,568
+	Input bases: 24,072,518
+	Input mean length: 842.64
+	Good sequences: 28,403 (99.42%)
+	Good bases: 24,059,347
+	Good mean length: 847.07
+	Bad sequences: 165 (0.58%)
+	Bad bases: 13,171
+	Bad mean length: 79.82
+	Sequences filtered by specified parameters:
+	min_len: 165
+Currently filtering ERR833415_1 and appending to GS111_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 28,568
+	Input bases: 23,982,784
+	Input mean length: 839.50
+	Good sequences: 28,398 (99.40%)
+	Good bases: 23,968,132
+	Good mean length: 844.01
+	Bad sequences: 170 (0.60%)
+	Bad bases: 14,652
+	Bad mean length: 86.19
+	Sequences filtered by specified parameters:
+	min_len: 169
+	derep: 1
+Currently filtering ERR091531_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 401,238
+	Input bases: 194,036,110
+	Input mean length: 483.59
+	Good sequences: 78,701 (19.61%)
+	Good bases: 42,809,160
+	Good mean length: 543.95
+	Bad sequences: 322,537 (80.39%)
+	Bad bases: 151,226,950
+	Bad mean length: 468.87
+	Sequences filtered by specified parameters:
+	min_len: 173
+	ns_max_n: 321092
+	lc_method: 1086
+	derep: 186
+Currently filtering ERR091540_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 460,283
+	Input bases: 18,411,320
+	Input mean length: 40.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 460,283 (100.00%)
+	Bad bases: 18,411,320
+	Bad mean length: 40.00
+	Sequences filtered by specified parameters:
+	min_len: 460283
+Currently filtering ERR091537_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 565,179
+	Input bases: 2,260,716
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 565,179 (100.00%)
+	Bad bases: 2,260,716
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 565179
+Currently filtering ERR091555_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 688,425
+	Input bases: 372,732,602
+	Input mean length: 541.43
+	Good sequences: 347,700 (50.51%)
+	Good bases: 187,809,010
+	Good mean length: 540.15
+	Bad sequences: 340,725 (49.49%)
+	Bad bases: 184,923,592
+	Bad mean length: 542.74
+	Sequences filtered by specified parameters:
+	min_len: 383
+	ns_max_n: 338453
+	lc_method: 966
+	derep: 923
+Currently filtering ERR091556_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 642,936
+	Input bases: 30,217,992
+	Input mean length: 47.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 642,936 (100.00%)
+	Bad bases: 30,217,992
+	Bad mean length: 47.00
+	Sequences filtered by specified parameters:
+	min_len: 642936
+Currently filtering ERR091540_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 460,283
+	Input bases: 1,841,132
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 460,283 (100.00%)
+	Bad bases: 1,841,132
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 460283
+Currently filtering ERR091544_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 660,659
+	Input bases: 2,642,636
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 660,659 (100.00%)
+	Bad bases: 2,642,636
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 660659
+Currently filtering ERR091541_3 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 593,970
+	Input bases: 342,002,436
+	Input mean length: 575.79
+	Good sequences: 200,846 (33.81%)
+	Good bases: 116,036,476
+	Good mean length: 577.74
+	Bad sequences: 393,124 (66.19%)
+	Bad bases: 225,965,960
+	Bad mean length: 574.80
+	Sequences filtered by specified parameters:
+	min_len: 2359
+	ns_max_n: 388088
+	lc_method: 2669
+	derep: 8
+Currently filtering ERR091523_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 570,153
+	Input bases: 2,280,612
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 570,153 (100.00%)
+	Bad bases: 2,280,612
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 570153
+Currently filtering ERR091526_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 181,069
+	Input bases: 80,316,547
+	Input mean length: 443.57
+	Good sequences: 33,867 (18.70%)
+	Good bases: 16,350,408
+	Good mean length: 482.78
+	Bad sequences: 147,202 (81.30%)
+	Bad bases: 63,966,139
+	Bad mean length: 434.55
+	Sequences filtered by specified parameters:
+	min_len: 95
+	ns_max_n: 145597
+	lc_method: 582
+	derep: 928
+Currently filtering ERR091525_3 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 37
+	Input bases: 1,554
+	Input mean length: 42.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 37 (100.00%)
+	Bad bases: 1,554
+	Bad mean length: 42.00
+	Sequences filtered by specified parameters:
+	min_len: 37
+Currently filtering ERR091553_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 566,912
+	Input bases: 247,598,575
+	Input mean length: 436.75
+	Good sequences: 84,088 (14.83%)
+	Good bases: 44,310,902
+	Good mean length: 526.96
+	Bad sequences: 482,824 (85.17%)
+	Bad bases: 203,287,673
+	Bad mean length: 421.04
+	Sequences filtered by specified parameters:
+	min_len: 134
+	ns_max_n: 482016
+	lc_method: 486
+	derep: 188
+Currently filtering ERR091525_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 265,319
+	Input bases: 121,882,948
+	Input mean length: 459.38
+	Good sequences: 52,742 (19.88%)
+	Good bases: 27,400,887
+	Good mean length: 519.53
+	Bad sequences: 212,577 (80.12%)
+	Bad bases: 94,482,061
+	Bad mean length: 444.46
+	Sequences filtered by specified parameters:
+	min_len: 96
+	ns_max_n: 210416
+	lc_method: 1118
+	derep: 947
+Currently filtering ERR091538_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 577,685
+	Input bases: 2,310,740
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 577,685 (100.00%)
+	Bad bases: 2,310,740
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 577685
+Currently filtering ERR091534_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 500,354
+	Input bases: 226,573,893
+	Input mean length: 452.83
+	Good sequences: 73,252 (14.64%)
+	Good bases: 40,094,634
+	Good mean length: 547.35
+	Bad sequences: 427,102 (85.36%)
+	Bad bases: 186,479,259
+	Bad mean length: 436.62
+	Sequences filtered by specified parameters:
+	min_len: 203
+	ns_max_n: 425987
+	lc_method: 740
+	derep: 172
+Currently filtering ERR091522_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 671,375
+	Input bases: 381,301,323
+	Input mean length: 567.94
+	Good sequences: 171,339 (25.52%)
+	Good bases: 98,674,523
+	Good mean length: 575.90
+	Bad sequences: 500,036 (74.48%)
+	Bad bases: 282,626,800
+	Bad mean length: 565.21
+	Sequences filtered by specified parameters:
+	min_len: 203
+	ns_max_n: 497761
+	lc_method: 1918
+	derep: 154
+Currently filtering ERR091539_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 414,121
+	Input bases: 1,656,484
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 414,121 (100.00%)
+	Bad bases: 1,656,484
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 414121
+Currently filtering ERR091556_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 642,936
+	Input bases: 2,571,744
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 642,936 (100.00%)
+	Bad bases: 2,571,744
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 642936
+Currently filtering ERR091532_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 565,042
+	Input bases: 248,639,420
+	Input mean length: 440.04
+	Good sequences: 77,569 (13.73%)
+	Good bases: 41,569,512
+	Good mean length: 535.90
+	Bad sequences: 487,473 (86.27%)
+	Bad bases: 207,069,908
+	Bad mean length: 424.78
+	Sequences filtered by specified parameters:
+	min_len: 221
+	ns_max_n: 486490
+	lc_method: 531
+	derep: 231
+Currently filtering ERR091530_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 401,139
+	Input bases: 194,853,204
+	Input mean length: 485.75
+	Good sequences: 85,275 (21.26%)
+	Good bases: 46,410,881
+	Good mean length: 544.25
+	Bad sequences: 315,864 (78.74%)
+	Bad bases: 148,442,323
+	Bad mean length: 469.96
+	Sequences filtered by specified parameters:
+	min_len: 164
+	ns_max_n: 314444
+	lc_method: 1052
+	derep: 204
+Currently filtering ERR091542_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 620,954
+	Input bases: 2,483,816
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 620,954 (100.00%)
+	Bad bases: 2,483,816
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 620954
+Currently filtering ERR091554_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 553,160
+	Input bases: 2,212,640
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 553,160 (100.00%)
+	Bad bases: 2,212,640
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 553160
+Currently filtering ERR091529_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 165,931
+	Input bases: 663,724
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 165,931 (100.00%)
+	Bad bases: 663,724
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 165931
+Currently filtering ERR091554_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 553,160
+	Input bases: 240,852,549
+	Input mean length: 435.41
+	Good sequences: 93,709 (16.94%)
+	Good bases: 48,597,849
+	Good mean length: 518.60
+	Bad sequences: 459,451 (83.06%)
+	Bad bases: 192,254,700
+	Bad mean length: 418.44
+	Sequences filtered by specified parameters:
+	min_len: 110
+	ns_max_n: 458488
+	lc_method: 524
+	derep: 329
+Currently filtering ERR091527_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 612,264
+	Input bases: 286,881,654
+	Input mean length: 468.56
+	Good sequences: 130,214 (21.27%)
+	Good bases: 70,908,730
+	Good mean length: 544.56
+	Bad sequences: 482,050 (78.73%)
+	Bad bases: 215,972,924
+	Bad mean length: 448.03
+	Sequences filtered by specified parameters:
+	min_len: 250
+	ns_max_n: 480823
+	lc_method: 697
+	derep: 280
+Currently filtering ERR091543_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 695,590
+	Input bases: 2,782,360
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 695,590 (100.00%)
+	Bad bases: 2,782,360
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 695590
+Currently filtering ERR091557_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 688,906
+	Input bases: 375,082,514
+	Input mean length: 544.46
+	Good sequences: 351,940 (51.09%)
+	Good bases: 191,070,407
+	Good mean length: 542.91
+	Bad sequences: 336,966 (48.91%)
+	Bad bases: 184,012,107
+	Bad mean length: 546.09
+	Sequences filtered by specified parameters:
+	min_len: 355
+	ns_max_n: 334770
+	lc_method: 997
+	derep: 844
+Currently filtering ERR091528_3 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 133,185
+	Input bases: 58,648,998
+	Input mean length: 440.36
+	Good sequences: 38,554 (28.95%)
+	Good bases: 17,907,473
+	Good mean length: 464.48
+	Bad sequences: 94,631 (71.05%)
+	Bad bases: 40,741,525
+	Bad mean length: 430.53
+	Sequences filtered by specified parameters:
+	min_len: 218
+	ns_max_n: 92814
+	lc_method: 474
+	derep: 1125
+Currently filtering ERR091535_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 522,051
+	Input bases: 240,589,261
+	Input mean length: 460.85
+	Good sequences: 102,228 (19.58%)
+	Good bases: 52,407,723
+	Good mean length: 512.66
+	Bad sequences: 419,823 (80.42%)
+	Bad bases: 188,181,538
+	Bad mean length: 448.24
+	Sequences filtered by specified parameters:
+	min_len: 134
+	ns_max_n: 418693
+	lc_method: 644
+	derep: 352
+Currently filtering ERR091536_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 521,183
+	Input bases: 239,496,532
+	Input mean length: 459.52
+	Good sequences: 118,017 (22.64%)
+	Good bases: 58,725,711
+	Good mean length: 497.60
+	Bad sequences: 403,166 (77.36%)
+	Bad bases: 180,770,821
+	Bad mean length: 448.38
+	Sequences filtered by specified parameters:
+	min_len: 137
+	ns_max_n: 401999
+	lc_method: 640
+	derep: 390
+Currently filtering ERR091542_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 620,954
+	Input bases: 377,666,616
+	Input mean length: 608.20
+	Good sequences: 215,679 (34.73%)
+	Good bases: 131,223,332
+	Good mean length: 608.42
+	Bad sequences: 405,275 (65.27%)
+	Bad bases: 246,443,284
+	Bad mean length: 608.09
+	Sequences filtered by specified parameters:
+	min_len: 880
+	ns_max_n: 402419
+	lc_method: 1955
+	derep: 21
+Currently filtering ERR091533_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 565,651
+	Input bases: 2,262,604
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 565,651 (100.00%)
+	Bad bases: 2,262,604
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 565651
+Currently filtering ERR091541_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 593,970
+	Input bases: 2,375,880
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 593,970 (100.00%)
+	Bad bases: 2,375,880
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 593970
+Currently filtering ERR091525_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 265,319
+	Input bases: 1,061,276
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 265,319 (100.00%)
+	Bad bases: 1,061,276
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 265319
+Currently filtering ERR091553_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 566,912
+	Input bases: 2,267,648
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 566,912 (100.00%)
+	Bad bases: 2,267,648
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 566912
+Currently filtering ERR091557_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 688,906
+	Input bases: 2,755,624
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 688,906 (100.00%)
+	Bad bases: 2,755,624
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 688906
+Currently filtering ERR091532_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 565,042
+	Input bases: 2,260,168
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 565,042 (100.00%)
+	Bad bases: 2,260,168
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 565042
+Currently filtering ERR091539_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 414,121
+	Input bases: 180,273,668
+	Input mean length: 435.32
+	Good sequences: 50,307 (12.15%)
+	Good bases: 26,780,319
+	Good mean length: 532.34
+	Bad sequences: 363,814 (87.85%)
+	Bad bases: 153,493,349
+	Bad mean length: 421.90
+	Sequences filtered by specified parameters:
+	min_len: 148
+	ns_max_n: 362958
+	lc_method: 691
+	derep: 17
+Currently filtering ERR091524_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 574,641
+	Input bases: 269,335,594
+	Input mean length: 468.70
+	Good sequences: 51,168 (8.90%)
+	Good bases: 29,542,306
+	Good mean length: 577.36
+	Bad sequences: 523,473 (91.10%)
+	Bad bases: 239,793,288
+	Bad mean length: 458.08
+	Sequences filtered by specified parameters:
+	min_len: 161
+	ns_max_n: 521301
+	lc_method: 1974
+	derep: 37
+Currently filtering ERR091556_3 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 642,936
+	Input bases: 318,800,369
+	Input mean length: 495.85
+	Good sequences: 357,288 (55.57%)
+	Good bases: 176,339,155
+	Good mean length: 493.55
+	Bad sequences: 285,648 (44.43%)
+	Bad bases: 142,461,214
+	Bad mean length: 498.73
+	Sequences filtered by specified parameters:
+	min_len: 1308
+	ns_max_n: 281972
+	lc_method: 1372
+	derep: 996
+Currently filtering ERR091529_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 165,931
+	Input bases: 79,433,063
+	Input mean length: 478.71
+	Good sequences: 49,274 (29.70%)
+	Good bases: 24,916,730
+	Good mean length: 505.68
+	Bad sequences: 116,657 (70.30%)
+	Bad bases: 54,516,333
+	Bad mean length: 467.32
+	Sequences filtered by specified parameters:
+	min_len: 96
+	ns_max_n: 114410
+	lc_method: 480
+	derep: 1671
+Currently filtering ERR091558_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 694,163
+	Input bases: 377,188,779
+	Input mean length: 543.37
+	Good sequences: 378,730 (54.56%)
+	Good bases: 205,043,240
+	Good mean length: 541.40
+	Bad sequences: 315,433 (45.44%)
+	Bad bases: 172,145,539
+	Bad mean length: 545.74
+	Sequences filtered by specified parameters:
+	min_len: 375
+	ns_max_n: 312509
+	lc_method: 1097
+	derep: 1452
+Currently filtering ERR091543_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 695,590
+	Input bases: 450,382,614
+	Input mean length: 647.48
+	Good sequences: 202,841 (29.16%)
+	Good bases: 133,092,956
+	Good mean length: 656.14
+	Bad sequences: 492,749 (70.84%)
+	Bad bases: 317,289,658
+	Bad mean length: 643.92
+	Sequences filtered by specified parameters:
+	min_len: 1029
+	ns_max_n: 486808
+	lc_method: 4906
+	derep: 6
+Currently filtering ERR091558_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 694,163
+	Input bases: 2,776,652
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 694,163 (100.00%)
+	Bad bases: 2,776,652
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 694163
+Currently filtering ERR091537_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 565,179
+	Input bases: 248,522,530
+	Input mean length: 439.72
+	Good sequences: 98,026 (17.34%)
+	Good bases: 50,955,907
+	Good mean length: 519.82
+	Bad sequences: 467,153 (82.66%)
+	Bad bases: 197,566,623
+	Bad mean length: 422.92
+	Sequences filtered by specified parameters:
+	min_len: 189
+	ns_max_n: 465438
+	lc_method: 1464
+	derep: 62
+Currently filtering ERR091534_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 500,354
+	Input bases: 2,001,416
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 500,354 (100.00%)
+	Bad bases: 2,001,416
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 500354
+Currently filtering ERR091538_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 577,685
+	Input bases: 254,082,977
+	Input mean length: 439.83
+	Good sequences: 110,345 (19.10%)
+	Good bases: 56,286,287
+	Good mean length: 510.09
+	Bad sequences: 467,340 (80.90%)
+	Bad bases: 197,796,690
+	Bad mean length: 423.24
+	Sequences filtered by specified parameters:
+	min_len: 204
+	ns_max_n: 465415
+	lc_method: 1511
+	derep: 210
+Currently filtering ERR091528_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 133,185
+	Input bases: 5,993,325
+	Input mean length: 45.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 133,185 (100.00%)
+	Bad bases: 5,993,325
+	Bad mean length: 45.00
+	Sequences filtered by specified parameters:
+	min_len: 133185
+Currently filtering ERR091540_3 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 460,283
+	Input bases: 183,539,721
+	Input mean length: 398.75
+	Good sequences: 66,360 (14.42%)
+	Good bases: 32,414,951
+	Good mean length: 488.47
+	Bad sequences: 393,923 (85.58%)
+	Bad bases: 151,124,770
+	Bad mean length: 383.64
+	Sequences filtered by specified parameters:
+	min_len: 898
+	ns_max_n: 392113
+	lc_method: 882
+	derep: 30
+Currently filtering ERR091541_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 593,970
+	Input bases: 23,758,800
+	Input mean length: 40.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 593,970 (100.00%)
+	Bad bases: 23,758,800
+	Bad mean length: 40.00
+	Sequences filtered by specified parameters:
+	min_len: 593970
+Currently filtering ERR091526_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 181,069
+	Input bases: 724,276
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 181,069 (100.00%)
+	Bad bases: 724,276
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 181069
+Currently filtering ERR091544_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 660,659
+	Input bases: 418,165,379
+	Input mean length: 632.95
+	Good sequences: 220,198 (33.33%)
+	Good bases: 140,284,954
+	Good mean length: 637.09
+	Bad sequences: 440,461 (66.67%)
+	Bad bases: 277,880,425
+	Bad mean length: 630.89
+	Sequences filtered by specified parameters:
+	min_len: 1034
+	ns_max_n: 434967
+	lc_method: 4452
+	derep: 8
+Currently filtering ERR091555_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 688,425
+	Input bases: 2,753,700
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 688,425 (100.00%)
+	Bad bases: 2,753,700
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 688425
+Currently filtering ERR091528_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 133,185
+	Input bases: 532,740
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 133,185 (100.00%)
+	Bad bases: 532,740
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 133185
+Currently filtering ERR091531_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 401,238
+	Input bases: 1,604,952
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 401,238 (100.00%)
+	Bad bases: 1,604,952
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 401238
+Currently filtering ERR091535_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 522,051
+	Input bases: 2,088,204
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 522,051 (100.00%)
+	Bad bases: 2,088,204
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 522051
+Currently filtering ERR091530_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 401,139
+	Input bases: 1,604,556
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 401,139 (100.00%)
+	Bad bases: 1,604,556
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 401139
+Currently filtering ERR091524_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 574,641
+	Input bases: 2,298,564
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 574,641 (100.00%)
+	Bad bases: 2,298,564
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 574641
+Currently filtering ERR091527_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 612,264
+	Input bases: 2,449,056
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 612,264 (100.00%)
+	Bad bases: 2,449,056
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 612264
+Currently filtering ERR091525_4 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 37
+	Input bases: 7,475
+	Input mean length: 202.03
+	Good sequences: 4 (10.81%)
+	Good bases: 1,114
+	Good mean length: 278.50
+	Bad sequences: 33 (89.19%)
+	Bad bases: 6,361
+	Bad mean length: 192.76
+	Sequences filtered by specified parameters:
+	min_len: 4
+	ns_max_n: 29
+Currently filtering ERR091523_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 570,153
+	Input bases: 257,176,544
+	Input mean length: 451.07
+	Good sequences: 40,921 (7.18%)
+	Good bases: 23,546,025
+	Good mean length: 575.40
+	Bad sequences: 529,232 (92.82%)
+	Bad bases: 233,630,519
+	Bad mean length: 441.45
+	Sequences filtered by specified parameters:
+	min_len: 201
+	ns_max_n: 527071
+	lc_method: 1910
+	derep: 50
+Currently filtering ERR091522_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 671,375
+	Input bases: 2,685,500
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 671,375 (100.00%)
+	Bad bases: 2,685,500
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 671375
+Currently filtering ERR091536_1 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 521,183
+	Input bases: 2,084,732
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 521,183 (100.00%)
+	Bad bases: 2,084,732
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 521183
+Currently filtering ERR091533_2 and appending to HI_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 565,651
+	Input bases: 254,533,610
+	Input mean length: 449.98
+	Good sequences: 89,273 (15.78%)
+	Good bases: 48,248,218
+	Good mean length: 540.46
+	Bad sequences: 476,378 (84.22%)
+	Bad bases: 206,285,392
+	Bad mean length: 433.03
+	Sequences filtered by specified parameters:
+	min_len: 200
+	ns_max_n: 475173
+	lc_method: 845
+	derep: 160
+Currently filtering ERR833299_1 and appending to GS026_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 624
+	Input bases: 478,500
+	Input mean length: 766.83
+	Good sequences: 624 (100.00%)
+	Good bases: 478,500
+	Good mean length: 766.83
+	Bad sequences: 0 (0.00%)
+	Sequences filtered by specified parameters:
+	none
+Currently filtering ERR833299_2 and appending to GS026_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 624
+	Input bases: 490,209
+	Input mean length: 785.59
+	Good sequences: 624 (100.00%)
+	Good bases: 490,209
+	Good mean length: 785.59
+	Bad sequences: 0 (0.00%)
+	Sequences filtered by specified parameters:
+	none
+Currently filtering ERR833300_2 and appending to GS026_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 48,513
+	Input bases: 38,129,020
+	Input mean length: 785.95
+	Good sequences: 48,507 (99.99%)
+	Good bases: 38,124,123
+	Good mean length: 785.95
+	Bad sequences: 6 (0.01%)
+	Bad bases: 4,897
+	Bad mean length: 816.17
+	Sequences filtered by specified parameters:
+	derep: 6
+Currently filtering ERR833300_1 and appending to GS026_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 48,513
+	Input bases: 38,533,558
+	Input mean length: 794.29
+	Good sequences: 48,505 (99.98%)
+	Good bases: 38,527,282
+	Good mean length: 794.30
+	Bad sequences: 8 (0.02%)
+	Bad bases: 6,276
+	Bad mean length: 784.50
+	Sequences filtered by specified parameters:
+	derep: 8
+Currently filtering SRR062157_2 and appending to GS360_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 541,577
+	Input bases: 307,046,555
+	Input mean length: 566.95
+	Good sequences: 196,311 (36.25%)
+	Good bases: 110,931,261
+	Good mean length: 565.08
+	Bad sequences: 345,266 (63.75%)
+	Bad bases: 196,115,294
+	Bad mean length: 568.01
+	Sequences filtered by specified parameters:
+	min_len: 223
+	ns_max_n: 341880
+	lc_method: 2930
+	derep: 233
+Currently filtering SRR062228_2 and appending to GS360_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 238,757
+	Input bases: 118,794,944
+	Input mean length: 497.56
+	Good sequences: 71,878 (30.11%)
+	Good bases: 38,521,824
+	Good mean length: 535.93
+	Bad sequences: 166,879 (69.89%)
+	Bad bases: 80,273,120
+	Bad mean length: 481.03
+	Sequences filtered by specified parameters:
+	min_len: 478
+	ns_max_n: 158870
+	lc_method: 7513
+	derep: 18
+Currently filtering SRR062228_1 and appending to GS360_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 238,757
+	Input bases: 955,028
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 238,757 (100.00%)
+	Bad bases: 955,028
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 238757
+Currently filtering SRR062229_1 and appending to GS360_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 285,626
+	Input bases: 1,142,504
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 285,626 (100.00%)
+	Bad bases: 1,142,504
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 285626
+Currently filtering SRR062229_2 and appending to GS360_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 285,626
+	Input bases: 151,632,588
+	Input mean length: 530.88
+	Good sequences: 109,174 (38.22%)
+	Good bases: 59,131,421
+	Good mean length: 541.63
+	Bad sequences: 176,452 (61.78%)
+	Bad bases: 92,501,167
+	Bad mean length: 524.23
+	Sequences filtered by specified parameters:
+	min_len: 325
+	ns_max_n: 174397
+	lc_method: 1688
+	derep: 42
+Currently filtering SRR062157_1 and appending to GS360_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 541,577
+	Input bases: 2,166,308
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 541,577 (100.00%)
+	Bad bases: 2,166,308
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 541577
+Currently filtering ERR833440_2 and appending to GS117_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 168,862
+	Input bases: 126,057,405
+	Input mean length: 746.51
+	Good sequences: 168,196 (99.61%)
+	Good bases: 125,991,553
+	Good mean length: 749.08
+	Bad sequences: 666 (0.39%)
+	Bad bases: 65,852
+	Bad mean length: 98.88
+	Sequences filtered by specified parameters:
+	min_len: 648
+	derep: 18
+Currently filtering ERR833439_1 and appending to GS117_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 5,142
+	Input bases: 3,910,692
+	Input mean length: 760.54
+	Good sequences: 5,098 (99.14%)
+	Good bases: 3,904,254
+	Good mean length: 765.84
+	Bad sequences: 44 (0.86%)
+	Bad bases: 6,438
+	Bad mean length: 146.32
+	Sequences filtered by specified parameters:
+	min_len: 40
+	derep: 4
+Currently filtering ERR833439_2 and appending to GS117_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 5,142
+	Input bases: 3,862,751
+	Input mean length: 751.22
+	Good sequences: 5,105 (99.28%)
+	Good bases: 3,858,534
+	Good mean length: 755.83
+	Bad sequences: 37 (0.72%)
+	Bad bases: 4,217
+	Bad mean length: 113.97
+	Sequences filtered by specified parameters:
+	min_len: 35
+	derep: 2
+Currently filtering ERR833440_1 and appending to GS117_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 168,862
+	Input bases: 126,593,210
+	Input mean length: 749.68
+	Good sequences: 168,081 (99.54%)
+	Good bases: 126,518,057
+	Good mean length: 752.72
+	Bad sequences: 781 (0.46%)
+	Bad bases: 75,153
+	Bad mean length: 96.23
+	Sequences filtered by specified parameters:
+	min_len: 761
+	derep: 20
+Currently filtering ERR833278_2 and appending to GS008_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 60,140
+	Input bases: 51,239,479
+	Input mean length: 852.00
+	Good sequences: 60,109 (99.95%)
+	Good bases: 51,215,211
+	Good mean length: 852.04
+	Bad sequences: 31 (0.05%)
+	Bad bases: 24,268
+	Bad mean length: 782.84
+	Sequences filtered by specified parameters:
+	min_len: 1
+	derep: 30
+Currently filtering ERR833278_1 and appending to GS008_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 60,140
+	Input bases: 51,906,396
+	Input mean length: 863.09
+	Good sequences: 60,110 (99.95%)
+	Good bases: 51,880,960
+	Good mean length: 863.10
+	Bad sequences: 30 (0.05%)
+	Bad bases: 25,436
+	Bad mean length: 847.87
+	Sequences filtered by specified parameters:
+	derep: 30
+Currently filtering SRR062238_1 and appending to GS367_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 462,165
+	Input bases: 1,848,660
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 462,165 (100.00%)
+	Bad bases: 1,848,660
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 462165
+Currently filtering SRR062167_1 and appending to GS367_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 578,707
+	Input bases: 2,314,828
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 578,707 (100.00%)
+	Bad bases: 2,314,828
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 578707
+Currently filtering SRR062238_2 and appending to GS367_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 462,165
+	Input bases: 232,839,367
+	Input mean length: 503.80
+	Good sequences: 184,006 (39.81%)
+	Good bases: 96,800,235
+	Good mean length: 526.07
+	Bad sequences: 278,159 (60.19%)
+	Bad bases: 136,039,132
+	Bad mean length: 489.07
+	Sequences filtered by specified parameters:
+	min_len: 1411
+	ns_max_n: 261559
+	lc_method: 14023
+	derep: 1166
+Currently filtering SRR062168_1 and appending to GS367_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 498,495
+	Input bases: 1,993,980
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 498,495 (100.00%)
+	Bad bases: 1,993,980
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 498495
+Currently filtering SRR062168_2 and appending to GS367_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 498,495
+	Input bases: 272,880,285
+	Input mean length: 547.41
+	Good sequences: 234,163 (46.97%)
+	Good bases: 128,151,342
+	Good mean length: 547.27
+	Bad sequences: 264,332 (53.03%)
+	Bad bases: 144,728,943
+	Bad mean length: 547.53
+	Sequences filtered by specified parameters:
+	min_len: 254
+	ns_max_n: 262222
+	lc_method: 1580
+	derep: 276
+Currently filtering SRR062167_2 and appending to GS367_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 578,707
+	Input bases: 331,680,335
+	Input mean length: 573.14
+	Good sequences: 199,036 (34.39%)
+	Good bases: 113,351,723
+	Good mean length: 569.50
+	Bad sequences: 379,671 (65.61%)
+	Bad bases: 218,328,612
+	Bad mean length: 575.05
+	Sequences filtered by specified parameters:
+	min_len: 173
+	ns_max_n: 377968
+	lc_method: 1389
+	derep: 141
+Currently filtering ERR833290_1 and appending to GS018_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 70,308
+	Input bases: 60,341,153
+	Input mean length: 858.24
+	Good sequences: 70,307 (100.00%)
+	Good bases: 60,340,237
+	Good mean length: 858.24
+	Bad sequences: 1 (0.00%)
+	Bad bases: 916
+	Bad mean length: 916.00
+	Sequences filtered by specified parameters:
+	derep: 1
+Currently filtering ERR833290_2 and appending to GS018_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 70,308
+	Input bases: 60,451,261
+	Input mean length: 859.81
+	Good sequences: 70,303 (99.99%)
+	Good bases: 60,447,941
+	Good mean length: 859.82
+	Bad sequences: 5 (0.01%)
+	Bad bases: 3,320
+	Bad mean length: 664.00
+	Sequences filtered by specified parameters:
+	derep: 5
+Currently filtering ERR833302_2 and appending to GS028_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 92,441
+	Input bases: 76,579,695
+	Input mean length: 828.42
+	Good sequences: 92,437 (100.00%)
+	Good bases: 76,576,245
+	Good mean length: 828.42
+	Bad sequences: 4 (0.00%)
+	Bad bases: 3,450
+	Bad mean length: 862.50
+	Sequences filtered by specified parameters:
+	derep: 4
+Currently filtering ERR833302_1 and appending to GS028_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 92,441
+	Input bases: 77,513,658
+	Input mean length: 838.52
+	Good sequences: 92,433 (99.99%)
+	Good bases: 77,507,591
+	Good mean length: 838.53
+	Bad sequences: 8 (0.01%)
+	Bad bases: 6,067
+	Bad mean length: 758.38
+	Sequences filtered by specified parameters:
+	derep: 8
+Currently filtering ERR833275_2 and appending to GS005_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 23,261
+	Input bases: 19,719,014
+	Input mean length: 847.73
+	Good sequences: 23,234 (99.88%)
+	Good bases: 19,700,117
+	Good mean length: 847.90
+	Bad sequences: 27 (0.12%)
+	Bad bases: 18,897
+	Bad mean length: 699.89
+	Sequences filtered by specified parameters:
+	min_len: 3
+	derep: 24
+Currently filtering ERR833275_1 and appending to GS005_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 23,261
+	Input bases: 19,863,858
+	Input mean length: 853.96
+	Good sequences: 23,245 (99.93%)
+	Good bases: 19,850,462
+	Good mean length: 853.97
+	Bad sequences: 16 (0.07%)
+	Bad bases: 13,396
+	Bad mean length: 837.25
+	Sequences filtered by specified parameters:
+	derep: 16
+Currently filtering SRR062202_2 and appending to GS346_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 297,801
+	Input bases: 153,188,203
+	Input mean length: 514.40
+	Good sequences: 112,324 (37.72%)
+	Good bases: 59,145,928
+	Good mean length: 526.57
+	Bad sequences: 185,477 (62.28%)
+	Bad bases: 94,042,275
+	Bad mean length: 507.03
+	Sequences filtered by specified parameters:
+	min_len: 227
+	ns_max_n: 176397
+	lc_method: 8834
+	derep: 19
+Currently filtering SRR062202_1 and appending to GS346_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 297,801
+	Input bases: 1,191,204
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 297,801 (100.00%)
+	Bad bases: 1,191,204
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 297801
+Currently filtering SRR062135_1 and appending to GS346_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 398,894
+	Input bases: 1,595,576
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 398,894 (100.00%)
+	Bad bases: 1,595,576
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 398894
+Currently filtering SRR062135_2 and appending to GS346_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 398,894
+	Input bases: 233,370,770
+	Input mean length: 585.04
+	Good sequences: 71,390 (17.90%)
+	Good bases: 41,056,701
+	Good mean length: 575.10
+	Bad sequences: 327,504 (82.10%)
+	Bad bases: 192,314,069
+	Bad mean length: 587.21
+	Sequences filtered by specified parameters:
+	min_len: 163
+	ns_max_n: 326469
+	lc_method: 868
+	derep: 4
+Currently filtering SRR062203_1 and appending to GS346_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 452,235
+	Input bases: 1,808,940
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 452,235 (100.00%)
+	Bad bases: 1,808,940
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 452235
+Currently filtering SRR062203_2 and appending to GS346_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 452,235
+	Input bases: 238,659,389
+	Input mean length: 527.73
+	Good sequences: 225,995 (49.97%)
+	Good bases: 119,974,315
+	Good mean length: 530.87
+	Bad sequences: 226,240 (50.03%)
+	Bad bases: 118,685,074
+	Bad mean length: 524.60
+	Sequences filtered by specified parameters:
+	min_len: 142
+	ns_max_n: 223498
+	lc_method: 2425
+	derep: 175
+Currently filtering ERR833326_1 and appending to GS048_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 44,069
+	Input bases: 35,085,999
+	Input mean length: 796.16
+	Good sequences: 43,884 (99.58%)
+	Good bases: 35,067,855
+	Good mean length: 799.10
+	Bad sequences: 185 (0.42%)
+	Bad bases: 18,144
+	Bad mean length: 98.08
+	Sequences filtered by specified parameters:
+	min_len: 180
+	derep: 5
+Currently filtering ERR833326_2 and appending to GS048_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 44,069
+	Input bases: 34,725,898
+	Input mean length: 787.99
+	Good sequences: 43,869 (99.55%)
+	Good bases: 34,706,424
+	Good mean length: 791.14
+	Bad sequences: 200 (0.45%)
+	Bad bases: 19,474
+	Bad mean length: 97.37
+	Sequences filtered by specified parameters:
+	min_len: 195
+	derep: 5
+Currently filtering ERR833328_2 and appending to GS048_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 4,606
+	Input bases: 3,773,704
+	Input mean length: 819.30
+	Good sequences: 4,563 (99.07%)
+	Good bases: 3,770,311
+	Good mean length: 826.28
+	Bad sequences: 43 (0.93%)
+	Bad bases: 3,393
+	Bad mean length: 78.91
+	Sequences filtered by specified parameters:
+	min_len: 43
+Currently filtering ERR833327_2 and appending to GS048_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 23,126
+	Input bases: 18,743,032
+	Input mean length: 810.47
+	Good sequences: 23,010 (99.50%)
+	Good bases: 18,733,744
+	Good mean length: 814.16
+	Bad sequences: 116 (0.50%)
+	Bad bases: 9,288
+	Bad mean length: 80.07
+	Sequences filtered by specified parameters:
+	min_len: 116
+Currently filtering ERR833327_1 and appending to GS048_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 23,126
+	Input bases: 19,269,529
+	Input mean length: 833.24
+	Good sequences: 23,017 (99.53%)
+	Good bases: 19,259,031
+	Good mean length: 836.73
+	Bad sequences: 109 (0.47%)
+	Bad bases: 10,498
+	Bad mean length: 96.31
+	Sequences filtered by specified parameters:
+	min_len: 106
+	derep: 3
+Currently filtering ERR833328_1 and appending to GS048_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 4,606
+	Input bases: 3,789,244
+	Input mean length: 822.68
+	Good sequences: 4,558 (98.96%)
+	Good bases: 3,785,230
+	Good mean length: 830.46
+	Bad sequences: 48 (1.04%)
+	Bad bases: 4,014
+	Bad mean length: 83.62
+	Sequences filtered by specified parameters:
+	min_len: 48
+Currently filtering ERR833331_1 and appending to GS051_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 103,439
+	Input bases: 86,002,232
+	Input mean length: 831.43
+	Good sequences: 103,238 (99.81%)
+	Good bases: 85,970,758
+	Good mean length: 832.74
+	Bad sequences: 201 (0.19%)
+	Bad bases: 31,474
+	Bad mean length: 156.59
+	Sequences filtered by specified parameters:
+	min_len: 177
+	derep: 24
+Currently filtering ERR833331_2 and appending to GS051_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 103,439
+	Input bases: 83,839,990
+	Input mean length: 810.53
+	Good sequences: 103,199 (99.77%)
+	Good bases: 83,799,727
+	Good mean length: 812.02
+	Bad sequences: 240 (0.23%)
+	Bad bases: 40,263
+	Bad mean length: 167.76
+	Sequences filtered by specified parameters:
+	min_len: 205
+	derep: 35
+Currently filtering ERR833272_1 and appending to GS002_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 52,997
+	Input bases: 45,217,702
+	Input mean length: 853.21
+	Good sequences: 52,985 (99.98%)
+	Good bases: 45,208,269
+	Good mean length: 853.23
+	Bad sequences: 12 (0.02%)
+	Bad bases: 9,433
+	Bad mean length: 786.08
+	Sequences filtered by specified parameters:
+	derep: 12
+Currently filtering ERR833272_2 and appending to GS002_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 52,997
+	Input bases: 45,105,571
+	Input mean length: 851.10
+	Good sequences: 52,986 (99.98%)
+	Good bases: 45,097,546
+	Good mean length: 851.12
+	Bad sequences: 11 (0.02%)
+	Bad bases: 8,025
+	Bad mean length: 729.55
+	Sequences filtered by specified parameters:
+	derep: 11
+Currently filtering SRR062233_2 and appending to GS363_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 514,324
+	Input bases: 295,053,542
+	Input mean length: 573.67
+	Good sequences: 169,305 (32.92%)
+	Good bases: 97,047,479
+	Good mean length: 573.21
+	Bad sequences: 345,019 (67.08%)
+	Bad bases: 198,006,063
+	Bad mean length: 573.90
+	Sequences filtered by specified parameters:
+	min_len: 145
+	ns_max_n: 343301
+	lc_method: 1567
+	derep: 6
+Currently filtering SRR062161_1 and appending to GS363_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 335,598
+	Input bases: 1,342,392
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 335,598 (100.00%)
+	Bad bases: 1,342,392
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 335598
+Currently filtering SRR062233_1 and appending to GS363_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 514,324
+	Input bases: 2,057,296
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 514,324 (100.00%)
+	Bad bases: 2,057,296
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 514324
+Currently filtering SRR062162_1 and appending to GS363_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 319,599
+	Input bases: 1,278,396
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 319,599 (100.00%)
+	Bad bases: 1,278,396
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 319599
+Currently filtering SRR062162_2 and appending to GS363_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 319,599
+	Input bases: 172,475,499
+	Input mean length: 539.66
+	Good sequences: 125,962 (39.41%)
+	Good bases: 68,528,019
+	Good mean length: 544.04
+	Bad sequences: 193,637 (60.59%)
+	Bad bases: 103,947,480
+	Bad mean length: 536.82
+	Sequences filtered by specified parameters:
+	min_len: 402
+	ns_max_n: 191766
+	lc_method: 1352
+	derep: 117
+Currently filtering SRR062161_2 and appending to GS363_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 335,598
+	Input bases: 173,641,006
+	Input mean length: 517.41
+	Good sequences: 115,259 (34.34%)
+	Good bases: 61,429,025
+	Good mean length: 532.97
+	Bad sequences: 220,339 (65.66%)
+	Bad bases: 112,211,981
+	Bad mean length: 509.27
+	Sequences filtered by specified parameters:
+	min_len: 486
+	ns_max_n: 214848
+	lc_method: 4862
+	derep: 143
+Currently filtering ERR833447_1 and appending to GS119_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 30,025
+	Input bases: 26,000,847
+	Input mean length: 865.97
+	Good sequences: 29,893 (99.56%)
+	Good bases: 25,988,333
+	Good mean length: 869.38
+	Bad sequences: 132 (0.44%)
+	Bad bases: 12,514
+	Bad mean length: 94.80
+	Sequences filtered by specified parameters:
+	min_len: 130
+	derep: 2
+Currently filtering ERR833447_2 and appending to GS119_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 30,025
+	Input bases: 26,041,508
+	Input mean length: 867.33
+	Good sequences: 29,926 (99.67%)
+	Good bases: 26,031,856
+	Good mean length: 869.87
+	Bad sequences: 99 (0.33%)
+	Bad bases: 9,652
+	Bad mean length: 97.49
+	Sequences filtered by specified parameters:
+	min_len: 97
+	derep: 2
+Currently filtering ERR833314_1 and appending to GS037_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 32,350
+	Input bases: 27,758,529
+	Input mean length: 858.07
+	Good sequences: 32,329 (99.94%)
+	Good bases: 27,740,654
+	Good mean length: 858.07
+	Bad sequences: 21 (0.06%)
+	Bad bases: 17,875
+	Bad mean length: 851.19
+	Sequences filtered by specified parameters:
+	derep: 21
+Currently filtering ERR833314_2 and appending to GS037_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 32,350
+	Input bases: 27,572,681
+	Input mean length: 852.32
+	Good sequences: 32,335 (99.95%)
+	Good bases: 27,559,987
+	Good mean length: 852.33
+	Bad sequences: 15 (0.05%)
+	Bad bases: 12,694
+	Bad mean length: 846.27
+	Sequences filtered by specified parameters:
+	derep: 15
+Currently filtering ERR833431_1 and appending to GS114_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 160,618
+	Input bases: 125,828,585
+	Input mean length: 783.40
+	Good sequences: 160,024 (99.63%)
+	Good bases: 125,765,160
+	Good mean length: 785.91
+	Bad sequences: 594 (0.37%)
+	Bad bases: 63,425
+	Bad mean length: 106.78
+	Sequences filtered by specified parameters:
+	min_len: 570
+	derep: 24
+Currently filtering ERR833428_2 and appending to GS114_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 356
+	Input bases: 312,565
+	Input mean length: 877.99
+	Good sequences: 356 (100.00%)
+	Good bases: 312,565
+	Good mean length: 877.99
+	Bad sequences: 0 (0.00%)
+	Sequences filtered by specified parameters:
+	none
+Currently filtering ERR833426_1 and appending to GS114_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 357
+	Input bases: 328,505
+	Input mean length: 920.18
+	Good sequences: 356 (99.72%)
+	Good bases: 328,407
+	Good mean length: 922.49
+	Bad sequences: 1 (0.28%)
+	Bad bases: 98
+	Bad mean length: 98.00
+	Sequences filtered by specified parameters:
+	min_len: 1
+Currently filtering ERR833427_1 and appending to GS114_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 4,891
+	Input bases: 3,562,244
+	Input mean length: 728.33
+	Good sequences: 4,874 (99.65%)
+	Good bases: 3,560,330
+	Good mean length: 730.47
+	Bad sequences: 17 (0.35%)
+	Bad bases: 1,914
+	Bad mean length: 112.59
+	Sequences filtered by specified parameters:
+	min_len: 16
+	derep: 1
+Currently filtering ERR833427_2 and appending to GS114_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 4,891
+	Input bases: 3,520,112
+	Input mean length: 719.71
+	Good sequences: 4,869 (99.55%)
+	Good bases: 3,517,675
+	Good mean length: 722.46
+	Bad sequences: 22 (0.45%)
+	Bad bases: 2,437
+	Bad mean length: 110.77
+	Sequences filtered by specified parameters:
+	min_len: 21
+	derep: 1
+Currently filtering ERR833430_1 and appending to GS114_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 5,428
+	Input bases: 4,512,038
+	Input mean length: 831.25
+	Good sequences: 5,404 (99.56%)
+	Good bases: 4,510,133
+	Good mean length: 834.59
+	Bad sequences: 24 (0.44%)
+	Bad bases: 1,905
+	Bad mean length: 79.38
+	Sequences filtered by specified parameters:
+	min_len: 24
+Currently filtering ERR833429_1 and appending to GS114_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 4,798
+	Input bases: 3,868,366
+	Input mean length: 806.25
+	Good sequences: 4,782 (99.67%)
+	Good bases: 3,867,119
+	Good mean length: 808.68
+	Bad sequences: 16 (0.33%)
+	Bad bases: 1,247
+	Bad mean length: 77.94
+	Sequences filtered by specified parameters:
+	min_len: 16
+Currently filtering ERR833430_2 and appending to GS114_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 5,428
+	Input bases: 4,570,287
+	Input mean length: 841.98
+	Good sequences: 5,415 (99.76%)
+	Good bases: 4,569,266
+	Good mean length: 843.82
+	Bad sequences: 13 (0.24%)
+	Bad bases: 1,021
+	Bad mean length: 78.54
+	Sequences filtered by specified parameters:
+	min_len: 13
+Currently filtering ERR833426_2 and appending to GS114_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 357
+	Input bases: 303,982
+	Input mean length: 851.49
+	Good sequences: 356 (99.72%)
+	Good bases: 303,916
+	Good mean length: 853.70
+	Bad sequences: 1 (0.28%)
+	Bad bases: 66
+	Bad mean length: 66.00
+	Sequences filtered by specified parameters:
+	min_len: 1
+Currently filtering ERR833429_2 and appending to GS114_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 4,798
+	Input bases: 3,724,824
+	Input mean length: 776.33
+	Good sequences: 4,779 (99.60%)
+	Good bases: 3,723,358
+	Good mean length: 779.11
+	Bad sequences: 19 (0.40%)
+	Bad bases: 1,466
+	Bad mean length: 77.16
+	Sequences filtered by specified parameters:
+	min_len: 19
+Currently filtering ERR833428_1 and appending to GS114_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 356
+	Input bases: 308,667
+	Input mean length: 867.04
+	Good sequences: 355 (99.72%)
+	Good bases: 308,601
+	Good mean length: 869.30
+	Bad sequences: 1 (0.28%)
+	Bad bases: 66
+	Bad mean length: 66.00
+	Sequences filtered by specified parameters:
+	min_len: 1
+Currently filtering ERR833431_2 and appending to GS114_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 160,618
+	Input bases: 124,888,967
+	Input mean length: 777.55
+	Good sequences: 160,026 (99.63%)
+	Good bases: 124,829,030
+	Good mean length: 780.05
+	Bad sequences: 592 (0.37%)
+	Bad bases: 59,937
+	Bad mean length: 101.24
+	Sequences filtered by specified parameters:
+	min_len: 573
+	derep: 19
+Currently filtering ERR833306_2 and appending to GS031_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 211,147
+	Input bases: 170,011,807
+	Input mean length: 805.18
+	Good sequences: 211,082 (99.97%)
+	Good bases: 169,961,658
+	Good mean length: 805.19
+	Bad sequences: 65 (0.03%)
+	Bad bases: 50,149
+	Bad mean length: 771.52
+	Sequences filtered by specified parameters:
+	derep: 65
+Currently filtering ERR833306_1 and appending to GS031_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 211,147
+	Input bases: 172,303,926
+	Input mean length: 816.04
+	Good sequences: 211,096 (99.98%)
+	Good bases: 172,262,612
+	Good mean length: 816.04
+	Bad sequences: 51 (0.02%)
+	Bad bases: 41,314
+	Bad mean length: 810.08
+	Sequences filtered by specified parameters:
+	derep: 51
+Currently filtering SRR062166_2 and appending to GS366_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 632,036
+	Input bases: 362,302,922
+	Input mean length: 573.23
+	Good sequences: 233,067 (36.88%)
+	Good bases: 133,097,085
+	Good mean length: 571.07
+	Bad sequences: 398,969 (63.12%)
+	Bad bases: 229,205,837
+	Bad mean length: 574.50
+	Sequences filtered by specified parameters:
+	min_len: 318
+	ns_max_n: 397120
+	lc_method: 1408
+	derep: 123
+Currently filtering SRR062275_1 and appending to GS366_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 205,727
+	Input bases: 822,908
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 205,727 (100.00%)
+	Bad bases: 822,908
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 205727
+Currently filtering SRR062166_1 and appending to GS366_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 632,036
+	Input bases: 2,528,144
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 632,036 (100.00%)
+	Bad bases: 2,528,144
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 632036
+Currently filtering SRR062275_2 and appending to GS366_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 205,727
+	Input bases: 114,276,663
+	Input mean length: 555.48
+	Good sequences: 57,382 (27.89%)
+	Good bases: 33,025,553
+	Good mean length: 575.54
+	Bad sequences: 148,345 (72.11%)
+	Bad bases: 81,251,110
+	Bad mean length: 547.72
+	Sequences filtered by specified parameters:
+	min_len: 247
+	ns_max_n: 147632
+	lc_method: 442
+	derep: 24
+Currently filtering SRR062237_1 and appending to GS366_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 313,638
+	Input bases: 1,254,552
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 313,638 (100.00%)
+	Bad bases: 1,254,552
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 313638
+Currently filtering SRR062237_2 and appending to GS366_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 313,638
+	Input bases: 169,016,129
+	Input mean length: 538.89
+	Good sequences: 85,965 (27.41%)
+	Good bases: 47,890,044
+	Good mean length: 557.09
+	Bad sequences: 227,673 (72.59%)
+	Bad bases: 121,126,085
+	Bad mean length: 532.02
+	Sequences filtered by specified parameters:
+	min_len: 827
+	ns_max_n: 221769
+	lc_method: 5012
+	derep: 65
+Currently filtering P26_j and appending to NESAP_P26_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 6,375
+	Input bases: 3,738,999
+	Input mean length: 586.51
+	Good sequences: 6,184 (97.00%)
+	Good bases: 3,627,498
+	Good mean length: 586.59
+	Bad sequences: 191 (3.00%)
+	Bad bases: 111,501
+	Bad mean length: 583.77
+	Sequences filtered by specified parameters:
+	ns_max_n: 153
+	derep: 38
+Currently filtering P26_a and appending to NESAP_P26_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 9,948
+	Input bases: 6,023,262
+	Input mean length: 605.47
+	Good sequences: 9,916 (99.68%)
+	Good bases: 6,003,882
+	Good mean length: 605.47
+	Bad sequences: 32 (0.32%)
+	Bad bases: 19,380
+	Bad mean length: 605.62
+	Sequences filtered by specified parameters:
+	ns_max_n: 1
+	derep: 31
+Currently filtering SRR063385_2 and appending to GS235_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 379,143
+	Input bases: 167,823,279
+	Input mean length: 442.64
+	Good sequences: 65,814 (17.36%)
+	Good bases: 34,163,601
+	Good mean length: 519.09
+	Bad sequences: 313,329 (82.64%)
+	Bad bases: 133,659,678
+	Bad mean length: 426.58
+	Sequences filtered by specified parameters:
+	min_len: 4991
+	ns_max_n: 294725
+	lc_method: 13528
+	derep: 85
+Currently filtering SRR063767_1 and appending to GS235_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 192,461
+	Input bases: 769,844
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 192,461 (100.00%)
+	Bad bases: 769,844
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 192461
+Currently filtering SRR062131_2 and appending to GS235_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 190,878
+	Input bases: 103,844,257
+	Input mean length: 544.03
+	Good sequences: 69,438 (36.38%)
+	Good bases: 38,891,258
+	Good mean length: 560.09
+	Bad sequences: 121,440 (63.62%)
+	Bad bases: 64,952,999
+	Bad mean length: 534.86
+	Sequences filtered by specified parameters:
+	min_len: 44
+	ns_max_n: 120881
+	lc_method: 512
+	derep: 3
+Currently filtering SRR063767_2 and appending to GS235_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 192,461
+	Input bases: 97,834,148
+	Input mean length: 508.33
+	Good sequences: 45,674 (23.73%)
+	Good bases: 24,170,590
+	Good mean length: 529.20
+	Bad sequences: 146,787 (76.27%)
+	Bad bases: 73,663,558
+	Bad mean length: 501.84
+	Sequences filtered by specified parameters:
+	min_len: 441
+	ns_max_n: 142307
+	lc_method: 4014
+	derep: 25
+Currently filtering SRR062131_1 and appending to GS235_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 190,878
+	Input bases: 763,512
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 190,878 (100.00%)
+	Bad bases: 763,512
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 190878
+Currently filtering SRR063385_1 and appending to GS235_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 379,143
+	Input bases: 1,516,572
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 379,143 (100.00%)
+	Bad bases: 1,516,572
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 379143
+Currently filtering SRR062132_1 and appending to GS235_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 606,124
+	Input bases: 2,424,496
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 606,124 (100.00%)
+	Bad bases: 2,424,496
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 606124
+Currently filtering SRR062132_2 and appending to GS235_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 606,124
+	Input bases: 329,756,182
+	Input mean length: 544.04
+	Good sequences: 94,036 (15.51%)
+	Good bases: 55,280,230
+	Good mean length: 587.86
+	Bad sequences: 512,088 (84.49%)
+	Bad bases: 274,475,952
+	Bad mean length: 535.99
+	Sequences filtered by specified parameters:
+	min_len: 310
+	ns_max_n: 510486
+	lc_method: 1274
+	derep: 18
+Currently filtering P12_f and appending to NESAP_P12_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 12,477
+	Input bases: 7,881,087
+	Input mean length: 631.65
+	Good sequences: 12,456 (99.83%)
+	Good bases: 7,872,486
+	Good mean length: 632.02
+	Bad sequences: 21 (0.17%)
+	Bad bases: 8,601
+	Bad mean length: 409.57
+	Sequences filtered by specified parameters:
+	derep: 21
+Currently filtering P12_j and appending to NESAP_P12_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 11,471
+	Input bases: 7,148,365
+	Input mean length: 623.17
+	Good sequences: 11,465 (99.95%)
+	Good bases: 7,145,852
+	Good mean length: 623.28
+	Bad sequences: 6 (0.05%)
+	Bad bases: 2,513
+	Bad mean length: 418.83
+	Sequences filtered by specified parameters:
+	ns_max_n: 2
+	derep: 4
+Currently filtering P12_a and appending to NESAP_P12_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 11,063
+	Input bases: 6,932,997
+	Input mean length: 626.68
+	Good sequences: 11,024 (99.65%)
+	Good bases: 6,908,527
+	Good mean length: 626.68
+	Bad sequences: 39 (0.35%)
+	Bad bases: 24,470
+	Bad mean length: 627.44
+	Sequences filtered by specified parameters:
+	ns_max_n: 1
+	derep: 38
+Currently filtering ERR833294_2 and appending to GS021_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 57,120
+	Input bases: 46,703,864
+	Input mean length: 817.64
+	Good sequences: 57,096 (99.96%)
+	Good bases: 46,684,364
+	Good mean length: 817.65
+	Bad sequences: 24 (0.04%)
+	Bad bases: 19,500
+	Bad mean length: 812.50
+	Sequences filtered by specified parameters:
+	derep: 24
+Currently filtering ERR833294_1 and appending to GS021_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 57,120
+	Input bases: 47,151,067
+	Input mean length: 825.47
+	Good sequences: 57,104 (99.97%)
+	Good bases: 47,137,939
+	Good mean length: 825.48
+	Bad sequences: 16 (0.03%)
+	Bad bases: 13,128
+	Bad mean length: 820.50
+	Sequences filtered by specified parameters:
+	derep: 16
+Currently filtering ERR833305_1 and appending to GS030_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 277
+	Input bases: 245,035
+	Input mean length: 884.60
+	Good sequences: 277 (100.00%)
+	Good bases: 245,035
+	Good mean length: 884.60
+	Bad sequences: 0 (0.00%)
+	Sequences filtered by specified parameters:
+	none
+Currently filtering ERR833304_2 and appending to GS030_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 173,179
+	Input bases: 141,668,784
+	Input mean length: 818.05
+	Good sequences: 173,109 (99.96%)
+	Good bases: 141,614,157
+	Good mean length: 818.06
+	Bad sequences: 70 (0.04%)
+	Bad bases: 54,627
+	Bad mean length: 780.39
+	Sequences filtered by specified parameters:
+	derep: 70
+Currently filtering ERR833305_2 and appending to GS030_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 277
+	Input bases: 238,639
+	Input mean length: 861.51
+	Good sequences: 277 (100.00%)
+	Good bases: 238,639
+	Good mean length: 861.51
+	Bad sequences: 0 (0.00%)
+	Sequences filtered by specified parameters:
+	none
+Currently filtering ERR833304_1 and appending to GS030_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 173,179
+	Input bases: 143,850,470
+	Input mean length: 830.65
+	Good sequences: 173,089 (99.95%)
+	Good bases: 143,780,309
+	Good mean length: 830.67
+	Bad sequences: 90 (0.05%)
+	Bad bases: 70,161
+	Bad mean length: 779.57
+	Sequences filtered by specified parameters:
+	derep: 90
+Currently filtering ERR833277_2 and appending to GS007_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 19,003
+	Input bases: 16,061,240
+	Input mean length: 845.19
+	Good sequences: 18,992 (99.94%)
+	Good bases: 16,058,185
+	Good mean length: 845.52
+	Bad sequences: 11 (0.06%)
+	Bad bases: 3,055
+	Bad mean length: 277.73
+	Sequences filtered by specified parameters:
+	min_len: 8
+	derep: 3
+Currently filtering ERR833277_1 and appending to GS007_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 19,003
+	Input bases: 16,367,139
+	Input mean length: 861.29
+	Good sequences: 19,003 (100.00%)
+	Good bases: 16,367,139
+	Good mean length: 861.29
+	Bad sequences: 0 (0.00%)
+	Sequences filtered by specified parameters:
+	none
+Currently filtering ERR833436_2 and appending to GS116_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 355
+	Input bases: 276,488
+	Input mean length: 778.84
+	Good sequences: 354 (99.72%)
+	Good bases: 276,416
+	Good mean length: 780.84
+	Bad sequences: 1 (0.28%)
+	Bad bases: 72
+	Bad mean length: 72.00
+	Sequences filtered by specified parameters:
+	min_len: 1
+Currently filtering ERR833436_1 and appending to GS116_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 355
+	Input bases: 266,133
+	Input mean length: 749.67
+	Good sequences: 352 (99.15%)
+	Good bases: 265,865
+	Good mean length: 755.30
+	Bad sequences: 3 (0.85%)
+	Bad bases: 268
+	Bad mean length: 89.33
+	Sequences filtered by specified parameters:
+	min_len: 3
+Currently filtering ERR833437_2 and appending to GS116_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 29,686
+	Input bases: 24,647,458
+	Input mean length: 830.27
+	Good sequences: 29,558 (99.57%)
+	Good bases: 24,633,713
+	Good mean length: 833.40
+	Bad sequences: 128 (0.43%)
+	Bad bases: 13,745
+	Bad mean length: 107.38
+	Sequences filtered by specified parameters:
+	min_len: 123
+	derep: 5
+Currently filtering ERR833437_1 and appending to GS116_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 29,686
+	Input bases: 24,488,364
+	Input mean length: 824.91
+	Good sequences: 29,553 (99.55%)
+	Good bases: 24,475,582
+	Good mean length: 828.19
+	Bad sequences: 133 (0.45%)
+	Bad bases: 12,782
+	Bad mean length: 96.11
+	Sequences filtered by specified parameters:
+	min_len: 129
+	derep: 4
+Currently filtering ERR833303_2 and appending to GS029_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 63,583
+	Input bases: 51,454,588
+	Input mean length: 809.25
+	Good sequences: 63,562 (99.97%)
+	Good bases: 51,437,997
+	Good mean length: 809.26
+	Bad sequences: 21 (0.03%)
+	Bad bases: 16,591
+	Bad mean length: 790.05
+	Sequences filtered by specified parameters:
+	derep: 21
+Currently filtering ERR833303_1 and appending to GS029_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 63,583
+	Input bases: 52,512,084
+	Input mean length: 825.88
+	Good sequences: 63,561 (99.97%)
+	Good bases: 52,495,431
+	Good mean length: 825.91
+	Bad sequences: 22 (0.03%)
+	Bad bases: 16,653
+	Bad mean length: 756.95
+	Sequences filtered by specified parameters:
+	derep: 22
+Currently filtering SRR062160_1 and appending to GS362_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 574,761
+	Input bases: 2,299,044
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 574,761 (100.00%)
+	Bad bases: 2,299,044
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 574761
+Currently filtering SRR062160_2 and appending to GS362_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 574,761
+	Input bases: 322,467,666
+	Input mean length: 561.05
+	Good sequences: 186,729 (32.49%)
+	Good bases: 107,510,226
+	Good mean length: 575.76
+	Bad sequences: 388,032 (67.51%)
+	Bad bases: 214,957,440
+	Bad mean length: 553.97
+	Sequences filtered by specified parameters:
+	min_len: 112
+	ns_max_n: 386449
+	lc_method: 1448
+	derep: 23
+Currently filtering SRR062232_1 and appending to GS362_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 243,952
+	Input bases: 975,808
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 243,952 (100.00%)
+	Bad bases: 975,808
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 243952
+Currently filtering SRR062231_2 and appending to GS362_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 299,594
+	Input bases: 155,868,895
+	Input mean length: 520.27
+	Good sequences: 151,503 (50.57%)
+	Good bases: 79,582,035
+	Good mean length: 525.28
+	Bad sequences: 148,091 (49.43%)
+	Bad bases: 76,286,860
+	Bad mean length: 515.14
+	Sequences filtered by specified parameters:
+	min_len: 374
+	ns_max_n: 143596
+	lc_method: 3898
+	derep: 223
+Currently filtering SRR062231_1 and appending to GS362_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 299,594
+	Input bases: 1,198,376
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 299,594 (100.00%)
+	Bad bases: 1,198,376
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 299594
+Currently filtering SRR062232_2 and appending to GS362_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 243,952
+	Input bases: 125,877,222
+	Input mean length: 515.99
+	Good sequences: 107,684 (44.14%)
+	Good bases: 56,937,505
+	Good mean length: 528.75
+	Bad sequences: 136,268 (55.86%)
+	Bad bases: 68,939,717
+	Bad mean length: 505.91
+	Sequences filtered by specified parameters:
+	min_len: 284
+	ns_max_n: 135114
+	lc_method: 694
+	derep: 176
+Currently filtering ERR833274_1 and appending to GS004_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 19,733
+	Input bases: 16,667,516
+	Input mean length: 844.65
+	Good sequences: 19,714 (99.90%)
+	Good bases: 16,652,625
+	Good mean length: 844.71
+	Bad sequences: 19 (0.10%)
+	Bad bases: 14,891
+	Bad mean length: 783.74
+	Sequences filtered by specified parameters:
+	min_len: 1
+	derep: 18
+Currently filtering ERR833274_2 and appending to GS004_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 19,733
+	Input bases: 16,619,639
+	Input mean length: 842.23
+	Good sequences: 19,716 (99.91%)
+	Good bases: 16,607,165
+	Good mean length: 842.32
+	Bad sequences: 17 (0.09%)
+	Bad bases: 12,474
+	Bad mean length: 733.76
+	Sequences filtered by specified parameters:
+	min_len: 1
+	derep: 16
+Currently filtering SRR062172_2 and appending to GS369_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 524,087
+	Input bases: 260,954,341
+	Input mean length: 497.92
+	Good sequences: 108,863 (20.77%)
+	Good bases: 59,193,627
+	Good mean length: 543.74
+	Bad sequences: 415,224 (79.23%)
+	Bad bases: 201,760,714
+	Bad mean length: 485.91
+	Sequences filtered by specified parameters:
+	min_len: 559
+	ns_max_n: 402638
+	lc_method: 11991
+	derep: 36
+Currently filtering SRR062171_2 and appending to GS369_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 339,608
+	Input bases: 166,473,549
+	Input mean length: 490.19
+	Good sequences: 73,546 (21.66%)
+	Good bases: 39,316,707
+	Good mean length: 534.59
+	Bad sequences: 266,062 (78.34%)
+	Bad bases: 127,156,842
+	Bad mean length: 477.92
+	Sequences filtered by specified parameters:
+	min_len: 114
+	ns_max_n: 265688
+	lc_method: 255
+	derep: 5
+Currently filtering SRR062172_1 and appending to GS369_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 524,087
+	Input bases: 2,096,348
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 524,087 (100.00%)
+	Bad bases: 2,096,348
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 524087
+Currently filtering SRR062240_1 and appending to GS369_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 371,725
+	Input bases: 1,486,900
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 371,725 (100.00%)
+	Bad bases: 1,486,900
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 371725
+Currently filtering SRR062240_2 and appending to GS369_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 371,725
+	Input bases: 195,811,791
+	Input mean length: 526.77
+	Good sequences: 128,015 (34.44%)
+	Good bases: 69,846,243
+	Good mean length: 545.61
+	Bad sequences: 243,710 (65.56%)
+	Bad bases: 125,965,548
+	Bad mean length: 516.87
+	Sequences filtered by specified parameters:
+	min_len: 194
+	ns_max_n: 241444
+	lc_method: 1988
+	derep: 84
+Currently filtering SRR062171_1 and appending to GS369_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 339,608
+	Input bases: 1,358,432
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 339,608 (100.00%)
+	Bad bases: 1,358,432
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 339608
+Currently filtering SRR062197_2 and appending to GS393_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 148,342
+	Input bases: 78,216,854
+	Input mean length: 527.27
+	Good sequences: 81,104 (54.67%)
+	Good bases: 42,765,760
+	Good mean length: 527.30
+	Bad sequences: 67,238 (45.33%)
+	Bad bases: 35,451,094
+	Bad mean length: 527.25
+	Sequences filtered by specified parameters:
+	min_len: 93
+	ns_max_n: 65237
+	lc_method: 1147
+	derep: 761
+Currently filtering SRR062263_2 and appending to GS393_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 494,955
+	Input bases: 284,592,711
+	Input mean length: 574.99
+	Good sequences: 204,088 (41.23%)
+	Good bases: 117,828,912
+	Good mean length: 577.34
+	Bad sequences: 290,867 (58.77%)
+	Bad bases: 166,763,799
+	Bad mean length: 573.33
+	Sequences filtered by specified parameters:
+	min_len: 178
+	ns_max_n: 289938
+	lc_method: 708
+	derep: 43
+Currently filtering SRR062263_1 and appending to GS393_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 494,955
+	Input bases: 1,979,820
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 494,955 (100.00%)
+	Bad bases: 1,979,820
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 494955
+Currently filtering SRR062196_2 and appending to GS393_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 371,374
+	Input bases: 187,441,645
+	Input mean length: 504.72
+	Good sequences: 151,490 (40.79%)
+	Good bases: 80,476,246
+	Good mean length: 531.23
+	Bad sequences: 219,884 (59.21%)
+	Bad bases: 106,965,399
+	Bad mean length: 486.46
+	Sequences filtered by specified parameters:
+	min_len: 576
+	ns_max_n: 203537
+	lc_method: 14769
+	derep: 1002
+Currently filtering SRR062196_1 and appending to GS393_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 371,374
+	Input bases: 1,485,496
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 371,374 (100.00%)
+	Bad bases: 1,485,496
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 371374
+Currently filtering SRR062197_1 and appending to GS393_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 148,342
+	Input bases: 593,368
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 148,342 (100.00%)
+	Bad bases: 593,368
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 148342
+Currently filtering SRR062262_1 and appending to GS393_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 293,341
+	Input bases: 1,173,364
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 293,341 (100.00%)
+	Bad bases: 1,173,364
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 293341
+Currently filtering SRR062262_2 and appending to GS393_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 293,341
+	Input bases: 164,339,136
+	Input mean length: 560.23
+	Good sequences: 85,206 (29.05%)
+	Good bases: 48,053,386
+	Good mean length: 563.97
+	Bad sequences: 208,135 (70.95%)
+	Bad bases: 116,285,750
+	Bad mean length: 558.70
+	Sequences filtered by specified parameters:
+	min_len: 150
+	ns_max_n: 207006
+	lc_method: 974
+	derep: 5
+Currently filtering ERR833296_1 and appending to GS023_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 64,481
+	Input bases: 52,618,537
+	Input mean length: 816.03
+	Good sequences: 64,481 (100.00%)
+	Good bases: 52,618,537
+	Good mean length: 816.03
+	Bad sequences: 0 (0.00%)
+	Sequences filtered by specified parameters:
+	none
+Currently filtering ERR833296_2 and appending to GS023_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 64,481
+	Input bases: 52,371,216
+	Input mean length: 812.20
+	Good sequences: 64,480 (100.00%)
+	Good bases: 52,370,416
+	Good mean length: 812.20
+	Bad sequences: 1 (0.00%)
+	Bad bases: 800
+	Bad mean length: 800.00
+	Sequences filtered by specified parameters:
+	derep: 1
+Currently filtering SRR063388_1 and appending to GS392_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 337,860
+	Input bases: 1,351,440
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 337,860 (100.00%)
+	Bad bases: 1,351,440
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 337860
+Currently filtering SRR063770_1 and appending to GS392_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 196,481
+	Input bases: 785,924
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 196,481 (100.00%)
+	Bad bases: 785,924
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 196481
+Currently filtering SRR062260_2 and appending to GS392_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 468,804
+	Input bases: 263,816,523
+	Input mean length: 562.74
+	Good sequences: 191,446 (40.84%)
+	Good bases: 107,061,298
+	Good mean length: 559.22
+	Bad sequences: 277,358 (59.16%)
+	Bad bases: 156,755,225
+	Bad mean length: 565.17
+	Sequences filtered by specified parameters:
+	min_len: 216
+	ns_max_n: 276110
+	lc_method: 1010
+	derep: 22
+Currently filtering SRR063770_2 and appending to GS392_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 196,481
+	Input bases: 107,173,280
+	Input mean length: 545.46
+	Good sequences: 107,294 (54.61%)
+	Good bases: 57,737,796
+	Good mean length: 538.13
+	Bad sequences: 89,187 (45.39%)
+	Bad bases: 49,435,484
+	Bad mean length: 554.29
+	Sequences filtered by specified parameters:
+	min_len: 259
+	ns_max_n: 86982
+	lc_method: 1263
+	derep: 683
+Currently filtering SRR062261_1 and appending to GS392_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 242,353
+	Input bases: 969,412
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 242,353 (100.00%)
+	Bad bases: 969,412
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 242353
+Currently filtering SRR062261_2 and appending to GS392_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 242,353
+	Input bases: 138,200,901
+	Input mean length: 570.25
+	Good sequences: 56,929 (23.49%)
+	Good bases: 32,664,625
+	Good mean length: 573.78
+	Bad sequences: 185,424 (76.51%)
+	Bad bases: 105,536,276
+	Bad mean length: 569.16
+	Sequences filtered by specified parameters:
+	min_len: 259
+	ns_max_n: 184484
+	lc_method: 681
+Currently filtering SRR063388_2 and appending to GS392_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 337,860
+	Input bases: 173,964,548
+	Input mean length: 514.90
+	Good sequences: 137,340 (40.65%)
+	Good bases: 71,874,940
+	Good mean length: 523.34
+	Bad sequences: 200,520 (59.35%)
+	Bad bases: 102,089,608
+	Bad mean length: 509.12
+	Sequences filtered by specified parameters:
+	min_len: 1228
+	ns_max_n: 190866
+	lc_method: 7354
+	derep: 1072
+Currently filtering SRR062260_1 and appending to GS392_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 468,804
+	Input bases: 1,875,216
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 468,804 (100.00%)
+	Bad bases: 1,875,216
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 468804
+Currently filtering SRR063769_1 and appending to GS391_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 2
+	Input bases: 8
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 2 (100.00%)
+	Bad bases: 8
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 2
+Currently filtering SRR063769_2 and appending to GS391_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 2
+	Input bases: 1,082
+	Input mean length: 541.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 2 (100.00%)
+	Bad bases: 1,082
+	Bad mean length: 541.00
+	Sequences filtered by specified parameters:
+	ns_max_n: 2
+Currently filtering SRR063390_2 and appending to GS391_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 244,910
+	Input bases: 127,528,781
+	Input mean length: 520.72
+	Good sequences: 119,182 (48.66%)
+	Good bases: 62,159,546
+	Good mean length: 521.55
+	Bad sequences: 125,728 (51.34%)
+	Bad bases: 65,369,235
+	Bad mean length: 519.93
+	Sequences filtered by specified parameters:
+	min_len: 374
+	ns_max_n: 115193
+	lc_method: 9482
+	derep: 679
+Currently filtering SRR062258_2 and appending to GS391_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 48,887
+	Input bases: 22,699,347
+	Input mean length: 464.32
+	Good sequences: 6,852 (14.02%)
+	Good bases: 3,705,051
+	Good mean length: 540.73
+	Bad sequences: 42,035 (85.98%)
+	Bad bases: 18,994,296
+	Bad mean length: 451.87
+	Sequences filtered by specified parameters:
+	min_len: 40
+	ns_max_n: 41921
+	lc_method: 74
+Currently filtering SRR063390_1 and appending to GS391_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 244,910
+	Input bases: 979,640
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 244,910 (100.00%)
+	Bad bases: 979,640
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 244910
+Currently filtering SRR062259_1 and appending to GS391_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 381,425
+	Input bases: 1,525,700
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 381,425 (100.00%)
+	Bad bases: 1,525,700
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 381425
+Currently filtering SRR062259_2 and appending to GS391_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 381,425
+	Input bases: 200,538,006
+	Input mean length: 525.76
+	Good sequences: 84,837 (22.24%)
+	Good bases: 46,765,880
+	Good mean length: 551.24
+	Bad sequences: 296,588 (77.76%)
+	Bad bases: 153,772,126
+	Bad mean length: 518.47
+	Sequences filtered by specified parameters:
+	min_len: 174
+	ns_max_n: 295543
+	lc_method: 868
+	derep: 3
+Currently filtering SRR062258_1 and appending to GS391_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 48,887
+	Input bases: 195,548
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 48,887 (100.00%)
+	Bad bases: 195,548
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 48887
+Currently filtering ERR833491_2 and appending to GS149_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 47,827
+	Input bases: 38,681,818
+	Input mean length: 808.79
+	Good sequences: 47,634 (99.60%)
+	Good bases: 38,665,572
+	Good mean length: 811.72
+	Bad sequences: 193 (0.40%)
+	Bad bases: 16,246
+	Bad mean length: 84.18
+	Sequences filtered by specified parameters:
+	min_len: 192
+	derep: 1
+Currently filtering ERR833490_2 and appending to GS149_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 5,748
+	Input bases: 4,434,588
+	Input mean length: 771.50
+	Good sequences: 5,728 (99.65%)
+	Good bases: 4,432,928
+	Good mean length: 773.91
+	Bad sequences: 20 (0.35%)
+	Bad bases: 1,660
+	Bad mean length: 83.00
+	Sequences filtered by specified parameters:
+	min_len: 20
+Currently filtering ERR833490_1 and appending to GS149_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 5,748
+	Input bases: 4,648,719
+	Input mean length: 808.75
+	Good sequences: 5,728 (99.65%)
+	Good bases: 4,646,377
+	Good mean length: 811.17
+	Bad sequences: 20 (0.35%)
+	Bad bases: 2,342
+	Bad mean length: 117.10
+	Sequences filtered by specified parameters:
+	min_len: 19
+	derep: 1
+Currently filtering ERR833491_1 and appending to GS149_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 47,827
+	Input bases: 38,346,339
+	Input mean length: 801.77
+	Good sequences: 47,641 (99.61%)
+	Good bases: 38,329,294
+	Good mean length: 804.54
+	Bad sequences: 186 (0.39%)
+	Bad bases: 17,045
+	Bad mean length: 91.64
+	Sequences filtered by specified parameters:
+	min_len: 183
+	derep: 3
+Currently filtering SRR037008_1 and appending to MED_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 1,204,425
+	Input bases: 4,817,700
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 1,204,425 (100.00%)
+	Bad bases: 4,817,700
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 1204425
+Currently filtering SRR037008_2 and appending to MED_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 1,204,425
+	Input bases: 766,958,664
+	Input mean length: 636.78
+	Good sequences: 215,348 (17.88%)
+	Good bases: 133,147,954
+	Good mean length: 618.29
+	Bad sequences: 989,077 (82.12%)
+	Bad bases: 633,810,710
+	Bad mean length: 640.81
+	Sequences filtered by specified parameters:
+	min_len: 719
+	ns_max_n: 976123
+	lc_method: 12228
+	derep: 7
+Currently filtering GS001a and appending to GS001_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 142,352
+	Input bases: 143,316,536
+	Input mean length: 1006.78
+	Good sequences: 142,285 (99.95%)
+	Good bases: 143,252,635
+	Good mean length: 1006.80
+	Bad sequences: 67 (0.05%)
+	Bad bases: 63,813
+	Bad mean length: 952.43
+	Sequences filtered by specified parameters:
+	derep: 67
+Currently filtering GS001c and appending to GS001_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 92,351
+	Input bases: 92,689,056
+	Input mean length: 1003.66
+	Good sequences: 92,344 (99.99%)
+	Good bases: 92,682,247
+	Good mean length: 1003.66
+	Bad sequences: 7 (0.01%)
+	Bad bases: 6,711
+	Bad mean length: 958.71
+	Sequences filtered by specified parameters:
+	derep: 7
+Currently filtering GS001b and appending to GS001_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 90,905
+	Input bases: 90,955,265
+	Input mean length: 1000.55
+	Good sequences: 90,430 (99.48%)
+	Good bases: 90,497,366
+	Good mean length: 1000.74
+	Bad sequences: 475 (0.52%)
+	Bad bases: 457,795
+	Bad mean length: 963.78
+	Sequences filtered by specified parameters:
+	derep: 475
+Currently filtering SRR062188_2 and appending to GS386_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 480,508
+	Input bases: 262,219,850
+	Input mean length: 545.71
+	Good sequences: 142,298 (29.61%)
+	Good bases: 79,358,739
+	Good mean length: 557.69
+	Bad sequences: 338,210 (70.39%)
+	Bad bases: 182,861,111
+	Bad mean length: 540.67
+	Sequences filtered by specified parameters:
+	min_len: 305
+	ns_max_n: 337094
+	lc_method: 786
+	derep: 25
+Currently filtering SRR062251_1 and appending to GS386_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 154,210
+	Input bases: 616,840
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 154,210 (100.00%)
+	Bad bases: 616,840
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 154210
+Currently filtering SRR062250_1 and appending to GS386_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 384,127
+	Input bases: 1,536,508
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 384,127 (100.00%)
+	Bad bases: 1,536,508
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 384127
+Currently filtering SRR062188_1 and appending to GS386_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 480,508
+	Input bases: 1,922,032
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 480,508 (100.00%)
+	Bad bases: 1,922,032
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 480508
+Currently filtering SRR062251_2 and appending to GS386_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 154,210
+	Input bases: 81,765,735
+	Input mean length: 530.22
+	Good sequences: 91,349 (59.24%)
+	Good bases: 48,806,546
+	Good mean length: 534.29
+	Bad sequences: 62,861 (40.76%)
+	Bad bases: 32,959,189
+	Bad mean length: 524.32
+	Sequences filtered by specified parameters:
+	min_len: 87
+	ns_max_n: 61051
+	lc_method: 876
+	derep: 847
+Currently filtering SRR062250_2 and appending to GS386_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 384,127
+	Input bases: 201,247,435
+	Input mean length: 523.91
+	Good sequences: 197,416 (51.39%)
+	Good bases: 104,711,638
+	Good mean length: 530.41
+	Bad sequences: 186,711 (48.61%)
+	Bad bases: 96,535,797
+	Bad mean length: 517.03
+	Sequences filtered by specified parameters:
+	min_len: 493
+	ns_max_n: 171604
+	lc_method: 13051
+	derep: 1563
+Currently filtering ERR833451_2 and appending to GS122_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 49,878
+	Input bases: 36,367,853
+	Input mean length: 729.14
+	Good sequences: 49,684 (99.61%)
+	Good bases: 36,351,662
+	Good mean length: 731.66
+	Bad sequences: 194 (0.39%)
+	Bad bases: 16,191
+	Bad mean length: 83.46
+	Sequences filtered by specified parameters:
+	min_len: 193
+	derep: 1
+Currently filtering ERR833451_1 and appending to GS122_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 49,878
+	Input bases: 37,515,566
+	Input mean length: 752.15
+	Good sequences: 49,733 (99.71%)
+	Good bases: 37,502,982
+	Good mean length: 754.09
+	Bad sequences: 145 (0.29%)
+	Bad bases: 12,584
+	Bad mean length: 86.79
+	Sequences filtered by specified parameters:
+	min_len: 144
+	derep: 1
+Currently filtering ERR833450_1 and appending to GS122_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 5,144
+	Input bases: 4,131,845
+	Input mean length: 803.24
+	Good sequences: 5,128 (99.69%)
+	Good bases: 4,130,549
+	Good mean length: 805.49
+	Bad sequences: 16 (0.31%)
+	Bad bases: 1,296
+	Bad mean length: 81.00
+	Sequences filtered by specified parameters:
+	min_len: 16
+Currently filtering ERR833450_2 and appending to GS122_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 5,144
+	Input bases: 4,320,629
+	Input mean length: 839.94
+	Good sequences: 5,125 (99.63%)
+	Good bases: 4,318,400
+	Good mean length: 842.61
+	Bad sequences: 19 (0.37%)
+	Bad bases: 2,229
+	Bad mean length: 117.32
+	Sequences filtered by specified parameters:
+	min_len: 18
+	derep: 1
+Currently filtering ERR833286_2 and appending to GS014_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 54,229
+	Input bases: 45,445,111
+	Input mean length: 838.02
+	Good sequences: 54,211 (99.97%)
+	Good bases: 45,430,535
+	Good mean length: 838.03
+	Bad sequences: 18 (0.03%)
+	Bad bases: 14,576
+	Bad mean length: 809.78
+	Sequences filtered by specified parameters:
+	derep: 18
+Currently filtering ERR833286_1 and appending to GS014_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 54,229
+	Input bases: 46,620,495
+	Input mean length: 859.70
+	Good sequences: 54,215 (99.97%)
+	Good bases: 46,608,698
+	Good mean length: 859.70
+	Bad sequences: 14 (0.03%)
+	Bad bases: 11,797
+	Bad mean length: 842.64
+	Sequences filtered by specified parameters:
+	derep: 14
+Currently filtering ERR833288_2 and appending to GS016_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 52,994
+	Input bases: 44,335,071
+	Input mean length: 836.61
+	Good sequences: 52,965 (99.95%)
+	Good bases: 44,311,035
+	Good mean length: 836.61
+	Bad sequences: 29 (0.05%)
+	Bad bases: 24,036
+	Bad mean length: 828.83
+	Sequences filtered by specified parameters:
+	derep: 29
+Currently filtering ERR833288_1 and appending to GS016_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 52,994
+	Input bases: 44,589,803
+	Input mean length: 841.41
+	Good sequences: 52,976 (99.97%)
+	Good bases: 44,574,398
+	Good mean length: 841.41
+	Bad sequences: 18 (0.03%)
+	Bad bases: 15,405
+	Bad mean length: 855.83
+	Sequences filtered by specified parameters:
+	derep: 18
+Currently filtering ERR833425_1 and appending to GS113_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 352
+	Input bases: 291,502
+	Input mean length: 828.13
+	Good sequences: 351 (99.72%)
+	Good bases: 291,403
+	Good mean length: 830.21
+	Bad sequences: 1 (0.28%)
+	Bad bases: 99
+	Bad mean length: 99.00
+	Sequences filtered by specified parameters:
+	min_len: 1
+Currently filtering ERR833424_1 and appending to GS113_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 53,312
+	Input bases: 45,739,867
+	Input mean length: 857.97
+	Good sequences: 53,044 (99.50%)
+	Good bases: 45,716,404
+	Good mean length: 861.86
+	Bad sequences: 268 (0.50%)
+	Bad bases: 23,463
+	Bad mean length: 87.55
+	Sequences filtered by specified parameters:
+	min_len: 266
+	derep: 2
+Currently filtering ERR833425_2 and appending to GS113_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 352
+	Input bases: 282,996
+	Input mean length: 803.97
+	Good sequences: 351 (99.72%)
+	Good bases: 282,900
+	Good mean length: 805.98
+	Bad sequences: 1 (0.28%)
+	Bad bases: 96
+	Bad mean length: 96.00
+	Sequences filtered by specified parameters:
+	min_len: 1
+Currently filtering ERR833424_2 and appending to GS113_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 53,312
+	Input bases: 45,964,396
+	Input mean length: 862.18
+	Good sequences: 53,059 (99.53%)
+	Good bases: 45,942,564
+	Good mean length: 865.88
+	Bad sequences: 253 (0.47%)
+	Bad bases: 21,832
+	Bad mean length: 86.29
+	Sequences filtered by specified parameters:
+	min_len: 251
+	derep: 2
+Currently filtering SRR062205_2 and appending to GS347_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 268,919
+	Input bases: 137,857,182
+	Input mean length: 512.63
+	Good sequences: 118,479 (44.06%)
+	Good bases: 62,224,048
+	Good mean length: 525.19
+	Bad sequences: 150,440 (55.94%)
+	Bad bases: 75,633,134
+	Bad mean length: 502.75
+	Sequences filtered by specified parameters:
+	min_len: 345
+	ns_max_n: 146775
+	lc_method: 3073
+	derep: 247
+Currently filtering SRR062204_1 and appending to GS347_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 300,044
+	Input bases: 1,200,176
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 300,044 (100.00%)
+	Bad bases: 1,200,176
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 300044
+Currently filtering SRR062205_1 and appending to GS347_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 268,919
+	Input bases: 1,075,676
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 268,919 (100.00%)
+	Bad bases: 1,075,676
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 268919
+Currently filtering SRR062139_2 and appending to GS347_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 605,284
+	Input bases: 336,281,637
+	Input mean length: 555.58
+	Good sequences: 226,357 (37.40%)
+	Good bases: 126,660,708
+	Good mean length: 559.56
+	Bad sequences: 378,927 (62.60%)
+	Bad bases: 209,620,929
+	Bad mean length: 553.20
+	Sequences filtered by specified parameters:
+	min_len: 374
+	ns_max_n: 372149
+	lc_method: 6216
+	derep: 188
+Currently filtering SRR062204_2 and appending to GS347_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 300,044
+	Input bases: 144,185,647
+	Input mean length: 480.55
+	Good sequences: 100,775 (33.59%)
+	Good bases: 52,710,662
+	Good mean length: 523.05
+	Bad sequences: 199,269 (66.41%)
+	Bad bases: 91,474,985
+	Bad mean length: 459.05
+	Sequences filtered by specified parameters:
+	min_len: 848
+	ns_max_n: 188009
+	lc_method: 10282
+	derep: 130
+Currently filtering SRR062139_1 and appending to GS347_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 605,284
+	Input bases: 2,421,136
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 605,284 (100.00%)
+	Bad bases: 2,421,136
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 605284
+Currently filtering ERR833295_2 and appending to GS022_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 51,599
+	Input bases: 41,967,544
+	Input mean length: 813.34
+	Good sequences: 51,586 (99.97%)
+	Good bases: 41,958,143
+	Good mean length: 813.36
+	Bad sequences: 13 (0.03%)
+	Bad bases: 9,401
+	Bad mean length: 723.15
+	Sequences filtered by specified parameters:
+	derep: 13
+Currently filtering ERR833295_1 and appending to GS022_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 51,599
+	Input bases: 42,613,349
+	Input mean length: 825.86
+	Good sequences: 51,588 (99.98%)
+	Good bases: 42,604,871
+	Good mean length: 825.87
+	Bad sequences: 11 (0.02%)
+	Bad bases: 8,478
+	Bad mean length: 770.73
+	Sequences filtered by specified parameters:
+	derep: 11
+Currently filtering SRR062170_2 and appending to GS368_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 274,421
+	Input bases: 140,389,759
+	Input mean length: 511.59
+	Good sequences: 72,839 (26.54%)
+	Good bases: 39,141,775
+	Good mean length: 537.37
+	Bad sequences: 201,582 (73.46%)
+	Bad bases: 101,247,984
+	Bad mean length: 502.27
+	Sequences filtered by specified parameters:
+	min_len: 529
+	ns_max_n: 194456
+	lc_method: 6557
+	derep: 40
+Currently filtering SRR062169_2 and appending to GS368_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 274,421
+	Input bases: 140,389,759
+	Input mean length: 511.59
+	Good sequences: 72,839 (26.54%)
+	Good bases: 39,141,775
+	Good mean length: 537.37
+	Bad sequences: 201,582 (73.46%)
+	Bad bases: 101,247,984
+	Bad mean length: 502.27
+	Sequences filtered by specified parameters:
+	min_len: 529
+	ns_max_n: 194456
+	lc_method: 6557
+	derep: 40
+Currently filtering SRR062170_1 and appending to GS368_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 274,421
+	Input bases: 1,097,684
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 274,421 (100.00%)
+	Bad bases: 1,097,684
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 274421
+Currently filtering SRR062169_1 and appending to GS368_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 274,421
+	Input bases: 1,097,684
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 274,421 (100.00%)
+	Bad bases: 1,097,684
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 274421
+Currently filtering SRR062239_2 and appending to GS368_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 581,621
+	Input bases: 338,359,250
+	Input mean length: 581.75
+	Good sequences: 201,051 (34.57%)
+	Good bases: 115,942,866
+	Good mean length: 576.68
+	Bad sequences: 380,570 (65.43%)
+	Bad bases: 222,416,384
+	Bad mean length: 584.43
+	Sequences filtered by specified parameters:
+	min_len: 250
+	ns_max_n: 378581
+	lc_method: 1582
+	derep: 157
+Currently filtering SRR062239_1 and appending to GS368_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 581,621
+	Input bases: 2,326,484
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 581,621 (100.00%)
+	Bad bases: 2,326,484
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 581621
+Currently filtering SRR062190_1 and appending to GS388_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 492,902
+	Input bases: 1,971,608
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 492,902 (100.00%)
+	Bad bases: 1,971,608
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 492902
+Currently filtering SRR062253_1 and appending to GS388_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 241,757
+	Input bases: 967,028
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 241,757 (100.00%)
+	Bad bases: 967,028
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 241757
+Currently filtering SRR062254_1 and appending to GS388_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 236,755
+	Input bases: 947,020
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 236,755 (100.00%)
+	Bad bases: 947,020
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 236755
+Currently filtering SRR062190_2 and appending to GS388_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 492,902
+	Input bases: 274,586,148
+	Input mean length: 557.08
+	Good sequences: 182,221 (36.97%)
+	Good bases: 101,624,838
+	Good mean length: 557.70
+	Bad sequences: 310,681 (63.03%)
+	Bad bases: 172,961,310
+	Bad mean length: 556.72
+	Sequences filtered by specified parameters:
+	min_len: 413
+	ns_max_n: 308411
+	lc_method: 1804
+	derep: 53
+Currently filtering SRR062253_2 and appending to GS388_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 241,757
+	Input bases: 124,427,285
+	Input mean length: 514.68
+	Good sequences: 109,148 (45.15%)
+	Good bases: 58,061,113
+	Good mean length: 531.95
+	Bad sequences: 132,609 (54.85%)
+	Bad bases: 66,366,172
+	Bad mean length: 500.47
+	Sequences filtered by specified parameters:
+	min_len: 290
+	ns_max_n: 110324
+	lc_method: 21798
+	derep: 197
+Currently filtering SRR062254_2 and appending to GS388_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 236,755
+	Input bases: 129,716,727
+	Input mean length: 547.89
+	Good sequences: 151,015 (63.79%)
+	Good bases: 82,016,240
+	Good mean length: 543.10
+	Bad sequences: 85,740 (36.21%)
+	Bad bases: 47,700,487
+	Bad mean length: 556.34
+	Sequences filtered by specified parameters:
+	min_len: 83
+	ns_max_n: 83549
+	lc_method: 1849
+	derep: 259
+Currently filtering SRR062210_1 and appending to GS351_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 483,906
+	Input bases: 1,935,624
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 483,906 (100.00%)
+	Bad bases: 1,935,624
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 483906
+Currently filtering SRR062145_1 and appending to GS351_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 556,355
+	Input bases: 2,225,420
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 556,355 (100.00%)
+	Bad bases: 2,225,420
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 556355
+Currently filtering SRR062145_2 and appending to GS351_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 556,355
+	Input bases: 320,749,096
+	Input mean length: 576.52
+	Good sequences: 107,759 (19.37%)
+	Good bases: 60,425,791
+	Good mean length: 560.75
+	Bad sequences: 448,596 (80.63%)
+	Bad bases: 260,323,305
+	Bad mean length: 580.31
+	Sequences filtered by specified parameters:
+	min_len: 221
+	ns_max_n: 447285
+	lc_method: 1064
+	derep: 26
+Currently filtering SRR062211_1 and appending to GS351_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 455,500
+	Input bases: 1,822,000
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 455,500 (100.00%)
+	Bad bases: 1,822,000
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 455500
+Currently filtering SRR062210_2 and appending to GS351_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 483,906
+	Input bases: 232,816,810
+	Input mean length: 481.12
+	Good sequences: 114,494 (23.66%)
+	Good bases: 60,599,453
+	Good mean length: 529.28
+	Bad sequences: 369,412 (76.34%)
+	Bad bases: 172,217,357
+	Bad mean length: 466.19
+	Sequences filtered by specified parameters:
+	min_len: 1012
+	ns_max_n: 353929
+	lc_method: 14422
+	derep: 49
+Currently filtering SRR062211_2 and appending to GS351_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 455,500
+	Input bases: 243,940,854
+	Input mean length: 535.55
+	Good sequences: 69,685 (15.30%)
+	Good bases: 36,061,025
+	Good mean length: 517.49
+	Bad sequences: 385,815 (84.70%)
+	Bad bases: 207,879,829
+	Bad mean length: 538.81
+	Sequences filtered by specified parameters:
+	min_len: 1220
+	ns_max_n: 372157
+	lc_method: 12233
+	derep: 205
+Currently filtering SRR062146_1 and appending to GS351_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 513,372
+	Input bases: 2,053,488
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 513,372 (100.00%)
+	Bad bases: 2,053,488
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 513372
+Currently filtering SRR062146_2 and appending to GS351_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 513,372
+	Input bases: 274,000,269
+	Input mean length: 533.73
+	Good sequences: 246,606 (48.04%)
+	Good bases: 131,959,340
+	Good mean length: 535.10
+	Bad sequences: 266,766 (51.96%)
+	Bad bases: 142,040,929
+	Bad mean length: 532.46
+	Sequences filtered by specified parameters:
+	min_len: 830
+	ns_max_n: 261746
+	lc_method: 3676
+	derep: 514
+Currently filtering ERR833273_1 and appending to GS003_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 24,685
+	Input bases: 20,997,718
+	Input mean length: 850.63
+	Good sequences: 24,667 (99.93%)
+	Good bases: 20,983,155
+	Good mean length: 850.66
+	Bad sequences: 18 (0.07%)
+	Bad bases: 14,563
+	Bad mean length: 809.06
+	Sequences filtered by specified parameters:
+	derep: 18
+Currently filtering ERR833273_2 and appending to GS003_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 24,685
+	Input bases: 20,752,744
+	Input mean length: 840.70
+	Good sequences: 24,664 (99.91%)
+	Good bases: 20,736,059
+	Good mean length: 840.74
+	Bad sequences: 21 (0.09%)
+	Bad bases: 16,685
+	Bad mean length: 794.52
+	Sequences filtered by specified parameters:
+	derep: 21
+Currently filtering ERR833435_2 and appending to GS115_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 29,733
+	Input bases: 25,955,605
+	Input mean length: 872.96
+	Good sequences: 29,600 (99.55%)
+	Good bases: 25,944,894
+	Good mean length: 876.52
+	Bad sequences: 133 (0.45%)
+	Bad bases: 10,711
+	Bad mean length: 80.53
+	Sequences filtered by specified parameters:
+	min_len: 133
+Currently filtering ERR833435_1 and appending to GS115_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 29,733
+	Input bases: 25,600,596
+	Input mean length: 861.02
+	Good sequences: 29,583 (99.50%)
+	Good bases: 25,588,625
+	Good mean length: 864.98
+	Bad sequences: 150 (0.50%)
+	Bad bases: 11,971
+	Bad mean length: 79.81
+	Sequences filtered by specified parameters:
+	min_len: 150
+Currently filtering ERR833434_1 and appending to GS115_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 350
+	Input bases: 264,742
+	Input mean length: 756.41
+	Good sequences: 349 (99.71%)
+	Good bases: 264,674
+	Good mean length: 758.38
+	Bad sequences: 1 (0.29%)
+	Bad bases: 68
+	Bad mean length: 68.00
+	Sequences filtered by specified parameters:
+	min_len: 1
+Currently filtering ERR833434_2 and appending to GS115_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 350
+	Input bases: 257,116
+	Input mean length: 734.62
+	Good sequences: 348 (99.43%)
+	Good bases: 256,941
+	Good mean length: 738.34
+	Bad sequences: 2 (0.57%)
+	Bad bases: 175
+	Bad mean length: 87.50
+	Sequences filtered by specified parameters:
+	min_len: 2
+Currently filtering SRR062217_2 and appending to GS355_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 422,624
+	Input bases: 214,470,053
+	Input mean length: 507.47
+	Good sequences: 136,064 (32.20%)
+	Good bases: 72,377,598
+	Good mean length: 531.94
+	Bad sequences: 286,560 (67.80%)
+	Bad bases: 142,092,455
+	Bad mean length: 495.86
+	Sequences filtered by specified parameters:
+	min_len: 633
+	ns_max_n: 274414
+	lc_method: 11418
+	derep: 95
+Currently filtering SRR062217_1 and appending to GS355_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 422,624
+	Input bases: 1,690,496
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 422,624 (100.00%)
+	Bad bases: 1,690,496
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 422624
+Currently filtering SRR062151_2 and appending to GS355_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 483,940
+	Input bases: 258,977,245
+	Input mean length: 535.14
+	Good sequences: 173,625 (35.88%)
+	Good bases: 94,761,457
+	Good mean length: 545.78
+	Bad sequences: 310,315 (64.12%)
+	Bad bases: 164,215,788
+	Bad mean length: 529.19
+	Sequences filtered by specified parameters:
+	min_len: 283
+	ns_max_n: 308456
+	lc_method: 1413
+	derep: 163
+Currently filtering SRR062151_1 and appending to GS355_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 483,940
+	Input bases: 1,935,760
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 483,940 (100.00%)
+	Bad bases: 1,935,760
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 483940
+Currently filtering SRR062150_2 and appending to GS355_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 497,239
+	Input bases: 275,726,021
+	Input mean length: 554.51
+	Good sequences: 157,201 (31.61%)
+	Good bases: 88,573,471
+	Good mean length: 563.44
+	Bad sequences: 340,038 (68.39%)
+	Bad bases: 187,152,550
+	Bad mean length: 550.39
+	Sequences filtered by specified parameters:
+	min_len: 374
+	ns_max_n: 338337
+	lc_method: 1290
+	derep: 37
+Currently filtering SRR062150_1 and appending to GS355_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 497,239
+	Input bases: 1,988,956
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 497,239 (100.00%)
+	Bad bases: 1,988,956
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 497239
+Currently filtering ERR833289_1 and appending to GS017_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 120,108
+	Input bases: 100,981,028
+	Input mean length: 840.75
+	Good sequences: 120,039 (99.94%)
+	Good bases: 100,925,355
+	Good mean length: 840.77
+	Bad sequences: 69 (0.06%)
+	Bad bases: 55,673
+	Bad mean length: 806.86
+	Sequences filtered by specified parameters:
+	derep: 69
+Currently filtering ERR833289_2 and appending to GS017_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 120,108
+	Input bases: 99,992,637
+	Input mean length: 832.52
+	Good sequences: 120,060 (99.96%)
+	Good bases: 99,954,561
+	Good mean length: 832.54
+	Bad sequences: 48 (0.04%)
+	Bad bases: 38,076
+	Bad mean length: 793.25
+	Sequences filtered by specified parameters:
+	derep: 48
+Currently filtering ERR833292_2 and appending to GS019_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 55,730
+	Input bases: 46,392,078
+	Input mean length: 832.44
+	Good sequences: 55,729 (100.00%)
+	Good bases: 46,391,265
+	Good mean length: 832.44
+	Bad sequences: 1 (0.00%)
+	Bad bases: 813
+	Bad mean length: 813.00
+	Sequences filtered by specified parameters:
+	derep: 1
+Currently filtering ERR833292_1 and appending to GS019_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 55,730
+	Input bases: 47,183,020
+	Input mean length: 846.64
+	Good sequences: 55,727 (99.99%)
+	Good bases: 47,180,515
+	Good mean length: 846.64
+	Bad sequences: 3 (0.01%)
+	Bad bases: 2,505
+	Bad mean length: 835.00
+	Sequences filtered by specified parameters:
+	derep: 3
+Currently filtering GS000b and appending to GS000_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 317,180
+	Input bases: 321,026,679
+	Input mean length: 1012.13
+	Good sequences: 317,180 (100.00%)
+	Good bases: 321,026,307
+	Good mean length: 1012.13
+	Bad sequences: 0 (0.00%)
+	Sequences filtered by specified parameters:
+	none
+Currently filtering GS000d and appending to GS000_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 332,240
+	Input bases: 335,939,877
+	Input mean length: 1011.14
+	Good sequences: 332,240 (100.00%)
+	Good bases: 335,939,509
+	Good mean length: 1011.14
+	Bad sequences: 0 (0.00%)
+	Sequences filtered by specified parameters:
+	none
+Currently filtering GS000c and appending to GS000_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 368,835
+	Input bases: 371,689,277
+	Input mean length: 1007.74
+	Good sequences: 368,835 (100.00%)
+	Good bases: 371,688,861
+	Good mean length: 1007.74
+	Bad sequences: 0 (0.00%)
+	Sequences filtered by specified parameters:
+	none
+Currently filtering ERR833313_2 and appending to GS036_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 37,700
+	Input bases: 31,309,695
+	Input mean length: 830.50
+	Good sequences: 37,695 (99.99%)
+	Good bases: 31,305,770
+	Good mean length: 830.50
+	Bad sequences: 5 (0.01%)
+	Bad bases: 3,925
+	Bad mean length: 785.00
+	Sequences filtered by specified parameters:
+	derep: 5
+Currently filtering ERR833313_1 and appending to GS036_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 37,700
+	Input bases: 31,730,039
+	Input mean length: 841.65
+	Good sequences: 37,695 (99.99%)
+	Good bases: 31,726,200
+	Good mean length: 841.66
+	Bad sequences: 5 (0.01%)
+	Bad bases: 3,839
+	Bad mean length: 767.80
+	Sequences filtered by specified parameters:
+	derep: 5
+Currently filtering SRR1303811_2 and appending to HOT_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 1,141,282
+	Input bases: 656,757,850
+	Input mean length: 575.46
+	Good sequences: 450,487 (39.47%)
+	Good bases: 255,892,925
+	Good mean length: 568.04
+	Bad sequences: 690,795 (60.53%)
+	Bad bases: 400,864,925
+	Bad mean length: 580.30
+	Sequences filtered by specified parameters:
+	min_len: 1025
+	ns_max_n: 686088
+	derep: 3682
+Currently filtering SRR1303811_1 and appending to HOT_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 1,141,282
+	Input bases: 4,565,128
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 1,141,282 (100.00%)
+	Bad bases: 4,565,128
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 1141282
+Currently filtering HF10 and appending to HOT_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 7,840
+	Input bases: 7,480,727
+	Input mean length: 954.17
+	Good sequences: 4,059 (51.77%)
+	Good bases: 3,749,451
+	Good mean length: 923.74
+	Bad sequences: 3,781 (48.23%)
+	Bad bases: 3,731,276
+	Bad mean length: 986.85
+	Sequences filtered by specified parameters:
+	min_len: 13
+	ns_max_n: 3767
+	derep: 1
+Currently filtering SRR062156_1 and appending to GS359_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 493,365
+	Input bases: 1,973,460
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 493,365 (100.00%)
+	Bad bases: 1,973,460
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 493365
+Currently filtering SRR062225_1 and appending to GS359_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 7,821
+	Input bases: 31,284
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 7,821 (100.00%)
+	Bad bases: 31,284
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 7821
+Currently filtering SRR062156_2 and appending to GS359_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 493,365
+	Input bases: 220,242,399
+	Input mean length: 446.41
+	Good sequences: 107,956 (21.88%)
+	Good bases: 55,923,348
+	Good mean length: 518.02
+	Bad sequences: 385,409 (78.12%)
+	Bad bases: 164,319,051
+	Bad mean length: 426.35
+	Sequences filtered by specified parameters:
+	min_len: 1433
+	ns_max_n: 372071
+	lc_method: 11577
+	derep: 328
+Currently filtering SRR062227_1 and appending to GS359_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 405,951
+	Input bases: 1,623,804
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 405,951 (100.00%)
+	Bad bases: 1,623,804
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 405951
+Currently filtering SRR062224_2 and appending to GS359_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 512,124
+	Input bases: 278,539,197
+	Input mean length: 543.89
+	Good sequences: 148,973 (29.09%)
+	Good bases: 82,952,958
+	Good mean length: 556.83
+	Bad sequences: 363,151 (70.91%)
+	Bad bases: 195,586,239
+	Bad mean length: 538.58
+	Sequences filtered by specified parameters:
+	min_len: 449
+	ns_max_n: 361606
+	lc_method: 938
+	derep: 158
+Currently filtering SRR062227_2 and appending to GS359_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 405,951
+	Input bases: 226,688,460
+	Input mean length: 558.41
+	Good sequences: 119,190 (29.36%)
+	Good bases: 67,131,686
+	Good mean length: 563.23
+	Bad sequences: 286,761 (70.64%)
+	Bad bases: 159,556,774
+	Bad mean length: 556.41
+	Sequences filtered by specified parameters:
+	min_len: 796
+	ns_max_n: 284357
+	lc_method: 1605
+	derep: 3
+Currently filtering SRR062226_2 and appending to GS359_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 413,427
+	Input bases: 264,272,762
+	Input mean length: 639.22
+	Good sequences: 29,752 (7.20%)
+	Good bases: 16,432,977
+	Good mean length: 552.33
+	Bad sequences: 383,675 (92.80%)
+	Bad bases: 247,839,785
+	Bad mean length: 645.96
+	Sequences filtered by specified parameters:
+	min_len: 1118
+	ns_max_n: 380450
+	lc_method: 2090
+	derep: 17
+Currently filtering SRR062226_1 and appending to GS359_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 413,427
+	Input bases: 1,653,708
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 413,427 (100.00%)
+	Bad bases: 1,653,708
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 413427
+Currently filtering SRR062224_1 and appending to GS359_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 512,124
+	Input bases: 2,048,496
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 512,124 (100.00%)
+	Bad bases: 2,048,496
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 512124
+Currently filtering SRR062225_2 and appending to GS359_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 7,821
+	Input bases: 4,279,658
+	Input mean length: 547.20
+	Good sequences: 0 (0.00%)
+	Bad sequences: 7,821 (100.00%)
+	Bad bases: 4,279,658
+	Bad mean length: 547.20
+	Sequences filtered by specified parameters:
+	min_len: 16
+	ns_max_n: 6461
+	lc_method: 1344
+Currently filtering ERR833408_2 and appending to GS110_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 5,331
+	Input bases: 4,590,466
+	Input mean length: 861.09
+	Good sequences: 5,316 (99.72%)
+	Good bases: 4,589,177
+	Good mean length: 863.28
+	Bad sequences: 15 (0.28%)
+	Bad bases: 1,289
+	Bad mean length: 85.93
+	Sequences filtered by specified parameters:
+	min_len: 15
+Currently filtering ERR833409_1 and appending to GS110_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 48,751
+	Input bases: 33,684,352
+	Input mean length: 690.95
+	Good sequences: 48,572 (99.63%)
+	Good bases: 33,668,804
+	Good mean length: 693.17
+	Bad sequences: 179 (0.37%)
+	Bad bases: 15,548
+	Bad mean length: 86.86
+	Sequences filtered by specified parameters:
+	min_len: 177
+	derep: 2
+Currently filtering ERR833408_1 and appending to GS110_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 5,331
+	Input bases: 4,563,527
+	Input mean length: 856.04
+	Good sequences: 5,313 (99.66%)
+	Good bases: 4,562,146
+	Good mean length: 858.68
+	Bad sequences: 18 (0.34%)
+	Bad bases: 1,381
+	Bad mean length: 76.72
+	Sequences filtered by specified parameters:
+	min_len: 18
+Currently filtering ERR833409_2 and appending to GS110_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 48,751
+	Input bases: 33,185,193
+	Input mean length: 680.71
+	Good sequences: 48,546 (99.58%)
+	Good bases: 33,166,411
+	Good mean length: 683.20
+	Bad sequences: 205 (0.42%)
+	Bad bases: 18,782
+	Bad mean length: 91.62
+	Sequences filtered by specified parameters:
+	min_len: 201
+	derep: 4
+Currently filtering ERR833312_2 and appending to GS035_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 68,021
+	Input bases: 55,477,788
+	Input mean length: 815.60
+	Good sequences: 68,011 (99.99%)
+	Good bases: 55,469,813
+	Good mean length: 815.60
+	Bad sequences: 10 (0.01%)
+	Bad bases: 7,975
+	Bad mean length: 797.50
+	Sequences filtered by specified parameters:
+	derep: 10
+Currently filtering ERR833312_1 and appending to GS035_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 68,021
+	Input bases: 56,066,090
+	Input mean length: 824.25
+	Good sequences: 68,009 (99.98%)
+	Good bases: 56,056,523
+	Good mean length: 824.25
+	Bad sequences: 12 (0.02%)
+	Bad bases: 9,567
+	Bad mean length: 797.25
+	Sequences filtered by specified parameters:
+	derep: 12
+Currently filtering SRR062213_1 and appending to GS352_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 502,653
+	Input bases: 2,010,612
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 502,653 (100.00%)
+	Bad bases: 2,010,612
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 502653
+Currently filtering SRR062213_2 and appending to GS352_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 502,653
+	Input bases: 268,587,977
+	Input mean length: 534.34
+	Good sequences: 143,679 (28.58%)
+	Good bases: 78,076,976
+	Good mean length: 543.41
+	Bad sequences: 358,974 (71.42%)
+	Bad bases: 190,511,001
+	Bad mean length: 530.71
+	Sequences filtered by specified parameters:
+	min_len: 462
+	ns_max_n: 356061
+	lc_method: 2409
+	derep: 42
+Currently filtering SRR062212_2 and appending to GS352_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 593,056
+	Input bases: 326,272,606
+	Input mean length: 550.15
+	Good sequences: 257,764 (43.46%)
+	Good bases: 143,752,570
+	Good mean length: 557.69
+	Bad sequences: 335,292 (56.54%)
+	Bad bases: 182,520,036
+	Bad mean length: 544.36
+	Sequences filtered by specified parameters:
+	min_len: 316
+	ns_max_n: 332549
+	lc_method: 2246
+	derep: 181
+Currently filtering SRR062212_1 and appending to GS352_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 593,056
+	Input bases: 2,372,224
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 593,056 (100.00%)
+	Bad bases: 2,372,224
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 593056
+Currently filtering SRR062147_2 and appending to GS352_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 475,524
+	Input bases: 234,791,877
+	Input mean length: 493.75
+	Good sequences: 175,996 (37.01%)
+	Good bases: 92,273,256
+	Good mean length: 524.29
+	Bad sequences: 299,528 (62.99%)
+	Bad bases: 142,518,621
+	Bad mean length: 475.81
+	Sequences filtered by specified parameters:
+	min_len: 606
+	ns_max_n: 283307
+	lc_method: 15129
+	derep: 486
+Currently filtering SRR062147_1 and appending to GS352_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 475,524
+	Input bases: 1,902,096
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 475,524 (100.00%)
+	Bad bases: 1,902,096
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 475524
+Currently filtering SRR062268_2 and appending to GS387_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 263,283
+	Input bases: 135,043,325
+	Input mean length: 512.92
+	Good sequences: 116,608 (44.29%)
+	Good bases: 61,526,266
+	Good mean length: 527.63
+	Bad sequences: 146,675 (55.71%)
+	Bad bases: 73,517,059
+	Bad mean length: 501.22
+	Sequences filtered by specified parameters:
+	min_len: 390
+	ns_max_n: 130913
+	lc_method: 15169
+	derep: 203
+Currently filtering SRR062252_1 and appending to GS387_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 479,558
+	Input bases: 1,918,232
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 479,558 (100.00%)
+	Bad bases: 1,918,232
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 479558
+Currently filtering SRR062268_1 and appending to GS387_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 263,283
+	Input bases: 1,053,132
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 263,283 (100.00%)
+	Bad bases: 1,053,132
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 263283
+Currently filtering SRR062189_1 and appending to GS387_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 184,411
+	Input bases: 737,644
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 184,411 (100.00%)
+	Bad bases: 737,644
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 184411
+Currently filtering SRR062189_2 and appending to GS387_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 184,411
+	Input bases: 99,326,934
+	Input mean length: 538.62
+	Good sequences: 113,255 (61.41%)
+	Good bases: 60,729,784
+	Good mean length: 536.22
+	Bad sequences: 71,156 (38.59%)
+	Bad bases: 38,597,150
+	Bad mean length: 542.43
+	Sequences filtered by specified parameters:
+	min_len: 80
+	ns_max_n: 69242
+	lc_method: 1660
+	derep: 174
+Currently filtering SRR062252_2 and appending to GS387_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 479,558
+	Input bases: 257,780,403
+	Input mean length: 537.54
+	Good sequences: 160,544 (33.48%)
+	Good bases: 88,778,261
+	Good mean length: 552.98
+	Bad sequences: 319,014 (66.52%)
+	Bad bases: 169,002,142
+	Bad mean length: 529.76
+	Sequences filtered by specified parameters:
+	min_len: 296
+	ns_max_n: 317182
+	lc_method: 1489
+	derep: 47
+Currently filtering ERR010482_1 and appending to ECH_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 616,793
+	Input bases: 2,467,172
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 616,793 (100.00%)
+	Bad bases: 2,467,172
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 616793
+Currently filtering ERR010496_2 and appending to ECH_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 326,475
+	Input bases: 181,123,762
+	Input mean length: 554.79
+	Good sequences: 117,523 (36.00%)
+	Good bases: 66,265,807
+	Good mean length: 563.85
+	Bad sequences: 208,952 (64.00%)
+	Bad bases: 114,857,955
+	Bad mean length: 549.69
+	Sequences filtered by specified parameters:
+	min_len: 240
+	ns_max_n: 208643
+	derep: 69
+Currently filtering ERR010489_1 and appending to ECH_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 637,801
+	Input bases: 2,551,204
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 637,801 (100.00%)
+	Bad bases: 2,551,204
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 637801
+Currently filtering ERR010494_1 and appending to ECH_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 500,117
+	Input bases: 2,000,468
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 500,117 (100.00%)
+	Bad bases: 2,000,468
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 500117
+Currently filtering ERR010492_2 and appending to ECH_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 493,003
+	Input bases: 267,659,202
+	Input mean length: 542.92
+	Good sequences: 154,798 (31.40%)
+	Good bases: 86,815,871
+	Good mean length: 560.83
+	Bad sequences: 338,205 (68.60%)
+	Bad bases: 180,843,331
+	Bad mean length: 534.72
+	Sequences filtered by specified parameters:
+	min_len: 545
+	ns_max_n: 337526
+	derep: 134
+Currently filtering ERR010500_1 and appending to ECH_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 524,953
+	Input bases: 2,099,812
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 524,953 (100.00%)
+	Bad bases: 2,099,812
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 524953
+Currently filtering ERR010496_1 and appending to ECH_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 326,475
+	Input bases: 1,305,900
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 326,475 (100.00%)
+	Bad bases: 1,305,900
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 326475
+Currently filtering ERR010492_1 and appending to ECH_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 493,003
+	Input bases: 1,972,012
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 493,003 (100.00%)
+	Bad bases: 1,972,012
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 493003
+Currently filtering ERR010500_2 and appending to ECH_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 524,953
+	Input bases: 293,861,062
+	Input mean length: 559.79
+	Good sequences: 205,407 (39.13%)
+	Good bases: 115,336,912
+	Good mean length: 561.50
+	Bad sequences: 319,546 (60.87%)
+	Bad bases: 178,524,150
+	Bad mean length: 558.68
+	Sequences filtered by specified parameters:
+	min_len: 360
+	ns_max_n: 319010
+	derep: 176
+Currently filtering ERR010498_2 and appending to ECH_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 620,759
+	Input bases: 344,866,021
+	Input mean length: 555.56
+	Good sequences: 235,699 (37.97%)
+	Good bases: 132,412,990
+	Good mean length: 561.79
+	Bad sequences: 385,060 (62.03%)
+	Bad bases: 212,453,031
+	Bad mean length: 551.74
+	Sequences filtered by specified parameters:
+	min_len: 846
+	ns_max_n: 384028
+	derep: 186
+Currently filtering ERR010494_2 and appending to ECH_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 500,117
+	Input bases: 279,923,279
+	Input mean length: 559.72
+	Good sequences: 189,012 (37.79%)
+	Good bases: 106,432,824
+	Good mean length: 563.10
+	Bad sequences: 311,105 (62.21%)
+	Bad bases: 173,490,455
+	Bad mean length: 557.66
+	Sequences filtered by specified parameters:
+	min_len: 325
+	ns_max_n: 310654
+	derep: 126
+Currently filtering ERR010486_2 and appending to ECH_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 784,823
+	Input bases: 431,728,167
+	Input mean length: 550.10
+	Good sequences: 290,173 (36.97%)
+	Good bases: 161,906,298
+	Good mean length: 557.96
+	Bad sequences: 494,650 (63.03%)
+	Bad bases: 269,821,869
+	Bad mean length: 545.48
+	Sequences filtered by specified parameters:
+	min_len: 972
+	ns_max_n: 493404
+	derep: 274
+Currently filtering ERR010498_1 and appending to ECH_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 620,759
+	Input bases: 2,483,036
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 620,759 (100.00%)
+	Bad bases: 2,483,036
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 620759
+Currently filtering ERR010486_1 and appending to ECH_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 784,823
+	Input bases: 3,139,292
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 784,823 (100.00%)
+	Bad bases: 3,139,292
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 784823
+Currently filtering ERR010489_2 and appending to ECH_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 637,801
+	Input bases: 353,472,776
+	Input mean length: 554.21
+	Good sequences: 244,207 (38.29%)
+	Good bases: 136,124,672
+	Good mean length: 557.42
+	Bad sequences: 393,594 (61.71%)
+	Bad bases: 217,348,104
+	Bad mean length: 552.21
+	Sequences filtered by specified parameters:
+	min_len: 462
+	ns_max_n: 392947
+	derep: 185
+Currently filtering ERR010482_2 and appending to ECH_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 616,793
+	Input bases: 329,739,929
+	Input mean length: 534.60
+	Good sequences: 199,032 (32.27%)
+	Good bases: 110,897,202
+	Good mean length: 557.18
+	Bad sequences: 417,761 (67.73%)
+	Bad bases: 218,842,727
+	Bad mean length: 523.85
+	Sequences filtered by specified parameters:
+	min_len: 1022
+	ns_max_n: 416516
+	derep: 223
+Currently filtering SRR062201_1 and appending to GS236_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 566,782
+	Input bases: 2,267,128
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 566,782 (100.00%)
+	Bad bases: 2,267,128
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 566782
+Currently filtering SRR062134_1 and appending to GS236_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 532,225
+	Input bases: 2,128,900
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 532,225 (100.00%)
+	Bad bases: 2,128,900
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 532225
+Currently filtering SRR062201_2 and appending to GS236_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 566,782
+	Input bases: 313,543,884
+	Input mean length: 553.20
+	Good sequences: 149,946 (26.46%)
+	Good bases: 85,150,874
+	Good mean length: 567.88
+	Bad sequences: 416,836 (73.54%)
+	Bad bases: 228,393,010
+	Bad mean length: 547.92
+	Sequences filtered by specified parameters:
+	min_len: 978
+	ns_max_n: 413468
+	lc_method: 2353
+	derep: 37
+Currently filtering SRR062134_2 and appending to GS236_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 532,225
+	Input bases: 299,593,890
+	Input mean length: 562.91
+	Good sequences: 191,042 (35.89%)
+	Good bases: 108,891,760
+	Good mean length: 569.99
+	Bad sequences: 341,183 (64.11%)
+	Bad bases: 190,702,130
+	Bad mean length: 558.94
+	Sequences filtered by specified parameters:
+	min_len: 136
+	ns_max_n: 339347
+	lc_method: 1587
+	derep: 113
+Currently filtering ERR833311_2 and appending to GS034_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 64,776
+	Input bases: 50,354,303
+	Input mean length: 777.36
+	Good sequences: 64,768 (99.99%)
+	Good bases: 50,349,030
+	Good mean length: 777.38
+	Bad sequences: 8 (0.01%)
+	Bad bases: 5,273
+	Bad mean length: 659.12
+	Sequences filtered by specified parameters:
+	derep: 8
+Currently filtering ERR833311_1 and appending to GS034_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 64,776
+	Input bases: 51,346,887
+	Input mean length: 792.68
+	Good sequences: 64,765 (99.98%)
+	Good bases: 51,338,863
+	Good mean length: 792.69
+	Bad sequences: 11 (0.02%)
+	Bad bases: 8,024
+	Bad mean length: 729.45
+	Sequences filtered by specified parameters:
+	derep: 11
+Currently filtering ERR833416_2 and appending to GS112_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 665,119
+	Input bases: 361,696,427
+	Input mean length: 543.81
+	Good sequences: 255,721 (38.45%)
+	Good bases: 143,247,634
+	Good mean length: 560.17
+	Bad sequences: 409,398 (61.55%)
+	Bad bases: 218,448,793
+	Bad mean length: 533.59
+	Sequences filtered by specified parameters:
+	min_len: 73
+	ns_max_n: 408977
+	derep: 348
+Currently filtering ERR833417_1 and appending to GS112_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 717,079
+	Input bases: 2,868,316
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 717,079 (100.00%)
+	Bad bases: 2,868,316
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 717079
+Currently filtering ERR833418_2 and appending to GS112_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 3,919
+	Input bases: 2,911,773
+	Input mean length: 742.99
+	Good sequences: 3,907 (99.69%)
+	Good bases: 2,910,809
+	Good mean length: 745.02
+	Bad sequences: 12 (0.31%)
+	Bad bases: 964
+	Bad mean length: 80.33
+	Sequences filtered by specified parameters:
+	min_len: 12
+Currently filtering ERR833419_1 and appending to GS112_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 48,877
+	Input bases: 34,694,641
+	Input mean length: 709.84
+	Good sequences: 48,697 (99.63%)
+	Good bases: 34,679,368
+	Good mean length: 712.15
+	Bad sequences: 180 (0.37%)
+	Bad bases: 15,273
+	Bad mean length: 84.85
+	Sequences filtered by specified parameters:
+	min_len: 178
+	derep: 2
+Currently filtering ERR833420_2 and appending to GS112_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 24,946
+	Input bases: 18,391,245
+	Input mean length: 737.24
+	Good sequences: 24,734 (99.15%)
+	Good bases: 18,374,192
+	Good mean length: 742.87
+	Bad sequences: 212 (0.85%)
+	Bad bases: 17,053
+	Bad mean length: 80.44
+	Sequences filtered by specified parameters:
+	min_len: 212
+Currently filtering SRR066139_1 and appending to GS112_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 1,382,198
+	Input bases: 5,528,792
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 1,382,198 (100.00%)
+	Bad bases: 5,528,792
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 1382198
+Currently filtering ERR833419_2 and appending to GS112_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 48,877
+	Input bases: 34,670,184
+	Input mean length: 709.34
+	Good sequences: 48,720 (99.68%)
+	Good bases: 34,656,061
+	Good mean length: 711.33
+	Bad sequences: 157 (0.32%)
+	Bad bases: 14,123
+	Bad mean length: 89.96
+	Sequences filtered by specified parameters:
+	min_len: 154
+	derep: 3
+Currently filtering ERR833420_1 and appending to GS112_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 24,946
+	Input bases: 18,660,254
+	Input mean length: 748.03
+	Good sequences: 24,737 (99.16%)
+	Good bases: 18,643,483
+	Good mean length: 753.67
+	Bad sequences: 209 (0.84%)
+	Bad bases: 16,771
+	Bad mean length: 80.24
+	Sequences filtered by specified parameters:
+	min_len: 209
+Currently filtering ERR833421_1 and appending to GS112_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 22,909
+	Input bases: 18,150,722
+	Input mean length: 792.30
+	Good sequences: 22,638 (98.82%)
+	Good bases: 18,125,645
+	Good mean length: 800.67
+	Bad sequences: 271 (1.18%)
+	Bad bases: 25,077
+	Bad mean length: 92.54
+	Sequences filtered by specified parameters:
+	min_len: 263
+	derep: 8
+Currently filtering ERR833416_1 and appending to GS112_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 665,119
+	Input bases: 2,660,476
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 665,119 (100.00%)
+	Bad bases: 2,660,476
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 665119
+Currently filtering ERR833418_1 and appending to GS112_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 3,919
+	Input bases: 2,904,033
+	Input mean length: 741.01
+	Good sequences: 3,904 (99.62%)
+	Good bases: 2,902,813
+	Good mean length: 743.55
+	Bad sequences: 15 (0.38%)
+	Bad bases: 1,220
+	Bad mean length: 81.33
+	Sequences filtered by specified parameters:
+	min_len: 15
+Currently filtering ERR833417_2 and appending to GS112_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 717,079
+	Input bases: 387,429,170
+	Input mean length: 540.29
+	Good sequences: 276,221 (38.52%)
+	Good bases: 154,541,750
+	Good mean length: 559.49
+	Bad sequences: 440,858 (61.48%)
+	Bad bases: 232,887,420
+	Bad mean length: 528.26
+	Sequences filtered by specified parameters:
+	min_len: 55
+	ns_max_n: 440275
+	derep: 528
+Currently filtering SRR066139_2 and appending to GS112_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 1,382,198
+	Input bases: 749,125,597
+	Input mean length: 541.98
+	Good sequences: 529,398 (38.30%)
+	Good bases: 295,603,758
+	Good mean length: 558.38
+	Bad sequences: 852,800 (61.70%)
+	Bad bases: 453,521,839
+	Bad mean length: 531.80
+	Sequences filtered by specified parameters:
+	min_len: 128
+	ns_max_n: 849252
+	lc_method: 1796
+	derep: 1624
+Currently filtering ERR833421_2 and appending to GS112_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 22,909
+	Input bases: 17,865,350
+	Input mean length: 779.84
+	Good sequences: 22,653 (98.88%)
+	Good bases: 17,842,632
+	Good mean length: 787.65
+	Bad sequences: 256 (1.12%)
+	Bad bases: 22,718
+	Bad mean length: 88.74
+	Sequences filtered by specified parameters:
+	min_len: 249
+	derep: 7
+Currently filtering SRR062257_1 and appending to GS390_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 160,282
+	Input bases: 641,128
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 160,282 (100.00%)
+	Bad bases: 641,128
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 160282
+Currently filtering SRR062257_2 and appending to GS390_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 160,282
+	Input bases: 89,394,286
+	Input mean length: 557.73
+	Good sequences: 86,549 (54.00%)
+	Good bases: 47,447,547
+	Good mean length: 548.22
+	Bad sequences: 73,733 (46.00%)
+	Bad bases: 41,946,739
+	Bad mean length: 568.90
+	Sequences filtered by specified parameters:
+	min_len: 178
+	ns_max_n: 71258
+	lc_method: 1705
+	derep: 592
+Currently filtering SRR062256_2 and appending to GS390_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 321,540
+	Input bases: 169,563,365
+	Input mean length: 527.35
+	Good sequences: 124,726 (38.79%)
+	Good bases: 67,537,500
+	Good mean length: 541.49
+	Bad sequences: 196,814 (61.21%)
+	Bad bases: 102,025,865
+	Bad mean length: 518.39
+	Sequences filtered by specified parameters:
+	min_len: 865
+	ns_max_n: 173855
+	lc_method: 21259
+	derep: 835
+Currently filtering SRR062256_1 and appending to GS390_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 321,540
+	Input bases: 1,286,160
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 321,540 (100.00%)
+	Bad bases: 1,286,160
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 321540
+Currently filtering SRR062193_2 and appending to GS390_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 526,787
+	Input bases: 302,343,615
+	Input mean length: 573.94
+	Good sequences: 134,882 (25.60%)
+	Good bases: 77,525,880
+	Good mean length: 574.77
+	Bad sequences: 391,905 (74.40%)
+	Bad bases: 224,817,735
+	Bad mean length: 573.65
+	Sequences filtered by specified parameters:
+	min_len: 357
+	ns_max_n: 390058
+	lc_method: 1484
+	derep: 6
+Currently filtering SRR062193_1 and appending to GS390_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 526,787
+	Input bases: 2,107,148
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 526,787 (100.00%)
+	Bad bases: 2,107,148
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 526787
+Currently filtering SRR062625_1 and appending to GS353_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 264,498
+	Input bases: 1,057,992
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 264,498 (100.00%)
+	Bad bases: 1,057,992
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 264498
+Currently filtering SRR062214_1 and appending to GS353_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 328,779
+	Input bases: 1,315,116
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 328,779 (100.00%)
+	Bad bases: 1,315,116
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 328779
+Currently filtering SRR062148_2 and appending to GS353_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 562,139
+	Input bases: 312,489,919
+	Input mean length: 555.89
+	Good sequences: 228,493 (40.65%)
+	Good bases: 127,503,972
+	Good mean length: 558.02
+	Bad sequences: 333,646 (59.35%)
+	Bad bases: 184,985,947
+	Bad mean length: 554.44
+	Sequences filtered by specified parameters:
+	min_len: 211
+	ns_max_n: 332039
+	lc_method: 1217
+	derep: 179
+Currently filtering SRR062625_2 and appending to GS353_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 264,498
+	Input bases: 135,021,031
+	Input mean length: 510.48
+	Good sequences: 110,862 (41.91%)
+	Good bases: 58,857,446
+	Good mean length: 530.91
+	Bad sequences: 153,636 (58.09%)
+	Bad bases: 76,163,585
+	Bad mean length: 495.74
+	Sequences filtered by specified parameters:
+	min_len: 119
+	ns_max_n: 152518
+	lc_method: 774
+	derep: 225
+Currently filtering SRR062214_2 and appending to GS353_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 328,779
+	Input bases: 164,825,735
+	Input mean length: 501.33
+	Good sequences: 129,514 (39.39%)
+	Good bases: 68,025,736
+	Good mean length: 525.24
+	Bad sequences: 199,265 (60.61%)
+	Bad bases: 96,799,999
+	Bad mean length: 485.79
+	Sequences filtered by specified parameters:
+	min_len: 409
+	ns_max_n: 190133
+	lc_method: 8453
+	derep: 270
+Currently filtering SRR062148_1 and appending to GS353_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 562,139
+	Input bases: 2,248,556
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 562,139 (100.00%)
+	Bad bases: 2,248,556
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 562139
+Currently filtering SRR062153_1 and appending to GS357_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 678,614
+	Input bases: 2,714,456
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 678,614 (100.00%)
+	Bad bases: 2,714,456
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 678614
+Currently filtering SRR062153_2 and appending to GS357_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 678,614
+	Input bases: 367,561,375
+	Input mean length: 541.64
+	Good sequences: 255,755 (37.69%)
+	Good bases: 140,286,503
+	Good mean length: 548.52
+	Bad sequences: 422,859 (62.31%)
+	Bad bases: 227,274,872
+	Bad mean length: 537.47
+	Sequences filtered by specified parameters:
+	min_len: 164
+	ns_max_n: 421370
+	lc_method: 700
+	derep: 625
+Currently filtering SRR062220_1 and appending to GS357_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 48,503
+	Input bases: 194,012
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 48,503 (100.00%)
+	Bad bases: 194,012
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 48503
+Currently filtering SRR062221_2 and appending to GS357_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 440,585
+	Input bases: 211,125,226
+	Input mean length: 479.19
+	Good sequences: 121,160 (27.50%)
+	Good bases: 63,227,312
+	Good mean length: 521.85
+	Bad sequences: 319,425 (72.50%)
+	Bad bases: 147,897,914
+	Bad mean length: 463.01
+	Sequences filtered by specified parameters:
+	min_len: 177
+	ns_max_n: 308068
+	lc_method: 11119
+	derep: 61
+Currently filtering SRR062154_1 and appending to GS357_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 368,795
+	Input bases: 1,475,180
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 368,795 (100.00%)
+	Bad bases: 1,475,180
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 368795
+Currently filtering SRR062221_1 and appending to GS357_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 440,585
+	Input bases: 1,762,340
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 440,585 (100.00%)
+	Bad bases: 1,762,340
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 440585
+Currently filtering SRR062154_2 and appending to GS357_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 368,795
+	Input bases: 205,874,899
+	Input mean length: 558.24
+	Good sequences: 102,255 (27.73%)
+	Good bases: 56,214,418
+	Good mean length: 549.75
+	Bad sequences: 266,540 (72.27%)
+	Bad bases: 149,660,481
+	Bad mean length: 561.49
+	Sequences filtered by specified parameters:
+	min_len: 297
+	ns_max_n: 264318
+	lc_method: 1917
+	derep: 8
+Currently filtering SRR062220_2 and appending to GS357_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 48,503
+	Input bases: 21,808,699
+	Input mean length: 449.64
+	Good sequences: 14 (0.03%)
+	Good bases: 2,407
+	Good mean length: 171.93
+	Bad sequences: 48,489 (99.97%)
+	Bad bases: 21,806,292
+	Bad mean length: 449.72
+	Sequences filtered by specified parameters:
+	min_len: 399
+	ns_max_n: 42059
+	lc_method: 6031
+Currently filtering SRR066138_2 and appending to GS108_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 1,156,498
+	Input bases: 644,930,291
+	Input mean length: 557.66
+	Good sequences: 410,624 (35.51%)
+	Good bases: 226,923,968
+	Good mean length: 552.63
+	Bad sequences: 745,874 (64.49%)
+	Bad bases: 418,006,323
+	Bad mean length: 560.42
+	Sequences filtered by specified parameters:
+	min_len: 66
+	ns_max_n: 741349
+	lc_method: 3749
+	derep: 710
+Currently filtering ERR833396_2 and appending to GS108_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 107,520
+	Input bases: 57,919,745
+	Input mean length: 538.69
+	Good sequences: 25,961 (24.15%)
+	Good bases: 14,163,685
+	Good mean length: 545.58
+	Bad sequences: 81,559 (75.85%)
+	Bad bases: 43,756,060
+	Bad mean length: 536.50
+	Sequences filtered by specified parameters:
+	min_len: 17
+	ns_max_n: 81506
+	derep: 36
+Currently filtering ERR833399_1 and appending to GS108_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 477,915
+	Input bases: 1,911,660
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 477,915 (100.00%)
+	Bad bases: 1,911,660
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 477915
+Currently filtering ERR833400_1 and appending to GS108_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 5,566
+	Input bases: 4,154,329
+	Input mean length: 746.38
+	Good sequences: 5,538 (99.50%)
+	Good bases: 4,152,057
+	Good mean length: 749.74
+	Bad sequences: 28 (0.50%)
+	Bad bases: 2,272
+	Bad mean length: 81.14
+	Sequences filtered by specified parameters:
+	min_len: 28
+Currently filtering ERR833403_1 and appending to GS108_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 23,964
+	Input bases: 19,543,388
+	Input mean length: 815.53
+	Good sequences: 23,813 (99.37%)
+	Good bases: 19,528,848
+	Good mean length: 820.09
+	Bad sequences: 151 (0.63%)
+	Bad bases: 14,540
+	Bad mean length: 96.29
+	Sequences filtered by specified parameters:
+	min_len: 148
+	derep: 3
+Currently filtering ERR833398_1 and appending to GS108_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 586,506
+	Input bases: 2,346,024
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 586,506 (100.00%)
+	Bad bases: 2,346,024
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 586506
+Currently filtering ERR833402_2 and appending to GS108_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 24,142
+	Input bases: 17,783,381
+	Input mean length: 736.62
+	Good sequences: 24,013 (99.47%)
+	Good bases: 17,768,746
+	Good mean length: 739.96
+	Bad sequences: 129 (0.53%)
+	Bad bases: 14,635
+	Bad mean length: 113.45
+	Sequences filtered by specified parameters:
+	min_len: 122
+	derep: 7
+Currently filtering ERR833403_2 and appending to GS108_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 23,964
+	Input bases: 19,505,418
+	Input mean length: 813.95
+	Good sequences: 23,821 (99.40%)
+	Good bases: 19,491,215
+	Good mean length: 818.24
+	Bad sequences: 143 (0.60%)
+	Bad bases: 14,203
+	Bad mean length: 99.32
+	Sequences filtered by specified parameters:
+	min_len: 139
+	derep: 4
+Currently filtering ERR833396_1 and appending to GS108_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 107,520
+	Input bases: 430,080
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 107,520 (100.00%)
+	Bad bases: 430,080
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 107520
+Currently filtering ERR833397_2 and appending to GS108_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 580,349
+	Input bases: 323,878,242
+	Input mean length: 558.07
+	Good sequences: 212,965 (36.70%)
+	Good bases: 119,071,931
+	Good mean length: 559.12
+	Bad sequences: 367,384 (63.30%)
+	Bad bases: 204,806,311
+	Bad mean length: 557.47
+	Sequences filtered by specified parameters:
+	min_len: 41
+	ns_max_n: 367138
+	derep: 205
+Currently filtering ERR833401_1 and appending to GS108_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 25,158
+	Input bases: 18,324,783
+	Input mean length: 728.39
+	Good sequences: 25,001 (99.38%)
+	Good bases: 18,311,616
+	Good mean length: 732.44
+	Bad sequences: 157 (0.62%)
+	Bad bases: 13,167
+	Bad mean length: 83.87
+	Sequences filtered by specified parameters:
+	min_len: 156
+	derep: 1
+Currently filtering ERR833399_2 and appending to GS108_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 477,915
+	Input bases: 257,839,582
+	Input mean length: 539.51
+	Good sequences: 153,011 (32.02%)
+	Good bases: 85,235,324
+	Good mean length: 557.05
+	Bad sequences: 324,904 (67.98%)
+	Bad bases: 172,604,258
+	Bad mean length: 531.25
+	Sequences filtered by specified parameters:
+	min_len: 185
+	ns_max_n: 324325
+	derep: 394
+Currently filtering ERR833398_2 and appending to GS108_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 586,506
+	Input bases: 320,434,491
+	Input mean length: 546.34
+	Good sequences: 138,280 (23.58%)
+	Good bases: 79,128,761
+	Good mean length: 572.24
+	Bad sequences: 448,226 (76.42%)
+	Bad bases: 241,305,730
+	Bad mean length: 538.36
+	Sequences filtered by specified parameters:
+	min_len: 101
+	ns_max_n: 448084
+	derep: 41
+Currently filtering SRR066138_1 and appending to GS108_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 1,156,498
+	Input bases: 4,625,992
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 1,156,498 (100.00%)
+	Bad bases: 4,625,992
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 1156498
+Currently filtering ERR833402_1 and appending to GS108_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 24,142
+	Input bases: 18,752,617
+	Input mean length: 776.76
+	Good sequences: 24,010 (99.45%)
+	Good bases: 18,734,358
+	Good mean length: 780.27
+	Bad sequences: 132 (0.55%)
+	Bad bases: 18,259
+	Bad mean length: 138.33
+	Sequences filtered by specified parameters:
+	min_len: 120
+	derep: 12
+Currently filtering ERR833400_2 and appending to GS108_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 5,566
+	Input bases: 4,357,786
+	Input mean length: 782.93
+	Good sequences: 5,546 (99.64%)
+	Good bases: 4,356,187
+	Good mean length: 785.46
+	Bad sequences: 20 (0.36%)
+	Bad bases: 1,599
+	Bad mean length: 79.95
+	Sequences filtered by specified parameters:
+	min_len: 20
+Currently filtering ERR833401_2 and appending to GS108_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 25,158
+	Input bases: 17,488,592
+	Input mean length: 695.15
+	Good sequences: 25,016 (99.44%)
+	Good bases: 17,476,501
+	Good mean length: 698.61
+	Bad sequences: 142 (0.56%)
+	Bad bases: 12,091
+	Bad mean length: 85.15
+	Sequences filtered by specified parameters:
+	min_len: 141
+	derep: 1
+Currently filtering ERR833397_1 and appending to GS108_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 580,349
+	Input bases: 2,321,396
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 580,349 (100.00%)
+	Bad bases: 2,321,396
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 580349
+Currently filtering ERR833329_1 and appending to GS049_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 45,007
+	Input bases: 36,789,429
+	Input mean length: 817.42
+	Good sequences: 44,840 (99.63%)
+	Good bases: 36,771,934
+	Good mean length: 820.07
+	Bad sequences: 167 (0.37%)
+	Bad bases: 17,495
+	Bad mean length: 104.76
+	Sequences filtered by specified parameters:
+	min_len: 161
+	derep: 6
+Currently filtering ERR833329_2 and appending to GS049_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 45,007
+	Input bases: 36,159,143
+	Input mean length: 803.41
+	Good sequences: 44,809 (99.56%)
+	Good bases: 36,141,813
+	Good mean length: 806.57
+	Bad sequences: 198 (0.44%)
+	Bad bases: 17,330
+	Bad mean length: 87.53
+	Sequences filtered by specified parameters:
+	min_len: 196
+	derep: 2
+Currently filtering ERR833298_2 and appending to GS025_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 57,891
+	Input bases: 46,778,890
+	Input mean length: 808.05
+	Good sequences: 57,889 (100.00%)
+	Good bases: 46,777,247
+	Good mean length: 808.05
+	Bad sequences: 2 (0.00%)
+	Bad bases: 1,643
+	Bad mean length: 821.50
+	Sequences filtered by specified parameters:
+	derep: 2
+Currently filtering ERR833298_1 and appending to GS025_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 57,891
+	Input bases: 46,934,927
+	Input mean length: 810.75
+	Good sequences: 57,891 (100.00%)
+	Good bases: 46,934,927
+	Good mean length: 810.75
+	Bad sequences: 0 (0.00%)
+	Sequences filtered by specified parameters:
+	none
+Currently filtering ERR833406_2 and appending to GS109_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 29,279
+	Input bases: 25,703,112
+	Input mean length: 877.87
+	Good sequences: 29,191 (99.70%)
+	Good bases: 25,696,063
+	Good mean length: 880.27
+	Bad sequences: 88 (0.30%)
+	Bad bases: 7,049
+	Bad mean length: 80.10
+	Sequences filtered by specified parameters:
+	min_len: 88
+Currently filtering ERR833406_1 and appending to GS109_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 29,279
+	Input bases: 25,555,144
+	Input mean length: 872.81
+	Good sequences: 29,209 (99.76%)
+	Good bases: 25,549,358
+	Good mean length: 874.71
+	Bad sequences: 70 (0.24%)
+	Bad bases: 5,786
+	Bad mean length: 82.66
+	Sequences filtered by specified parameters:
+	min_len: 70
+Currently filtering SRR062192_2 and appending to GS389_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 274,971
+	Input bases: 146,996,465
+	Input mean length: 534.59
+	Good sequences: 155,417 (56.52%)
+	Good bases: 83,726,243
+	Good mean length: 538.72
+	Bad sequences: 119,554 (43.48%)
+	Bad bases: 63,270,222
+	Bad mean length: 529.22
+	Sequences filtered by specified parameters:
+	min_len: 191
+	ns_max_n: 117587
+	lc_method: 1307
+	derep: 469
+Currently filtering SRR062255_2 and appending to GS389_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 543,280
+	Input bases: 300,504,225
+	Input mean length: 553.13
+	Good sequences: 162,846 (29.97%)
+	Good bases: 89,889,039
+	Good mean length: 551.99
+	Bad sequences: 380,434 (70.03%)
+	Bad bases: 210,615,186
+	Bad mean length: 553.62
+	Sequences filtered by specified parameters:
+	min_len: 437
+	ns_max_n: 378857
+	lc_method: 1075
+	derep: 65
+Currently filtering SRR062255_1 and appending to GS389_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 543,280
+	Input bases: 2,173,120
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 543,280 (100.00%)
+	Bad bases: 2,173,120
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 543280
+Currently filtering SRR062191_1 and appending to GS389_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 245,170
+	Input bases: 980,680
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 245,170 (100.00%)
+	Bad bases: 980,680
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 245170
+Currently filtering SRR062192_1 and appending to GS389_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 274,971
+	Input bases: 1,099,884
+	Input mean length: 4.00
+	Good sequences: 0 (0.00%)
+	Bad sequences: 274,971 (100.00%)
+	Bad bases: 1,099,884
+	Bad mean length: 4.00
+	Sequences filtered by specified parameters:
+	min_len: 274971
+Currently filtering SRR062191_2 and appending to GS389_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 245,170
+	Input bases: 124,456,143
+	Input mean length: 507.63
+	Good sequences: 104,970 (42.82%)
+	Good bases: 55,554,655
+	Good mean length: 529.24
+	Bad sequences: 140,200 (57.18%)
+	Bad bases: 68,901,488
+	Bad mean length: 491.45
+	Sequences filtered by specified parameters:
+	min_len: 340
+	ns_max_n: 127404
+	lc_method: 12040
+	derep: 416
+Currently filtering ERR833280_1 and appending to GS010_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 35,085
+	Input bases: 29,817,223
+	Input mean length: 849.86
+	Good sequences: 35,082 (99.99%)
+	Good bases: 29,814,981
+	Good mean length: 849.87
+	Bad sequences: 3 (0.01%)
+	Bad bases: 2,242
+	Bad mean length: 747.33
+	Sequences filtered by specified parameters:
+	derep: 3
+Currently filtering ERR833280_2 and appending to GS010_filtered.fa.gz
+Input and filter stats:
+	Input sequences: 35,085
+	Input bases: 29,447,290
+	Input mean length: 839.31
+	Good sequences: 35,083 (99.99%)
+	Good bases: 29,445,680
+	Good mean length: 839.31
+	Bad sequences: 2 (0.01%)
+	Bad bases: 1,610
+	Bad mean length: 805.00
+	Sequences filtered by specified parameters:
+	derep: 2

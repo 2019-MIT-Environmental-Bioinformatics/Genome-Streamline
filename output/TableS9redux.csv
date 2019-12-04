@@ -1,0 +1,38 @@
+,RXN,EC,Pathway,AAA076-P09,AAA076-P13,AAA168-I18,AAA168-P09,AAA298-N10,AAA076-D02,AAA076-D13,AAA076-E13,AAA076-F14,AAA160-D02,AAA300-D14
+0,glucokinase ,2.7.1.2,Glycolysis,1,1,0,1,1,1,1,1,1,1,1
+1,glucose-6-phosphate isomerase,5.3.1.9,Glycolysis,0,1,1,1,0,0,0,0,0,1,1
+2,aldose 1- epimerase ,5.1.3.3,Glycolysis,0,0,0,0,0,1,1,1,1,0,1
+3,6-phosphofructokinase ,2.7.1.11,Glycolysis,0,0,0,0,0,0,0,0,0,0,0
+4,"fructose 1,6- bisphosphate aldolase ",4.1.2.13,Glycolysis,1,1,1,1,1,1,1,1,1,0,1
+5,triosephosphate isomerase ,5.3.1.1,Glycolysis,0,0,1,1,1,1,1,0,1,1,1
+6,glyceraldehyde-3- phosphate dehydrogenase ,1.2.1.12,Glycolysis,1,1,0,1,0,1,1,1,1,1,1
+7,phosphoglycerate kinase ,2.7.2.3,Glycolysis,0,0,0,0,0,0,0,0,0,0,0
+8,phosphoglycerate mutase ,5.4.2.1,Glycolysis,0,0,0,0,0,0,0,0,0,0,0
+9,enolase ,4.2.1.11,Glycolysis,1,1,1,1,1,1,1,1,1,1,1
+10,pyruvate kinase ,2.7.1.40,Glycolysis,1,1,0,1,1,1,1,1,1,1,1
+11,glucose-6-phosphate dehydrogenase ,1.1.1.49,Pentose Phosphate Pathway,0,0,0,0,0,0,0,0,0,0,0
+12,6- phosphogluconolacton ase ,3.1.1.31,Pentose Phosphate Pathway,0,0,0,0,0,0,0,0,0,0,0
+13,6-phosphogluconate dehydrogenase ,1.1.1.44,Pentose Phosphate Pathway,0,0,0,0,0,0,0,0,0,0,0
+14,ribulose-phosphate 3- epimerase ,5.1.3.1,Pentose Phosphate Pathway,1,1,0,1,1,1,1,0,1,0,1
+15,ribose-5-phosphate isomerase ,5.3.1.6,Pentose Phosphate Pathway,1,1,1,0,1,1,1,0,1,0,1
+16,transketolase ,2.2.1.1,Pentose Phosphate Pathway,1,1,1,1,1,1,1,1,1,0,1
+17,transaldolase ,2.2.1.2,Pentose Phosphate Pathway,0,0,0,0,0,0,0,0,0,0,1
+18,glucokinase ,2.7.1.2,Entner-Doudoroff Pathway,1,1,0,1,1,1,1,1,1,1,1
+19,glucose-6-phosphate dehydrogenase ,1.1.1.49,Entner-Doudoroff Pathway,0,0,0,0,0,0,0,0,0,0,0
+20,6-phosphogluconate dehydratase ,4.2.1.12,Entner-Doudoroff Pathway,1,1,0,1,0,0,0,0,0,1,1
+21,2-dehydro-3- deoxygluconokinase ,2.7.1.45,Entner-Doudoroff Pathway,0,1,0,1,0,0,0,0,0,0,0
+22,2-dehydro-3-deoxyphosphogluconate aldolase ,4.1.2.14,Entner-Doudoroff Pathway,0,0,0,0,0,0,0,0,0,0,0
+23,glyceraldehyde-3- phosphate dehydrogenase ,1.2.1.12,Entner-Doudoroff Pathway,1,1,0,1,0,1,1,1,1,1,1
+24,phosphoglycerate kinase ,2.7.2.3,Entner-Doudoroff Pathway,0,0,0,0,0,0,0,0,0,0,0
+25,phosphoglycerate mutase ,5.4.2.1,Entner-Doudoroff Pathway,0,0,0,0,0,0,0,0,0,0,0
+26,enolase ,4.2.1.11,Entner-Doudoroff Pathway,1,1,1,1,1,1,1,1,1,1,1
+27,pyruvate kinase ,2.7.1.40,Entner-Doudoroff Pathway,1,1,0,1,1,1,1,1,1,1,1
+28,pyruvate dehydrogenase ,1.2.4.1,Pyruvate Dehydrogenase Reaction,1,1,0,1,0,1,1,1,1,1,1
+29,citrate synthase ,2.3.1.1,Citric Acid Cycle,0,0,0,0,0,1,1,1,1,0,0
+30,aconitate hydratase ,4.2.1.3,Citric Acid Cycle,0,0,0,0,0,0,0,0,0,0,0
+31,isocitrate dehydrogenase ,1.1.1.42,Citric Acid Cycle,0,1,1,1,1,1,1,0,1,1,1
+32,oxoglutarate dehydrogenase ,1.2.4.2,Citric Acid Cycle,0,0,0,0,0,0,0,0,0,0,0
+33,succinyl CoAsynthetase ,6.2.1.5,Citric Acid Cycle,0,1,1,1,0,1,1,0,1,1,1
+34,succinate dehydrogenase ,1.3.99.1,Citric Acid Cycle,0,0,0,0,0,0,0,0,0,0,0
+35,fumurate hydratase ,4.2.1.2,Citric Acid Cycle,1,1,1,1,1,1,1,0,1,1,1
+36,malate dehydrogenase ,1.1.1.37,Citric Acid Cycle,1,1,1,1,1,1,1,0,1,0,1

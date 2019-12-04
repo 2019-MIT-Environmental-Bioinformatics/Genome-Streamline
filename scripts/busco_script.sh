@@ -12,8 +12,9 @@
 export OMP_NUM_THREADS=10
 
 module load bio
-module load bio hmmer blast augustus
+module load bio hmmer blast augustus ## Loads BUSCO's dependencies
 
+## Makes sure the $PATH includes the Augustus module (this should also be in the config.ini file in busco/config/)
 export PATH="/vortexfs1/apps/bio/augustus-3.1.1/bin:$PATH"
 export PATH="/vortexfs1/apps/bio/augustus-3.1.1/source/augustus-3.3.1/scripts:$PATH"
 export AUGUSTUS_CONFIG_PATH="/vortexfs1/omics/env-bio/collaboration/genome-streamlining/Genome-Streamline/envs/busco/config/"
@@ -21,7 +22,7 @@ export AUGUSTUS_CONFIG_PATH="/vortexfs1/omics/env-bio/collaboration/genome-strea
 path_to_busco="/vortexfs1/omics/env-bio/collaboration/genome-streamlining/Genome-Streamline/envs/busco/busco"
 path_to_data="/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data"
 
-#Does busco on nucleotide genomes, all against bacteria 
+#Does busco on nucleotide genomes, all against bacteria database
 
 for file in $(find /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/SAGs/ -name *fna.gz)
 do

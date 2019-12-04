@@ -1,0 +1,15 @@
+# BUSCO version is: 3.1.0 
+# The lineage dataset is: bacteroidetes_odb9 (Creation date: 2016-11-01, number of species: 251, number of BUSCOs: 443)
+# To reproduce this run: python /vortexfs1/omics/env-bio/collaboration/genome-streamlining/Genome-Streamline/envs/busco/busco/scripts/run_BUSCO.py -i /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/SAGs/bacteroidetes/too_small/AAA536-P05.fna -o AAA536-P05_busco_bacteroidetes_nuc -l /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/busco/bacteroidetes_odb9/ -m genome -c 36 -sp E_coli_K12
+#
+# Summarized benchmarking in BUSCO notation for file /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/SAGs/bacteroidetes/too_small/AAA536-P05.fna
+# BUSCO was run in mode: genome
+
+	C:8.8%[S:8.8%,D:0.0%],F:2.5%,M:88.7%,n:443
+
+	39	Complete BUSCOs (C)
+	39	Complete and single-copy BUSCOs (S)
+	0	Complete and duplicated BUSCOs (D)
+	11	Fragmented BUSCOs (F)
+	393	Missing BUSCOs (M)
+	443	Total BUSCO groups searched

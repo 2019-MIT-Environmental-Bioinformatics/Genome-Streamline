@@ -9,18 +9,18 @@
 #SBATCH --time=12:00:00             # Time limit hrs:min:sec
 #SBATCH --output=SRA_download_%j.log  # Standard output/error
 
-module load anaconda
+module load anaconda 
 source activate downloading
 
-input="acc_dict.txt"
-while IFS='\t' read -r line
+input="/vortexfs1/omics/env-bio/collaboration/genome-streamlining/Genome-Streamline/wrangling/acc_dict.txt"
+while IFS='\t' read -r line #loop over lines in acc_dict
 do
-    station=$(echo $line | awk '{print $1}') 
-    for acc_list in $(echo $line | awk '{print $2}')
+    station=$(echo $line | awk '{print $1}')  #get station name
+    for acc_list in $(echo $line | awk '{print $2}') #get list of associated accessions
     do
-        for acc in $(echo $acc_list | sed "s/,/ /g")
+        for acc in $(echo $acc_list | sed "s/,/ /g") #loop over each element in comma separated list
         do
-            fastq-dump --split-files --readids  --gzip -O ../$station $acc
+            fastq-dump --split-files --readids  --gzip -O /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/metagenomes/$station $acc #download that SRA accession and place in folder corresponding to its station
             done
     done
 done < "$input"

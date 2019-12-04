@@ -1,0 +1,4 @@
+dbase finished
+Command:
+blastp -query /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/AAA076-P13_proteins.faa -db /vortexfs1/apps/bio/blast-2.7.1/blastdb/nr -evalue 1e-10 -num_threads 8 -outfmt 6 qseqid salltitles pident length mismatch gapopen qstart qend sstart send evalue bitscore -out /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/SAG_Blastp/AAA076-P13_proteins_blastp.txt
+slurmstepd: error: *** JOB 483292 ON pn027 CANCELLED AT 2019-10-23T18:06:44 ***

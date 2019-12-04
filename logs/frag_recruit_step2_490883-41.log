@@ -1,0 +1,15 @@
+Wed Nov 13 18:10:15 EST 2019
+
+
+Building a new DB, current time: 11/13/2019 18:10:16
+New DB name:   /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit/MS024-3C
+New DB title:  MS024-3C
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Mask file: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit/MS024-3C_maskinfo.asnb
+Adding sequences from FASTA; added 21 sequences in 0.016741 seconds.
+rm: cannot remove ‘/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit/MS024-3C.asnb’: No such file or directory
+rm: cannot remove ‘/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit//vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit/MS024-3C_filtered.fna’: No such file or directory
+Wed Nov 13 19:26:46 EST 2019

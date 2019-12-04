@@ -1,0 +1,15 @@
+Wed Nov 13 15:36:19 EST 2019
+
+
+Building a new DB, current time: 11/13/2019 15:36:20
+New DB name:   /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit/AAA076-D02
+New DB title:  AAA076-D02
+Sequence type: Nucleotide
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Mask file: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit/AAA076-D02_maskinfo.asnb
+Adding sequences from FASTA; added 33 sequences in 0.135787 seconds.
+rm: cannot remove ‘/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit/AAA076-D02.asnb’: No such file or directory
+rm: cannot remove ‘/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit//vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit/AAA076-D02_filtered.fna’: No such file or directory
+Wed Nov 13 16:52:32 EST 2019

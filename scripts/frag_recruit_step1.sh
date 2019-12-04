@@ -14,11 +14,11 @@ date
 module load anaconda
 source activate bbtools
 
-export SAG_DIR=/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/SAGs
-export RNA_DIR=/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs
-export MG_DIR=/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/metagenomes_filtered
-mkdir /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit
-export FR_DIR=/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit
+export SAG_DIR=/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/SAGs #specify directory containing SAGs
+export RNA_DIR=/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/rRNAs #specify directory containing rRNA sequences
+export MG_DIR=/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/metagenomes_filtered #specify directory containing the filtered metagenomes
+mkdir /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit #make new directory for fragment recruitment
+export FR_DIR=/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit #specify directory for fragment recruitment
 
 #mapping and masking of rRNA genes in reference
 for file in $(find ${RNA_DIR} -name *.fna) #loop over all predicted rRNA fasta files
@@ -30,7 +30,7 @@ do
         : #don't do anything
     else
         bbmap.sh in=${file} ref=${genome_path} out=${FR_DIR}/${filename}_rRNA.sam nodisk=t perfectmode=t #map the rRNAs to reference
-        bbmask.sh in=${genome_path} out=${FR_DIR}/${filename}_masked.fna sam=${FR_DIR}/${filename}_rRNA.sam lowercase=t mle=f #mask the rRNA
+        bbmask.sh in=${genome_path} out=${FR_DIR}/${filename}_masked.fna sam=${FR_DIR}/${filename}_rRNA.sam lowercase=t mle=f #mask the rRNA, making all rDNA sequences lowercase
     fi
     rm ${FR_DIR}/*.sam #delete the sam file
 done
@@ -43,11 +43,11 @@ source activate seqkit
 
 seqkit stats ${FR_DIR}/*.fna > ${FR_DIR}/SAG_stats_prefilter.txt #get stats
 
-for SAG in $(ls ${FR_DIR}/*.fna)
+for SAG in $(ls ${FR_DIR}/*.fna) #loop through the masked SAG sequences
 do
     SAG_name=$(basename ${SAG} _masked.fna) #get filename
     cat ${SAG} | seqkit seq -m 2000 > ${FR_DIR}/${SAG_name}_filtered.fna #remove all sequences shorter than 2000bp and write
-    rm ${SAG}
+    rm ${SAG} #delete unfiltered SAG sequence
 done
 
 seqkit stats ${FR_DIR}/*.fna >> ${FR_DIR}/SAG_stats_postfilter.txt #get new stats

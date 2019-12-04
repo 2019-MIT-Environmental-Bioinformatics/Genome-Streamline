@@ -1,0 +1,15 @@
+# BUSCO version is: 3.1.0 
+# The lineage dataset is: gammaproteobacteria_odb9 (Creation date: 2016-11-01, number of species: 721, number of BUSCOs: 452)
+# To reproduce this run: python /vortexfs1/omics/env-bio/collaboration/genome-streamlining/Genome-Streamline/envs/busco/busco/scripts/run_BUSCO.py -i /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/SAGs/gammaproteobacteria/ARCTIC96BD-19/AAA076-F14.fna -o AAA076-F14_busco_gamma_nuc -l /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/busco/gammaproteobacteria_odb9/ -m genome -c 36 -sp E_coli_K12
+#
+# Summarized benchmarking in BUSCO notation for file /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/SAGs/gammaproteobacteria/ARCTIC96BD-19/AAA076-F14.fna
+# BUSCO was run in mode: genome
+
+	C:77.9%[S:77.7%,D:0.2%],F:2.9%,M:19.2%,n:452
+
+	352	Complete BUSCOs (C)
+	351	Complete and single-copy BUSCOs (S)
+	1	Complete and duplicated BUSCOs (D)
+	13	Fragmented BUSCOs (F)
+	87	Missing BUSCOs (M)
+	452	Total BUSCO groups searched

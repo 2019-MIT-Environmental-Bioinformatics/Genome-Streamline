@@ -1,0 +1,3 @@
+Command:
+blastp -query /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/AAA015-N04_proteins.faa -db nr -evalue 1e-10 -num_threads 35 -outfmt 6 qseqid salltitles pident length mismatch gapopen qstart qend sstart send evalue bitscore -out /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/SAG_Blastp/AAA015-N04_proteins_blastp.txt
+slurmstepd: error: *** JOB 482924 ON pn140 CANCELLED AT 2019-10-23T13:37:15 ***

@@ -1,0 +1,16 @@
+Wed Nov 13 18:24:28 EST 2019
+
+
+Building a new DB, current time: 11/13/2019 18:24:28
+New DB name:   /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit/AAA536-G10
+New DB title:  AAA536-G10
+Sequence type: Nucleotide
+Deleted existing Nucleotide BLAST database named /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit/AAA536-G10
+Keep Linkouts: T
+Keep MBits: T
+Maximum file size: 1000000000B
+Mask file: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit/AAA536-G10_maskinfo.asnb
+Adding sequences from FASTA; added 41 sequences in 0.029079 seconds.
+rm: cannot remove ‘/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit/AAA536-G10.asnb’: No such file or directory
+rm: cannot remove ‘/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit//vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/frag_recruit/AAA536-G10_filtered.fna’: No such file or directory
+Wed Nov 13 19:41:22 EST 2019

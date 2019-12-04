@@ -1,0 +1,3 @@
+dbase finished
+Command:
+blastp -query /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/AAA164-I21_proteins.faa -db /vortexfs1/apps/bio/blast-2.7.1/blastdb/nr -evalue 1e-10 -num_threads 8 -outfmt 6 qseqid salltitles pident length mismatch gapopen qstart qend sstart send evalue bitscore -out /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/SAG_Blastp/AAA164-I21_proteins_blastp.txt

@@ -1,0 +1,24 @@
+Query name: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/cultures
+ Outfile: /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/eggNOGged/cultures_maNOG.txt
+
+usage: emapper.py [-h] [--guessdb] [--database] [--dbtype {hmmdb,seqdb}]
+                  [--data_dir] [--qtype {hmm,seq}] [--tax_scope]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--excluded_taxa]
+                  [--go_evidence {experimental,non-electronic}]
+                  [--hmm_maxhits] [--hmm_evalue] [--hmm_score]
+                  [--hmm_maxseqlen] [--hmm_qcov] [--Z] [--dmnd_db DMND_DB]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--gapopen GAPOPEN] [--gapextend GAPEXTEND]
+                  [--query-cover QUERY_COVER] [--subject-cover SUBJECT_COVER]
+                  [--seed_ortholog_evalue] [--seed_ortholog_score] [--output]
+                  [--resume] [--override] [--no_refine] [--no_annot]
+                  [--no_search] [--predict_ortho] [--report_orthologs]
+                  [--scratch_dir] [--output_dir] [--temp_dir]
+                  [--no_file_comments] [--keep_mapping_files]
+                  [--target_taxa TARGET_TAXA [TARGET_TAXA ...]]
+                  [--predict_output_format {per_query,per_species}]
+                  [-m {hmmer,diamond}] [-i] [--translate] [--servermode]
+                  [--usemem] [--cpu] [--annotate_hits_table] [--version]
+emapper.py: error: argument -i: invalid existing_file value: '/vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/cultures'
+/vortexfs1/home/ngermolus/eggnog-mapper/bin/diamond /vortexfs1/home/ngermolus/eggnog-mapper

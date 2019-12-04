@@ -1,0 +1,13 @@
+
+
+Building a new DB, current time: 10/23/2019 13:50:09
+New DB name:   /vortexfs1/omics/env-bio/collaboration/genome-streamlining/Genome-Streamline/scripts/DBASE
+New DB title:  nr
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 1000000000B
+BLAST options error: File /vortexfs1/apps/bio/blast-2.7.1/blastdb does not exist
+dbase finished
+Command:
+blastp -query /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/AAA015-M09_proteins.faa -db nr -evalue 1e-10 -num_threads 35 -outfmt 6 qseqid salltitles pident length mismatch gapopen qstart qend sstart send evalue bitscore -out /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/SAG_Blastp/AAA015-M09_proteins_blastp.txt
+BLAST Database error: No alias or index file found for protein database [DBASE] in search path [/vortexfs1/omics/env-bio/collaboration/genome-streamlining/Genome-Streamline/scripts:/vortexfs1/omics/data/blastdb:]

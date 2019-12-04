@@ -1,0 +1,15 @@
+# BUSCO version is: 3.1.0 
+# The lineage dataset is: proteobacteria_odb9 (Creation date: 2016-11-01, number of species: 1520, number of BUSCOs: 221)
+# To reproduce this run: python /vortexfs1/omics/env-bio/collaboration/genome-streamlining/Genome-Streamline/envs/busco/busco/scripts/run_BUSCO.py -i /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/AAA536-B06_proteins.faa -o AAA536-B06_busco_proteo_prot -l /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/busco/proteobacteria_odb9/ -m proteins -c 36
+#
+# Summarized benchmarking in BUSCO notation for file /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/AAA536-B06_proteins.faa
+# BUSCO was run in mode: proteins
+
+	C:57.5%[S:57.0%,D:0.5%],F:2.7%,M:39.8%,n:221
+
+	127	Complete BUSCOs (C)
+	126	Complete and single-copy BUSCOs (S)
+	1	Complete and duplicated BUSCOs (D)
+	6	Fragmented BUSCOs (F)
+	88	Missing BUSCOs (M)
+	221	Total BUSCO groups searched

@@ -13,13 +13,31 @@ export OMP_NUM_THREADS=32
 
 module load bio blast/2.2.22
 
-##This is actually well-documented in the methods, except the flags for blastclust have changed.
-##need to set e-value cutoff within config file because they use the -e flag twice?? dumb
+##This is actually well-documented in the methods.
+## You need to set e-value cutoff within config file (clust_config.txt) because I guess the -e flag means something different in the command line?
 
 export BLASTMAT=/vortexfs1/apps/bio/blast-2.2.22/data/
 
-for file in /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/cultures/cory_cult/*.faa; do
-name=$(basename $file .faa)
+## For SAG predicted proteins (Prodigal output)
+for file in /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/*.faa; do
+	name=$(basename $file .faa)
 
-blastclust -L 0.5 -S 30.0 -i $file -a 32 -c clust_config.txt -o ../output/blastclust/cultures/cory_cult/${name}_blastclust.out
+	# This clusters proteins that are at least 30% identical over at least 50% of their length, with an e-value cutoff of 1e-6
+	blastclust -L 0.5 -S 30.0 -i $file -a 32 -c clust_config.txt -o ../output/blastclust/${name}_blastclust.out
+done
+
+## For cultures
+for file in /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/cultures/*.faa; do
+	name=$(basename $file .faa)
+
+	# This clusters proteins that are at least 30% identical over at least 50% of their length, with an e-value cutoff of 1e-6
+	blastclust -L 0.5 -S 30.0 -i $file -a 32 -c clust_config.txt -o ../output/blastclust/cultures/${name}_blastclust.out
+done
+
+## For additional cultures not included in the original paper
+for file in /vortexfs1/omics/env-bio/collaboration/genome-streamlining/data/Proteins/cultures/cory_cult/*.faa; do
+	name=$(basename $file .faa)
+
+	# This clusters proteins that are at least 30% identical over at least 50% of their length, with an e-value cutoff of 1e-6
+	blastclust -L 0.5 -S 30.0 -i $file -a 32 -c clust_config.txt -o ../output/blastclust/cultures/cory_cult/${name}_blastclust.out
 done
