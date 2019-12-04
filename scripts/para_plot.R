@@ -72,10 +72,10 @@ p <- ggplot(df_plus_extra[-32,], aes(x=my_size, y=paras*100, colour=type, shape=
 q <- ggplot(df_plus_extra[-32,], aes(x=my_size, y=paras*100, colour=type, shape=as.factor(type))) + geom_point(size=3) + theme_bw() + xlab("Genome Size (Mbp)") + ylab("% genes in paralog families") + geom_smooth(method='lm', se = FALSE) + scale_shape_manual(values=c(1,19),guide='none')
 
 ## Uses ANOVA to test whether the two regression lines have different slopes (they do).
-mod1 <- aov(paras~my_size+type, data=df)
-mod2 <- aov(paras~my_size*type, data=df)
-anova(mod1, mod2)
+mod1 <- aov(paras~my_size+type, data=df) ## This fits a linear model with paralog frequency as a response variable and genome size and type (culture/SAG) as predictors.
+mod2 <- aov(paras~my_size*type, data=df) ## This model includes an interaction between genome size and type
+anova(mod1, mod2) ## This tests whether the model with the interaction is a better fit
 
-mod_p1 <- aov(paras~my_size+type, data=df_plus_extra)
+mod_p1 <- aov(paras~my_size+type, data=df_plus_extra) # This does the same as above including the 'extra' cultures
 mod_p2 <- aov(paras~my_size*type, data=df_plus_extra)
 aa <- anova(mod_p1, mod_p2)
