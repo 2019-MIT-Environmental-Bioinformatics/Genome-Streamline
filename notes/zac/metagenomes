@@ -1,6 +1,0 @@
-101119:
-trying to figure out this table S5 that has all of the metagenomes and associated metadata. way more entries than columns in Fig3. Some samples all have same coordinates. Must be pooled.
-the sample identifiers are not all useful for tracking down the actual metagenomes. GS numbers are all from Venter's GOS. 
-i used tabula to extract the data in table S5 into a csv.
-there are 89 rows in Fig3 but 123 metagenomes listed in table S5
-wow this table S5 is royally f'ed. the dates are in different formats. makes it harder to track down the metagenomes

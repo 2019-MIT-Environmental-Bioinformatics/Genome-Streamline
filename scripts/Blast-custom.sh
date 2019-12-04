@@ -20,7 +20,6 @@ module load bio blast
 
 dbase=/vortexfs1/apps/bio/blast-2.7.1/blastdb/nr
 
-# filename=$(basename ${file} .faa)
 QUERY_FILE=AAA015-D07_proteins.faa
 QUERY_NAME=$(basename $QUERY_FILE .faa)
 
