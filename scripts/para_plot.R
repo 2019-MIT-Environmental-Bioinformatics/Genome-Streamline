@@ -64,18 +64,18 @@ df_plus_extra$my_size = df_plus_extra$size/(df_plus_extra$prot/100)/1000000
 df[is.na(df$my_size),]$my_size = df[is.na(df$my_size),]$size/1000000
 df_plus_extra[is.na(df_plus_extra$my_size),]$my_size = df_plus_extra[is.na(df_plus_extra$my_size),]$size/1000000
 
+## Lastly, I followed Swan et al. by exluding genomes that were less than 30% complete.
+df_plus_extra <- df_plus_extra[which(df_plus_extra$`Percent recovery` > 30),]
+
 
 ## Plots estimated genome size against paralog content, colouring SAG's by family
-p <- ggplot(df_plus_extra[-32,], aes(x=my_size, y=paras*100, colour=type, shape=as.factor(type))) + geom_point(size=3) + theme_bw() + xlab("Genome Size (Mbp)") + ylab("% genes in paralog families") + scale_shape_manual(values=c(1,19), guide='none') + scale_color_manual(values=cols)
+p <- ggplot(df_plus_extra, aes(x=my_size, y=paras*100, colour=type, shape=as.factor(type))) + geom_point(size=3) + theme_bw() + xlab("Genome Size (Mbp)") + ylab("% genes in paralog families") + scale_shape_manual(values=c(1,19), guide='none') + scale_color_manual(values=cols)
 
 ## Plots estimated genome size against paralog content, showing regression lines for cultures and SAG's.
-q <- ggplot(df_plus_extra[-32,], aes(x=my_size, y=paras*100, colour=type, shape=as.factor(type))) + geom_point(size=3) + theme_bw() + xlab("Genome Size (Mbp)") + ylab("% genes in paralog families") + geom_smooth(method='lm', se = FALSE) + scale_shape_manual(values=c(1,19),guide='none')
+q <- ggplot(df_plus_extra, aes(x=my_size, y=paras*100, colour=type, shape=as.factor(type))) + geom_point(size=3) + theme_bw() + xlab("Genome Size (Mbp)") + ylab("% genes in paralog families") + geom_smooth(method='lm', se = FALSE) + scale_shape_manual(values=c(1,19),guide='none')
 
 ## Uses ANOVA to test whether the two regression lines have different slopes (they do).
-mod1 <- aov(paras~my_size+type, data=df) ## This fits a linear model with paralog frequency as a response variable and genome size and type (culture/SAG) as predictors.
-mod2 <- aov(paras~my_size*type, data=df) ## This model includes an interaction between genome size and type
+mod1 <- aov(paras~my_size+type, data=df_plus_extra) ## This fits a linear model with paralog frequency as a response variable and genome size and type (culture/SAG) as predictors.
+mod2 <- aov(paras~my_size*type, data=df_plus_extra) ## This model includes an interaction between genome size and type
 anova(mod1, mod2) ## This tests whether the model with the interaction is a better fit
 
-mod_p1 <- aov(paras~my_size+type, data=df_plus_extra) # This does the same as above including the 'extra' cultures
-mod_p2 <- aov(paras~my_size*type, data=df_plus_extra)
-aa <- anova(mod_p1, mod_p2)

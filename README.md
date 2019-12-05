@@ -1,6 +1,14 @@
 # Genome-Streamline
 The official repo for Zac, Cory, and Noah
 
+## Background
+
+In this project, we aim to recapitulate key results from the paper by Swan et al. 2013 - "Prevalent genome streamlining and latitudinal divergence of planktonic bacteria in the surface ocean." The authors recovered partial single amplified genomes (SAGs) from 56 bacterial cells from three sites in the surface ocean: the Gulf of Maine, the Mediterranean, and the North Pacific. Their analyses demonstrated that these SAGs display signs of "genome streamlining", such as smaller genomes, fewer gene duplications, and lower GC content, among others. They accomplished this by thoroghly annotating the genomes and performing functional reconstructions. Furthermore, taking avantage of the availability of recently collected surface ocean metagenomes, they investigated the distribution of their SAGs (or those from closely related taxa) and demonstrated the affinity of certain taxa for particular environments. 
+
+While the authors performed a number of analyses, the results of which are presented both in the main text and supplement, we chose to focus our efforts on three main areas: annotation and functional mapping, signals of genome streamlining, and biogeography via fragment recruitment. We chose both based on our respective interests but also because we deemed them to be the most salient findings. Furthermore, several of these findings are depicted in figures which we could attempt to recreate. 
+
+Below we have outlined the general steps we took to achieve each aim. We have included the sames of specific scripts and environments necessary to perform each step in the analysis, as well as expected output and log files where possible. 
+
 ## Part 0: General Notes
 Noah: Protein annotation and functional biosynthesis mapping
 
@@ -10,9 +18,9 @@ Cory: Paralogs + GC content. Also, downloading the data.
 
 We performed computational tasks using WHOI's Poseidon HPC---all shell scripts contained in the `scripts/` directory call resources specific to the structure of this cluster, and present a fundamental barrier to anyone else repeating our analysis. 
 
-Additionally, while there are scripts (`scripts/SRA_download.sh` and `scripts/HF10_download`) for downloading the metagenomic data, these rely on a conda environment ("downloading") that resides in the `/envs` directory. The `envs/` folder also contains a folder labelled `busco/`; this is not a conda environment, but a program that we downloaded and ran manually. The SAG, cultured genome, and metagenome downloading was done manually, and because all raw data for this project takes up substantial storage space, they do not reside in the repo. Scripts to run analyses often point to the `../data` superdirectory outside this one. 
+Additionally, while there are scripts for downloading the metagenomic data, rRNA annotation, filtering, etc., these rely on conda environments that can be found in .yaml files in the `/envs` directory. The `envs/` folder also contains a folder labelled `busco/`; this is not a conda environment, but a program that we downloaded and ran manually. The SAG, cultured genome, and metagenome downloading was done manually, and because all raw data for this project takes up substantial storage space, they do not reside in the repo. Scripts to run analyses often point to the `../data` superdirectory outside this one. 
 
-## Part 1: Noah's Notes on Protein Annotation and Functional Mapping
+## Part 1: Protein Annotation and Functional Mapping (Noah)
 
 ### 1.1 Identifying proteins
 Scripts:
@@ -66,7 +74,7 @@ You won't need `create_taxonmatch.sh`; it automated part of the creation of `wra
 
 In the case that you *just* want to be walked through the final analysis, it is all in the `final_comparison.ipynb` file, but the creation of the last figure happens in `Metabolism_Tables_Compare.ipynb`. The former file just calls the figure created by the latter to be lightweight. In this final comparison, `enzyme_nos.csv` (which is effectively a manually-copied Table S9 from Swan et al.) is loaded as a reference, and the cut files from `split_proteins.sh` are loaded, one at a time. Each time one file is loaded, a new column is added to a Pandas DataFrame object based on `enzyme_nos.csv`, where the presence or absence of certain enzyme reaction numbers (*EC*s) is noted by a boolean 1/0. This table is organized in an identical way to `enzyme_nos.csv` and while we have chosen two ways (summing the enzyme hits and a heatmap of agreement/disagreement) to compare the data, they are there for any intrepid soul to look at. 
 
-## Part 2: Cory
+## Part 2: Signals of Genome Streamlining (Cory)
 
 ### 2.1 GC Content
 Scripts: 
